@@ -3824,3 +3824,6 @@
 [2013-07-09T18:51:58.750Z] (lobby) Snaquaza was forcibly renamed to Snaquaza <3 Glalie by Snaquaza.
 [2013-07-09T19:11:23.943Z] (lobby) Snaquaza is hiding auth symbol as ' '
 [2013-07-09T19:20:39.099Z] (lobby) Fishbow was banned from the Tervari Region by Snaquaza.
+[2013-07-09T20:31:31.869Z] (mafia) TheWorldsGreatest was promoted to Tervari Gym Trainer by Snaquaza.
+[2013-07-09T20:31:35.156Z] (mafia) EhhhN was promoted to Tervari Gym Trainer by Snaquaza.
+[2013-07-09T20:34:19.358Z] (mafia) (BDH93 was demoted to Trainer by Snaquaza.)

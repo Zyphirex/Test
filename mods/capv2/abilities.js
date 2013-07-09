@@ -1,4 +1,5 @@
-"applegift": {
+exports.BattleAbilities = {
+	"applegift": {
 		desc: "If this Pokemon is active while Sunny Day is in effect, its Attack and Special Defense stats (as well as its partner's stats in double battles) receive a 50% boost.",
 		shortDesc: "If user is Malaconda and Sunny Day is active, it and allies' Attack and Sp. Def are 1.5x.",
 		onStart: function(pokemon) {
@@ -17,7 +18,8 @@
 			}
 		},
 		id: "applegift",
-		name: "Flower Gift",
+		name: "Apple Gift",
 		rating: 3,
 		num: 122
 	},
+};

@@ -3842,3 +3842,4 @@
 [2013-07-09T21:14:32.998Z] (lobby) Snaquaza just used /remind
 [2013-07-09T21:21:34.429Z] (battle-capv2-267) Kaderp was forcibly renamed to Kadew by Snaquaza.
 [2013-07-09T21:42:52.904Z] (battle-capv2-271) Snaquaza forced a win for snaquaza.
+[2013-07-09T23:03:32.879Z] (lobby) sadoldporygon was taken to Tervari Police by Snaquaza. (rlly ._.)

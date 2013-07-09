@@ -1078,11 +1078,11 @@ viewround: 'vr',
                         this.add(' Hi ' + targetUser.name + '.');
                 }
                 },
-  	bandi: function(target, room, user){
-  	  if(!this.canBroadcast()|| !user.can('broadcast')) return this.sendReply('/bandi - Access Denied.');
+  	snaqsays: function(target, room, user){
+  	  if(!this.canBroadcast()|| !user.can('broadcast')) return this.sendReply('/snagsays - Access Denied.');
 	    if(!target) return this.sendReply('Insufficent Parameters.');
-	 Rooms.rooms.lobby.add('|c|bandicam|/me '+ target);
- this.logModCommand(user.name + ' used /bandi to say ' + target);
+	 Rooms.rooms.lobby.add('|c|Snaq Says|/me '+ target);
+ this.logModCommand(user.name + ' used /snaqsays to say ' + target);
 },
 
 	/*********************************************************

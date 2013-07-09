@@ -3827,3 +3827,18 @@
 [2013-07-09T20:31:31.869Z] (mafia) TheWorldsGreatest was promoted to Tervari Gym Trainer by Snaquaza.
 [2013-07-09T20:31:35.156Z] (mafia) EhhhN was promoted to Tervari Gym Trainer by Snaquaza.
 [2013-07-09T20:34:19.358Z] (mafia) (BDH93 was demoted to Trainer by Snaquaza.)
+[2013-07-09T20:47:55.754Z] (lobby) bandicam was promoted to Tervari Gym Trainer by Snaquaza.
+[2013-07-09T20:48:31.262Z] (lobby) Snaquaza used /snaqsays to say no
+[2013-07-09T20:49:22.448Z] (lobby) Snaquaza used /snaqsays to say muhuhuhu hahahahahaha
+[2013-07-09T20:52:01.278Z] (lobby) Oiawesome was promoted to Trainer by Snaquaza.
+[2013-07-09T20:53:07.879Z] (lobby) Oiawesome used /snaqsays to say this is for testing so Oi will get demoted soon
+[2013-07-09T20:53:10.927Z] (lobby) (Oiawesome was demoted to Inhabitant by Snaquaza.)
+[2013-07-09T20:55:47.431Z] (lobby) Snaquaza used /snaqsays to say reasons
+[2013-07-09T20:56:23.190Z] (battle-haxmons-263) Snaquaza used /snaqsays to say I love haxmons with teams
+[2013-07-09T21:01:14.799Z] (lobby) Snaquaza used /snaqsays to say stop arguing
+[2013-07-09T21:02:27.205Z] (lobby) bandishieldbreaker was taken to Tervari Police by Snaquaza. (just stop arguing)
+[2013-07-09T21:02:27.706Z] (lobby) TheWorldsGreatest was taken to Tervari Police by Snaquaza. (just stop arguing)
+[2013-07-09T21:02:28.208Z] (lobby) AngelKeldeo was taken to Tervari Police by Snaquaza. (just stop arguing)
+[2013-07-09T21:14:32.998Z] (lobby) Snaquaza just used /remind
+[2013-07-09T21:21:34.429Z] (battle-capv2-267) Kaderp was forcibly renamed to Kadew by Snaquaza.
+[2013-07-09T21:42:52.904Z] (battle-capv2-271) Snaquaza forced a win for snaquaza.

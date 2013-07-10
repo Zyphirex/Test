@@ -275,6 +275,7 @@ exports.groups = {
 		broadcast: true,
 		warn: true,
 		modchat: true,
+		snaqsays: true,
 		rank: 1
 	},
 	' ': {

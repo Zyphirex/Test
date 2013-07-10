@@ -166,7 +166,6 @@ exports.BattleFormats = {
 	usermons: {
 		name: "Usermons!",
 		section: "Tervari Other Metagames",
-
 		mod: 'usermons',
 		effectType: 'Format',
 		challengeDefault: true,
@@ -174,13 +173,12 @@ exports.BattleFormats = {
 		challengeShow: true,
 		searchShow: true,
 		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard','LOL Clause'],
+		ruleset: ['Pokemon', 'Standard','LOLClause'],
 		banlist: ['Uber']
 	},
 	usermonsdoubles: {
 		name: "Usermons Doubles!",
 		section: "Tervari Other Metagames",
-
 		mod: 'usermons',
 		effectType: 'Format',
 		challengeDefault: true,
@@ -189,7 +187,7 @@ exports.BattleFormats = {
 		challengeShow: true,
 		searchShow: true,
 		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard','LOL Clause'],
+		ruleset: ['Pokemon', 'Standard','LOLClause'],
 		banlist: ['Uber']
 	},
                 
@@ -1368,7 +1366,7 @@ capv2: {
 			"GODDAMNIT WHY ARE YOU SO BAD?", 
 			"One of lifes greatest mysteries is why you suck so much.",
 			"GG NO RED CHECK ME OUT AT YOLOSWAGMONEY.ORG"];
-			haikus = winmessagesu.randomize();
+			winmessageu = winmessagesu.randomize();
 			this.add('-message', winmessageu[0]);
 		}
         },

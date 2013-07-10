@@ -527,7 +527,16 @@ hide: function(target, room, user) {
 			'& <b>Elite Four</b> - These Trainers are very mighty, they can make Pokémon pop up and help other Trainers become better<br />'+
 			'~ <b>Champion</b> - These Trainers are so powerful that they can do whatever they want');
 	},
-	//tervari: function(target, room, user) {	//	if (!this.canBroadcast()) return;	//	this.sendReplyBox('<b>Welcome</b> - Welcome to the Tervari server! The Tervari server is a competitive simulation of a fan-made game we are making of pokemon. The region is called the Tervari region which has its own unique pokemon, heroes, items, etc. These are playable by the Tervari Tiers, the Pokemon are not findable in the teambuilder as of yet, but you can always PM a staff to ask what Pokemon there are and what moves they have, of course can you also ask normal questions to the staff. <br />' +	//		'<b>Origin</b> - This site is more the competitive aspect about the game we're making, which is basically a fan-made game for Pokemon called the Tervari region, which will be programmed somewhere else. It's kind of similar to how the main server simulates competitive Pokemon from Pokemon black and white. <br />' +	//		'<b>Help Us</b> - We are still working on the game at the moment, and we need all the help we could. For more info on the game itself, or perhaps if you might want to give us a hand, join our group on Smogon (type /game for the link) we also need programmers and artists badly.<br />' +				//		'<b>Extra</b> - This server also has a few extra OM's.<br />' +	//		'Type /game for more info on the Tervari region'); 	//			},	opensource: function(target, room, user) {
+	//tervari: function(target, room, user) {
+	//	if (!this.canBroadcast()) return;
+	//	this.sendReplyBox('<b>Welcome</b> - Welcome to the Tervari server! The Tervari server is a competitive simulation of a fan-made game we are making of pokemon. The region is called the Tervari region which has its own unique pokemon, heroes, items, etc. These are playable by the Tervari Tiers, the Pokemon are not findable in the teambuilder as of yet, but you can always PM a staff to ask what Pokemon there are and what moves they have, of course can you also ask normal questions to the staff. <br />' +
+	//		'<b>Origin</b> - This site is more the competitive aspect about the game we're making, which is basically a fan-made game for Pokemon called the Tervari region, which will be programmed somewhere else. It's kind of similar to how the main server simulates competitive Pokemon from Pokemon black and white. <br />' +
+	//		'<b>Help Us</b> - We are still working on the game at the moment, and we need all the help we could. For more info on the game itself, or perhaps if you might want to give us a hand, join our group on Smogon (type /game for the link) we also need programmers and artists badly.<br />' +			
+	//		'<b>Extra</b> - This server also has a few extra OM's.<br />' +
+	//		'Type /game for more info on the Tervari region'); 
+	//			},
+
+	opensource: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('Pokemon Showdown is open source:<br />- Language: JavaScript<br />- <a href="https://github.com/Zarel/Pokemon-Showdown/commits/master">What\'s new?</a><br />- <a href="https://github.com/Zarel/Pokemon-Showdown">Server source code</a><br />- <a href="https://github.com/Zarel/Pokemon-Showdown-Client">Client source code</a>');
 	},
@@ -809,6 +818,17 @@ capv2: 'capv2',
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/
+
+	hailsnaq: function(target, room, user) {
+		if (!target) return this.parse('/help hailsnaq');
+		if (!this.can('hailsnaq', null, room)) return false;
+		
+		if (!this.canTalk()) return;
+
+		this.add('|raw|<div class="broadcast-blue"><b>HAIL SNAQUAZA</b> OUR SERVER ADMINISTRATOR AND OVERLORD</div>');
+		this.logModCommand(user.name+' Hailed Snaq '+target);
+	},
+
 
 	birkal: function(target, room, user) {
 		this.sendReply("It's not funny anymore.");

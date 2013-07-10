@@ -1181,13 +1181,12 @@ exports.BattleFormats = {
                 searchShow: true,
                 isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: []
         },
 	capv2: {
         	name: "CAP V. 2",
         	section: "Other Metagames",
         	
-       	mod: 'capv2',
+       		mod: 'capv2',
         	effectType: 'Format',
         	challengeDefault: true,
         	rated: true,

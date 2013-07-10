@@ -814,11 +814,6 @@ capv2: 'capv2',
 			return this.sendReplyBox('Pokemon, item, move, or ability not found for generation ' + generation.toUpperCase() + '.');
 		}
 	},
-<<<<<<< HEAD
-
-=======
-	
->>>>>>> a61b2cab94998363c9aa6a4fbada80e4e133be89
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/

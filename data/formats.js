@@ -121,7 +121,7 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
                 banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
         },
-                cap: {
+        cap: {
                 name: "CAP",
                 section: "Singles",
 
@@ -160,6 +160,39 @@ exports.BattleFormats = {
                 ruleset: []
         },
 
+<<<<<<< HEAD
+=======
+	// Tervari Other Metagames
+	///////////////////////////////////////////////////////////////////
+
+	usermons: {
+		name: "Usermons!",
+		section: "Tervari Other Metagames",
+		mod: 'usermons',
+		effectType: 'Format',
+		challengeDefault: true,
+		rated: true,
+		challengeShow: true,
+		searchShow: true,
+		isTeambuilderFormat: true,
+		ruleset: ['Pokemon', 'Standard','LOLClause'],
+		banlist: ['Uber']
+	},
+	usermonsdoubles: {
+		name: "Usermons Doubles!",
+		section: "Tervari Other Metagames",
+		mod: 'usermons',
+		effectType: 'Format',
+		challengeDefault: true,
+		gameType: 'doubles',
+		rated: true,
+		challengeShow: true,
+		searchShow: true,
+		isTeambuilderFormat: true,
+		ruleset: ['Pokemon', 'Standard','LOLClause'],
+		banlist: ['Uber']
+	},
+>>>>>>> a61b2cab94998363c9aa6a4fbada80e4e133be89
                 
         // Doubles
         ///////////////////////////////////////////////////////////////////
@@ -520,7 +553,7 @@ exports.BattleFormats = {
         // Other Metagames
         ///////////////////////////////////////////////////////////////////
         
-        "1v1": {
+        1v1: {
                 effectType: 'Format',
                 name: "1v1",
                 section: "OM of the Month",
@@ -554,7 +587,7 @@ exports.BattleFormats = {
                         'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
                 ]
         },
-              "1v1TP": {
+        No 1v1TP: {
                 effectType: 'Format',
                 name: "1v1 Team Preview",
                 section: "OM of the Month",
@@ -589,7 +622,7 @@ exports.BattleFormats = {
                         'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
                 ]
         },
-        "2v2": {
+        2v2: {
                 effectType: 'Format',
                 gameType: 'doubles',
                 name: "2v2",
@@ -622,7 +655,7 @@ exports.BattleFormats = {
                         'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
                 ]
         },
-        "2v2TP": {
+        2v2TP: {
                 effectType: 'Format',
                 gameType: 'doubles',
                 name: "2v2 Team Preview",
@@ -1362,6 +1395,7 @@ capv2: {
         	//effectType: 'Rule',
 		//onFaint: function (pokemon) {
 			// A poem every time a Pokemon faints
+<<<<<<< HEAD
 			//var winmessagesu = ["GG WORLD.",
 			//"Your so bad, the 1001s on the smogon doubles ladder call you a noob.",
 			//"WHAT WAS THAT ABOUT YOU WINNING? oh NOTHING? that's what I thought.",
@@ -1373,6 +1407,19 @@ capv2: {
 			//this.add('-message', winmessageu[0]);
 		//}
      //   },
+=======
+			var winmessagesu = ["GG WORLD.",
+			"Your so bad, the 1001s on the smogon doubles ladder call you a noob.",
+			"WHAT WAS THAT ABOUT YOU WINNING? oh NOTHING? that's what I thought.",
+			"This is what happens when you chellenge, me, I WARNED 'YA!",
+			"GODDAMNIT WHY ARE YOU SO BAD?", 
+			"One of lifes greatest mysteries is why you suck so much.",
+			"GG NO RED CHECK ME OUT AT YOLOSWAGMONEY.ORG"];
+			winmessageu = winmessagesu.randomize();
+			this.add('-message', winmessageu[0]);
+		}
+        },
+>>>>>>> a61b2cab94998363c9aa6a4fbada80e4e133be89
         standard: {
                 effectType: 'Banlist',
                 ruleset: ['Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod'],
@@ -1778,11 +1825,13 @@ capv2: {
 		onModifyMove: function(move) {
 			if (move.secondaries) {
 				for (var s = 0; s < move.secondaries.length; ++s) {
-					move.secondaries[s].chance = 0;
+					if move.secondaries.[s].chance !== 100 {
+						move.secondaries[s].chance = 0;
+					}
 				}
 			}
-			if (move.accuracy !== true && move.accuracy <= 99) {
-				move.accuracy = 100;
+			if (move.accuracy !== true) {
+				move.accuracy = true;
 			}
 			move.willCrit = false;
 		}

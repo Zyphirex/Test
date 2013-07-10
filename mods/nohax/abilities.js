@@ -1,5 +1,5 @@
 exports.BattleAbilities = {
-  "serenegrace": {
+	"serenegrace": {
   		inherit: true
 		onModifyMove: function(move) {
 			if (move.secondaries) {

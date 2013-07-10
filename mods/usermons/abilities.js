@@ -4,7 +4,7 @@
 		shortDesc: "If this Pokemon is KOed with a contact move, that move's user loses 1/4 its max HP.",
 		id: "drunkenfist",
 		name: "Drunken Fist",
-		onStart: function (pokemon) {
+		onSwitchIn: function (pokemon) {
 			      this.add('-message', pokemon.name + " is drunk!");
 			pokemon.addVolatile('confusion');
 			 self: {	

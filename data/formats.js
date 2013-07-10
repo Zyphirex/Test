@@ -167,6 +167,7 @@ exports.BattleFormats = {
         tervarirandombattle: {
                 name: "Tervari Random Battle",
                 section: "Tervari Random Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 team: 'random',
@@ -180,6 +181,7 @@ exports.BattleFormats = {
         tervarichallengecup: {
                 name: "Tervari Challenge Cup",
                 section: "Tervari Random Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 team: 'randomCC',
@@ -192,6 +194,7 @@ exports.BattleFormats = {
         tervarichallengecup1vs1: {
                 name: "Tervari Challenge Cup 1-vs-1",
                 section: "Tervari Random Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 team: 'randomCC',
@@ -211,6 +214,7 @@ exports.BattleFormats = {
         tervariou: {
                 name: "Tervari OU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 challengeDefault: true,
@@ -224,6 +228,7 @@ exports.BattleFormats = {
         tervariubers: {
                 name: "Tervari Ubers",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -236,6 +241,7 @@ exports.BattleFormats = {
         tervarimu: {
                 name: "Tervari MU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -248,6 +254,7 @@ exports.BattleFormats = {
         tervariuu: {
                 name: "Tervari UU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -260,6 +267,7 @@ exports.BattleFormats = {
         tervariru: {
                 name: "Tervari RU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -272,6 +280,7 @@ exports.BattleFormats = {
         tervarinu: {
                 name: "Tervari NU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -284,6 +293,7 @@ exports.BattleFormats = {
         tervaripu: {
                 name: "Tervari PU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -296,6 +306,7 @@ exports.BattleFormats = {
         tervarilc: {
                 name: "Tervari LC",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 maxLevel: 5,
@@ -309,6 +320,7 @@ exports.BattleFormats = {
         tervaricustomgame: {
                 name: "Tervari Custom Game",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 challengeShow: true,
@@ -319,11 +331,12 @@ exports.BattleFormats = {
                 defaultLevel: 100,
                 // no restrictions, for serious (other than team preview)
                 ruleset: ['Team Preview']
-                },
+        },
         tervaridoubles: {
                 name: "Tervari Doubles",
-                section: 'Tervari Double Tiers',
-                mod: 'tervario',
+                section: "Tervari Double Tiers",
+
+                mod: 'tervari',
                 effectType: 'Format',
                 gameType: 'doubles',
                 challengeShow: true,
@@ -348,7 +361,8 @@ exports.BattleFormats = {
         },
         tervariuberdoubles: {
                 name: "Tervari Uber Doubles",
-                section: 'Tervari Double Tiers',
+                section: "Tervari Double Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 gameType: 'doubles',
@@ -362,6 +376,7 @@ exports.BattleFormats = {
                 name: "Tervari Hackmons",
                 section: "Other Tervari Metagames",
 
+                mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
                 challengeShow: true,
@@ -373,6 +388,7 @@ exports.BattleFormats = {
         tervaribalancedhackmons: {
                 name: "Tervari Balanced Hackmons",
                 section: "Other Tervari Metagames",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -389,7 +405,7 @@ exports.BattleFormats = {
 
         doublesvgc2013: {
                 name: "Doubles VGC 2013",
-                section: 'Doubles',
+                section: "Doubles",
 
                 effectType: 'Format',
                 gameType: 'doubles',
@@ -436,7 +452,7 @@ exports.BattleFormats = {
         },
         smogondoubles: {
                 name: "Smogon Doubles",
-                section: 'Doubles',
+                section: "Doubles",
 
                 effectType: 'Format',
                 gameType: 'doubles',
@@ -462,7 +478,7 @@ exports.BattleFormats = {
         },
         doublesrandombattledev: {
                 name: "Doubles Random Battle (dev)",
-                section: 'Doubles',
+                section: "Doubles",
 
                 effectType: 'Format',
                 gameType: 'doubles',
@@ -475,7 +491,7 @@ exports.BattleFormats = {
         },
         doubleschallengecup: {
                 name: "Doubles Challenge Cup",
-                section: 'Doubles',
+                section: "Doubles",
 
                 effectType: 'Format',
                 gameType: 'doubles',
@@ -488,7 +504,7 @@ exports.BattleFormats = {
         },
         doubleschallengecup2v2: {
                 name: "Doubles Challenge Cup 2v2",
-                section: 'Doubles',
+                section: "Doubles",
                 effectType: 'Format',
                 gameType: 'doubles',
                 team: 'randomCC',
@@ -508,7 +524,7 @@ exports.BattleFormats = {
         },
         doublescustomgame: {
                 name: "Doubles Custom Game",
-                section: 'Doubles',
+                section: "Doubles",
 
                 effectType: 'Format',
                 gameType: 'doubles',
@@ -525,6 +541,7 @@ exports.BattleFormats = {
         tervarirandombattle: {
                 name: "Tervari Random Battle",
                 section: "Tervari Random Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 team: 'random',
@@ -538,6 +555,7 @@ exports.BattleFormats = {
         tervarichallengecup: {
                 name: "Tervari Challenge Cup",
                 section: "Tervari Random Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 team: 'randomCC',
@@ -550,6 +568,7 @@ exports.BattleFormats = {
         tervarichallengecup1vs1: {
                 name: "Tervari Challenge Cup 1-vs-1",
                 section: "Tervari Random Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 team: 'randomCC',
@@ -569,6 +588,7 @@ exports.BattleFormats = {
         tervariou: {
                 name: "Tervari OU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 challengeDefault: true,
@@ -582,6 +602,7 @@ exports.BattleFormats = {
         tervariubers: {
                 name: "Tervari Ubers",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -594,6 +615,7 @@ exports.BattleFormats = {
         tervarimu: {
                 name: "Tervari MU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -606,6 +628,7 @@ exports.BattleFormats = {
         tervariuu: {
                 name: "Tervari UU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -618,6 +641,7 @@ exports.BattleFormats = {
         tervariru: {
                 name: "Tervari RU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -630,6 +654,7 @@ exports.BattleFormats = {
         tervarinu: {
                 name: "Tervari NU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -642,6 +667,7 @@ exports.BattleFormats = {
         tervaripu: {
                 name: "Tervari PU",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -654,6 +680,7 @@ exports.BattleFormats = {
         tervarilc: {
                 name: "Tervari LC",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 maxLevel: 5,
@@ -667,6 +694,7 @@ exports.BattleFormats = {
         tervaricustomgame: {
                 name: "Tervari Custom Game",
                 section: "Tervari Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 challengeShow: true,
@@ -680,8 +708,9 @@ exports.BattleFormats = {
                 },
         tervaridoubles: {
                 name: "Tervari Doubles",
-                section: 'Tervari Double Tiers',
-                mod: 'tervario',
+                section: "Tervari Double Tiers",
+
+                mod: 'tervari',
                 effectType: 'Format',
                 gameType: 'doubles',
                 challengeShow: true,
@@ -706,7 +735,8 @@ exports.BattleFormats = {
         },
         tervariuberdoubles: {
                 name: "Tervari Uber Doubles",
-                section: 'Tervari Double Tiers',
+                section: "Tervari Double Tiers",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 gameType: 'doubles',
@@ -720,6 +750,7 @@ exports.BattleFormats = {
                 name: "Tervari Hackmons",
                 section: "Other Tervari Metagames",
 
+                mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
                 challengeShow: true,
@@ -731,6 +762,7 @@ exports.BattleFormats = {
         tervaribalancedhackmons: {
                 name: "Tervari Balanced Hackmons",
                 section: "Other Tervari Metagames",
+
                 mod: 'tervari',
                 effectType: 'Format',
                 rated: true,
@@ -744,9 +776,10 @@ exports.BattleFormats = {
         ///////////////////////////////////////////////////////////////////
         
         1v1: {
-                effectType: 'Format',
                 name: "1v1",
                 section: "OM of the Month",
+
+                effectType: 'Format',
                 rated: true,
                 challengeShow: true,
                 searchShow: true,
@@ -777,10 +810,11 @@ exports.BattleFormats = {
                         'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
                 ]
         },
-        No 1v1TP: {
-                effectType: 'Format',
+        1v1TP: {
                 name: "1v1 Team Preview",
                 section: "OM of the Month",
+
+                effectType: 'Format',
                 rated: true,
                 challengeShow: true,
                 searchShow: true,
@@ -813,10 +847,11 @@ exports.BattleFormats = {
                 ]
         },
         2v2: {
-                effectType: 'Format',
-                gameType: 'doubles',
                 name: "2v2",
                 section: "OM of the Month",
+
+                effectType: 'Format',
+                gameType: 'doubles',
                 rated: true,
                 challengeShow: true,
                 searchShow: true,
@@ -846,10 +881,11 @@ exports.BattleFormats = {
                 ]
         },
         2v2TP: {
-                effectType: 'Format',
-                gameType: 'doubles',
                 name: "2v2 Team Preview",
                 section: "OM of the Month",
+
+                effectType: 'Format',
+                gameType: 'doubles',
                 rated: true,
                 challengeShow: true,
                 searchShow: true,
@@ -1006,31 +1042,36 @@ exports.BattleFormats = {
                 banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
         },
         haxmons: {
-                effectType: 'Format',
                 name: "Haxmons",
                 section: "Other Metagames",
-                challengeShow: true,
-                isTeambuilderFormat: true,
-                searchShow: true,
+
+                effectType: 'Format',
                 rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
                 ruleset: ['Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
 	randomhaxmons: {
-		effectType: 'Format',
-		name: "Random Haxmons",
-		section: "Other Metagames",
-		challengeShow: true,
-		canUseRandomTeam: true,
-		searchShow: true,
-		rated: true,
-		team: 'random',
-		ruleset: ['Hax Clause', 'Team Preview']
+               name: "Random Haxmons",
+               section: "Other Metagames",
+
+               effectType: 'Format',
+                team: 'random',
+                canUseRandomTeam: true,
+                searchDefault: true,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                ruleset: ['Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
 	},
         nohaxmons: {
-                effectType: 'Format',
                 name: "No Haxmons",
                 section: "Other Metagames",
+
+               mod: 'nohax',
+               effectType: 'Format',
                 challengeShow: true,
                 isTeambuilderFormat: true,
                 searchShow: true,
@@ -1038,17 +1079,20 @@ exports.BattleFormats = {
                 ruleset: ['No Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
-
 	randomnohaxmons: {
-		effectType: 'Format',
-		name: "Random No Haxmons",
-		section: "Other Metagames",
-		challengeShow: true,
-		canUseRandomTeam: true,
-		searchShow: true,
-		rated: true,
-		team: 'random',
-		ruleset: ['No Hax Clause', 'Team Preview']
+               name: "Random No Haxmons",
+               section: "Other Metagames",
+
+               mod: 'nohax',
+               effectType: 'Format',
+                team: 'random',
+                canUseRandomTeam: true,
+                searchDefault: true,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                ruleset: ['No Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
+	},
 	},
         gennextou: {
                 name: "Gen-NEXT OU",
@@ -1114,7 +1158,7 @@ exports.BattleFormats = {
         },
         tiershift: {
                 name: "Tier Shift",
-                section: 'Other Metagames',
+                section: "Other Metagames",
 
                 mod: 'tiershift',
                 effectType: 'Format',
@@ -1128,7 +1172,7 @@ exports.BattleFormats = {
 
         snaqshift: {
                 name: "Snaq Shift",
-                section: 'Other Metagames',
+                section: "Other Metagames",
 
                 mod: 'snaqshift',
                 effectType: 'Format',
@@ -1139,27 +1183,29 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: []
         },
-capv2: {
-        name: "CAP V. 2",
-        section: "Other Metagames",
-       mod: "capv2",
-        effectType: 'Format',
-        challengeDefault: true,
-        rated: true,
-        challengeShow: true,
-         searchShow: true,
-        isTeambuilderFormat: true,
-        ruleset: ['CAP Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-        banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
-},
+	capv2: {
+        	name: "CAP V. 2",
+        	section: "Other Metagames",
+        	
+       	mod: 'capv2',
+        	effectType: 'Format',
+        	challengeDefault: true,
+        	rated: true,
+        	challengeShow: true,
+        	searchShow: true,
+        	isTeambuilderFormat: true,
+        	ruleset: ['CAP Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+        	banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+	},
         stabmons: {
-                effectType: 'Format',
-        name: "Stabmons",
+                name: "Stabmons",
                 section: "Other Metagames",
+
+                effectType: 'Format',
                 rated: true,
-        challengeShow: true,
-        searchShow: true,
-        debug: true,
+        	     challengeShow: true,
+                searchShow: true,
+                debug: true,
                 ruleset: ['Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause'],
                 banlist: ['Unreleased', 'Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
                 validateSet: function (set, format) {
@@ -1213,6 +1259,7 @@ capv2: {
 	usermons: {
 		name: "Usermons!",
 		section: "Other Metagames",
+
 		mod: 'usermons',
 		effectType: 'Format',
 		challengeDefault: true,
@@ -1226,6 +1273,7 @@ capv2: {
 	usermonsdoubles: {
 		name: "Usermons Doubles!",
 		section: "Other Metagames",
+
 		mod: 'usermons',
 		effectType: 'Format',
 		challengeDefault: true,

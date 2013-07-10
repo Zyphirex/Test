@@ -7323,3 +7323,158 @@ TypeError: Cannot read property '0' of undefined
     at ChildProcess.EventEmitter.emit (events.js:98:17)
     at handleMessage (child_process.js:318:10)
     at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot call method 'indexOf' of undefined
+    at Tools.module.exports.Tools.getBanlistTable (/Users/clazinasteunenberg/Downloads/Test/tools.js:653:41)
+    at Tools.module.exports.Tools.getFormat (/Users/clazinasteunenberg/Downloads/Test/tools.js:307:9)
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:690:17)
+    at Object.exports.commands.challenge (/Users/clazinasteunenberg/Downloads/Test/commands.js:1964:24)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+ReferenceError: winmessageu is not defined
+    at Tools.exports.BattleFormats.lolclause.onFaint (/Users/clazinasteunenberg/Downloads/Test/data/formats.js:1372:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1767:38)
+    at Tools.Battle.faintMessages (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:2688:10)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:2971:8)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3024:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3102:8)
+    at Tools.Battle.choose (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3084:9)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3411:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+
+Additional information:
+message = battle-usermons-328|choose|p1|move Fire Blast 1,switch 6|1
+currentRequest = move
+
+Log:
+|player|p1|Glistering Aeon|285
+|player|p2|Oiawesome|265
+|gametype|doubles
+|tier|Usermons!
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Heatran|Heatran, F|323/323
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p1a: Heatran|Heatran, F|323/323
+|split
+|switch|p1b: Virizion|Virizion|324/324
+|switch|p1b: Virizion|Virizion|100/100
+|switch|p1b: Virizion|Virizion|100/100
+|switch|p1b: Virizion|Virizion|324/324
+|split
+|switch|p2a: Politoed|Politoed, M|100/100
+|switch|p2a: Politoed|Politoed, M|322/322
+|switch|p2a: Politoed|Politoed, M|100/100
+|switch|p2a: Politoed|Politoed, M|322/322
+|split
+|switch|p2b: Gyarados|Gyarados, M|100/100
+|switch|p2b: Gyarados|Gyarados, M|332/332
+|switch|p2b: Gyarados|Gyarados, M|100/100
+|switch|p2b: Gyarados|Gyarados, M|332/332
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|callback|decision
+|chat|Oiawesome|oh cool
+|chat|Oiawesome|usermons doubles
+|chat|Oiawesome|I copy pasted the doubles one instead
+|chat|Oiawesome|lol
+|chat|Glistering Aeon|lol
+|chat|Oiawesome|DON'T attack
+|chat|Oiawesome|and keep heatran in
+|chat|Glistering Aeon|ummm
+|chat|Oiawesome|I need to test LOL clause
+|chat|Glistering Aeon|Heatran only has attacking moves
+|chat|Oiawesome|jsut do fire blaston poli
+|chat|Glistering Aeon|Should I switch virizion or SD?
+|chat|Oiawesome|switch
+|
+|split
+|switch|p1b: Skarmory|Skarmory, M|334/334
+|switch|p1b: Skarmory|Skarmory, M|100/100
+|switch|p1b: Skarmory|Skarmory, M|100/100
+|switch|p1b: Skarmory|Skarmory, M|334/334
+|move|p2a: Politoed|Surf|p1b: Skarmory
+|-resisted|p2b: Gyarados
+|split
+|-damage|p2b: Gyarados|79/100
+|-damage|p2b: Gyarados|262/332
+|-damage|p2b: Gyarados|79/100
+|-damage|p2b: Gyarados|262/332
+|-supereffective|p1a: Heatran
+|split
+|-damage|p1a: Heatran|51/323
+|-damage|p1a: Heatran|16/100
+|-damage|p1a: Heatran|16/100
+|-damage|p1a: Heatran|51/323
+|-enditem|p1a: Heatran|Air Balloon
+|split
+|-damage|p1b: Skarmory|129/334
+|-damage|p1b: Skarmory|39/100
+|-damage|p1b: Skarmory|39/100
+|-damage|p1b: Skarmory|129/334
+|move|p1a: Heatran|Fire Blast|p2a: Politoed
+|-crit|p2a: Politoed
+|-resisted|p2a: Politoed
+|split
+|-damage|p2a: Politoed|69/100
+|-damage|p2a: Politoed|219/322
+|-damage|p2a: Politoed|69/100
+|-damage|p2a: Politoed|219/322
+|move|p2b: Gyarados|Waterfall|p1a: Heatran
+|-supereffective|p1a: Heatran
+|split
+|-damage|p1a: Heatran|0 fnt
+|-damage|p1a: Heatran|0 fnt
+|-damage|p1a: Heatran|0 fnt
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-boost|p2b: Gyarados|atk|1|[from] ability: Moxie
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.j (/Users/clazinasteunenberg/Downloads/Test/commands.js:320:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at BattleRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1103:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1028:9)
+    at /Users/clazinasteunenberg/Downloads/Test/app.js:418:10
+    at Array.forEach (native)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:417:22)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+
+Additional information:
+user = realpresent
+ip = 85.151.31.30
+roomid = battle-nohaxmons-262
+message = battle-nohaxmons-262|/j
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.dq (/Users/clazinasteunenberg/Downloads/Test/commands.js:505:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at BattleRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1103:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1028:9)
+    at /Users/clazinasteunenberg/Downloads/Test/app.js:418:10
+    at Array.forEach (native)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:417:22)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+
+Additional information:
+user = snaquaza
+ip = 127.0.0.1
+roomid = battle-nohaxmons-262
+message = battle-nohaxmons-262|/dq Snaquaza

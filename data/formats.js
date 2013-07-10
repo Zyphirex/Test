@@ -823,7 +823,7 @@ exports.BattleFormats = {
                 searchShow: true,
                 rated: true,
                 ruleset: ['Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+                banlist: ['Iron Head', 'Bite', ,'Dark Pulse', 'Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
 	randomhaxmons: {
 		effectType: 'Format',

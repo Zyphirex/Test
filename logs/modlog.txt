@@ -3843,3 +3843,12 @@
 [2013-07-09T21:21:34.429Z] (battle-capv2-267) Kaderp was forcibly renamed to Kadew by Snaquaza.
 [2013-07-09T21:42:52.904Z] (battle-capv2-271) Snaquaza forced a win for snaquaza.
 [2013-07-09T23:03:32.879Z] (lobby) sadoldporygon was taken to Tervari Police by Snaquaza. (rlly ._.)
+[2013-07-10T11:05:10.150Z] (lobby) BDH93 was promoted to Inhabitant by Snaquaza.
+[2013-07-10T11:10:46.798Z] (lobby) RealPresent was promoted to Tervari Champion by Snaquaza.
+[2013-07-10T11:11:11.805Z] (lobby) ScreamingMilotic was promoted to Tervari Gym Leader by Snaquaza.
+[2013-07-10T11:11:12.004Z] (lobby) Young Xehanort was promoted to Tervari Champion by RealPresent.
+[2013-07-10T11:11:23.045Z] (lobby) Firehound was promoted to Tervari Champion by Snaquaza.
+[2013-07-10T11:11:32.773Z] (lobby) Natu Serious was promoted to Trainer by Snaquaza.
+[2013-07-10T11:12:48.414Z] (lobby) Naminé was promoted to Tervari Elite Four by RealPresent.
+[2013-07-10T11:20:03.345Z] (lobby) Oran Berrys was promoted to Tervari Gym Trainer by Snaquaza.
+[2013-07-10T11:47:19.069Z] (lobby) Snaquaza just used /remind

@@ -5,21 +5,6 @@ function clampIntRange(num, min, max) {
 	return num;
 }
 exports.BattleStatuses = {
-	brn: {
-		effectType: 'Status',
-		onStart: function(target) {
-			this.add('-status', target, 'brn');
-		},
-		onBasePower: function(basePower, attacker, defender, move) {
-			if (move && move.category === 'Physical' && attacker && attacker.ability !== 'guts') {
-				return basePower / 2;
-			}
-		},
-		onResidualOrder: 9,
-		onResidual: function(pokemon) {
-			this.damage(pokemon.maxhp/8);
-		}
-	},
 	par: {
 		effectType: 'Status',
 		onStart: function(target) {
@@ -32,7 +17,7 @@ exports.BattleStatuses = {
 		},
 		onBeforeMovePriority: 2,
 		onBeforeMove: function(pokemon) {
-			if (this.random(4) === 0) {
+			if (this.random(4) === 4) {
 				this.add('cant', pokemon, 'par');
 				return false;
 			}
@@ -42,8 +27,8 @@ exports.BattleStatuses = {
 		effectType: 'Status',
 		onStart: function(target) {
 			this.add('-status', target, 'slp');
-			// 1-3 turns
-			this.effectData.startTime = this.random(2,5);
+			// 2 turns
+			this.effectData.startTime = 3;
 			this.effectData.time = this.effectData.startTime;
 		},
 		onSwitchIn: function(target) {
@@ -73,7 +58,7 @@ exports.BattleStatuses = {
 		},
 		onBeforeMovePriority: 2,
 		onBeforeMove: function(pokemon, target, move) {
-			if (move.thawsUser || this.random(5) === 0) {
+			if (move.thawsUser || this.random(1) === 0) {
 				pokemon.cureStatus();
 				return;
 			}

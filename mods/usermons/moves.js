@@ -12,10 +12,6 @@ exports.BattleMovedex = {
 		priority: 0,
 		isContact: true,
 		multihit: [3,5],
-			onFoeBeforeMove: function(attacker, defender, move) {
-					this.add('-message', pokemon.name + " started throwing vodka bottles everywhere!");
-				}
-			},
 		secondary: false,
 		target: "normal",
 		type: "Water"

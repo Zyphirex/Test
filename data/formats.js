@@ -160,39 +160,229 @@ exports.BattleFormats = {
                 ruleset: []
         },
 
-<<<<<<< HEAD
-=======
-	// Tervari Other Metagames
-	///////////////////////////////////////////////////////////////////
 
-	usermons: {
-		name: "Usermons!",
-		section: "Tervari Other Metagames",
-		mod: 'usermons',
-		effectType: 'Format',
-		challengeDefault: true,
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard','LOLClause'],
-		banlist: ['Uber']
-	},
-	usermonsdoubles: {
-		name: "Usermons Doubles!",
-		section: "Tervari Other Metagames",
-		mod: 'usermons',
-		effectType: 'Format',
-		challengeDefault: true,
-		gameType: 'doubles',
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard','LOLClause'],
-		banlist: ['Uber']
-	},
->>>>>>> a61b2cab94998363c9aa6a4fbada80e4e133be89
+
+////////////////Tervari Tiers
+///////////////////////////////////////////////////////////////////////////////////////////
+        tervarirandombattle: {
+                name: "Tervari Random Battle",
+                section: "Tervari Random Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                team: 'random',
+                canUseRandomTeam: true,
+                searchDefault: true,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
+        },
+        tervarichallengecup: {
+                name: "Tervari Challenge Cup",
+                section: "Tervari Random Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                team: 'randomCC',
+                canUseRandomTeam: true,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                ruleset: ['PotD', 'Pokemon', 'HP Percentage Mod']
+        },
+        tervarichallengecup1vs1: {
+                name: "Tervari Challenge Cup 1-vs-1",
+                section: "Tervari Random Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                team: 'randomCC',
+                canUseRandomTeam: true,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                ruleset: ['PotD', 'Pokemon', 'Team Preview 1v1', 'HP Percentage Mod'],
+                onBegin: function() {
+                        this.debug('Cutting down to 1');
+                        this.p1.pokemon = this.p1.pokemon.slice(0, 1);
+                        this.p1.pokemonLeft = this.p1.pokemon.length;
+                        this.p2.pokemon = this.p2.pokemon.slice(0, 1);
+                        this.p2.pokemonLeft = this.p2.pokemon.length;
+                }
+        },
+        tervariou: {
+                name: "Tervari OU",
+                section: "Tervari Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                challengeDefault: true,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Drought ++ Hotshot', 'Soul Dew']        
+        },
+        tervariubers: {
+                name: "Tervari Ubers",
+                section: "Tervari Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Standard Ubers'],
+                banlist: []
+        },
+        tervarimu: {
+                name: "Tervari MU",
+                section: "Tervari Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['OU'],
+                banlist: ['OU', 'BL', 'Drought', 'Sand Stream']
+        },
+        tervariuu: {
+                name: "Tervari UU",
+                section: "Tervari Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['OU'],
+                banlist: ['MU', 'BL2', 'Drought', 'Sand Stream']
+        },        
+        tervariru: {
+                name: "Tervari RU",
+                section: "Tervari Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['UU'],
+                banlist: ['UU', 'BL3', 'Shell Smash + Baton Pass']
+        },
+        tervarinu: {
+                name: "Tervari NU",
+                section: "Tervari Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['RU'],
+                banlist: ['RU','BL4']
+        },
+        tervaripu: {
+                name: "Tervari PU",
+                section: "Tervari Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['NU'],
+                banlist: ['NU','BL5']
+        },
+        tervarilc: {
+                name: "Tervari LC",
+                section: "Tervari Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                maxLevel: 5,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
+                banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
+        },
+        tervaricustomgame: {
+                name: "Tervari Custom Game",
+                section: "Tervari Tiers",
+                mod: 'tervari',
+                effectType: 'Format',
+                challengeShow: true,
+                canUseRandomTeam: true,
+                searchShow: true,
+                debug: true,
+                maxLevel: 1099511627775,
+                defaultLevel: 100,
+                // no restrictions, for serious (other than team preview)
+                ruleset: ['Team Preview']
+                },
+        tervaridoubles: {
+                name: "Tervari Doubles",
+                section: 'Tervari Double Tiers',
+                mod: 'tervario',
+                effectType: 'Format',
+                gameType: 'doubles',
+                challengeShow: true,
+                searchShow: true,
+                rated: true,
+                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
+                banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
+                        'Mewtwo',
+                        'Lugia',
+                        'Ho-Oh',
+                        'Kyogre',
+                        'Groudon',
+                        'Rayquaza',
+                        'Dialga',
+                        'Palkia',
+                        'Giratina', 'Giratina-Origin',
+                        'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+                        'Reshiram',
+                        'Zekrom',
+                        'Kyurem-White'
+                ]
+        },
+        tervariuberdoubles: {
+                name: "Tervari Uber Doubles",
+                section: 'Tervari Double Tiers',
+                mod: 'tervari',
+                effectType: 'Format',
+                gameType: 'doubles',
+                challengeShow: true,
+                searchShow: true,
+                rated: true,
+                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
+                banlist: ['Unreleased', 'Illegal', 'Sky Drop']
+        },
+        tervarihackmons: {
+                name: "Tervari Hackmons",
+                section: "Other Tervari Metagames",
+
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon'],
+                banlist: []
+        },
+        tervaribalancedhackmons: {
+                name: "Tervari Balanced Hackmons",
+                section: "Other Tervari Metagames",
+                mod: 'tervari',
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon', 'OHKO Clause'],
+                banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
+        },
+
                 
         // Doubles
         ///////////////////////////////////////////////////////////////////
@@ -1019,10 +1209,10 @@ capv2: {
 	// Tervari Other Metagames
 	///////////////////////////////////////////////////////////////////
 
+
 	usermons: {
 		name: "Usermons!",
-		section: "Tervari Other Metagames",
-
+		section: "Other Metagames",
 		mod: 'usermons',
 		effectType: 'Format',
 		challengeDefault: true,
@@ -1030,245 +1220,23 @@ capv2: {
 		challengeShow: true,
 		searchShow: true,
 		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard','LOL Clause'],
+		ruleset: ['Pokemon', 'Standard','LOLClause'],
 		banlist: ['Uber']
 	},
-	//	usermons: {
-	//	name: "Usermons!",
-	//	section: "Tervari Other Metagames",
-
-	//	mod: 'usermons',
-	//	effectType: 'Format',
-	//	challengeDefault: true,
-	//	gameType: 'doubles',
-	//	rated: true,
-	//	challengeShow: true,
-	//	searchShow: true,
-	//	isTeambuilderFormat: true,
-	//	ruleset: ['Pokemon', 'Standard','LOL Clause'],
-	//	banlist: ['Uber']
-	//},
-
-////////////////Tervari Tiers
-///////////////////////////////////////////////////////////////////////////////////////////
-        tervarirandombattle: {
-                name: "Tervari Random Battle",
-                section: "Tervari Random Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                team: 'random',
-                canUseRandomTeam: true,
-                searchDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
-        },
-        tervarichallengecup: {
-                name: "Tervari Challenge Cup",
-                section: "Tervari Random Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                team: 'randomCC',
-                canUseRandomTeam: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                ruleset: ['PotD', 'Pokemon', 'HP Percentage Mod']
-        },
-        tervarichallengecup1vs1: {
-                name: "Tervari Challenge Cup 1-vs-1",
-                section: "Tervari Random Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                team: 'randomCC',
-                canUseRandomTeam: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                ruleset: ['PotD', 'Pokemon', 'Team Preview 1v1', 'HP Percentage Mod'],
-                onBegin: function() {
-                        this.debug('Cutting down to 1');
-                        this.p1.pokemon = this.p1.pokemon.slice(0, 1);
-                        this.p1.pokemonLeft = this.p1.pokemon.length;
-                        this.p2.pokemon = this.p2.pokemon.slice(0, 1);
-                        this.p2.pokemonLeft = this.p2.pokemon.length;
-                }
-        },
-        tervariou: {
-                name: "Tervari OU",
-                section: "Tervari Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                challengeDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Drought ++ Hotshot', 'Soul Dew']        
-        },
-        tervariubers: {
-                name: "Tervari Ubers",
-                section: "Tervari Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Standard Ubers'],
-                banlist: []
-        },
-        tervarimu: {
-                name: "Tervari MU",
-                section: "Tervari Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['OU'],
-                banlist: ['OU', 'BL', 'Drought', 'Sand Stream']
-        },
-        tervariuu: {
-                name: "Tervari UU",
-                section: "Tervari Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['OU'],
-                banlist: ['MU', 'BL2', 'Drought', 'Sand Stream']
-        },        
-        tervariru: {
-                name: "Tervari RU",
-                section: "Tervari Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['UU'],
-                banlist: ['UU', 'BL3', 'Shell Smash + Baton Pass']
-        },
-        tervarinu: {
-                name: "Tervari NU",
-                section: "Tervari Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['RU'],
-                banlist: ['RU','BL4']
-        },
-        tervaripu: {
-                name: "Tervari PU",
-                section: "Tervari Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['NU'],
-                banlist: ['NU','BL5']
-        },
-        tervarilc: {
-                name: "Tervari LC",
-                section: "Tervari Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                maxLevel: 5,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
-                banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
-        },
-        tervaricustomgame: {
-                name: "Tervari Custom Game",
-                section: "Tervari Tiers",
-                mod: 'tervari',
-                effectType: 'Format',
-                challengeShow: true,
-                canUseRandomTeam: true,
-                searchShow: true,
-                debug: true,
-                maxLevel: 1099511627775,
-                defaultLevel: 100,
-                // no restrictions, for serious (other than team preview)
-                ruleset: ['Team Preview']
-                },
-        tervaridoubles: {
-                name: "Tervari Doubles",
-                section: 'Tervari Double Tiers',
-                mod: 'tervario',
-                effectType: 'Format',
-                gameType: 'doubles',
-                challengeShow: true,
-                searchShow: true,
-                rated: true,
-                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
-                banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
-                        'Mewtwo',
-                        'Lugia',
-                        'Ho-Oh',
-                        'Kyogre',
-                        'Groudon',
-                        'Rayquaza',
-                        'Dialga',
-                        'Palkia',
-                        'Giratina', 'Giratina-Origin',
-                        'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
-                        'Reshiram',
-                        'Zekrom',
-                        'Kyurem-White'
-                ]
-        },
-        tervariuberdoubles: {
-                name: "Tervari Uber Doubles",
-                section: 'Tervari Double Tiers',
-                mod: 'tervari',
-                effectType: 'Format',
-                gameType: 'doubles',
-                challengeShow: true,
-                searchShow: true,
-                rated: true,
-                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
-                banlist: ['Unreleased', 'Illegal', 'Sky Drop']
-        },
-        tervarihackmons: {
-                name: "Tervari Hackmons",
-                section: "Other Tervari Metagames",
-
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon'],
-                banlist: []
-        },
-        tervaribalancedhackmons: {
-                name: "Tervari Balanced Hackmons",
-                section: "Other Tervari Metagames",
-                mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'OHKO Clause'],
-                banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
-        },
+	usermonsdoubles: {
+		name: "Usermons Doubles!",
+		section: "Other Metagames",
+		mod: 'usermons',
+		effectType: 'Format',
+		challengeDefault: true,
+		gameType: 'doubles',
+		rated: true,
+		challengeShow: true,
+		searchShow: true,
+		isTeambuilderFormat: true,
+		ruleset: ['Pokemon', 'Standard','LOLClause'],
+		banlist: ['Uber']
+	},
         // Past Generations
         ///////////////////////////////////////////////////////////////////
 

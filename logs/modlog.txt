@@ -3866,3 +3866,5 @@
 [2013-07-10T14:52:37.620Z] (lobby) ~^_^~ was promoted to Trainer by Snaquaza.
 [2013-07-10T15:01:41.524Z] (lobby) ~^_^~ is hiding auth symbol as ' '
 [2013-07-10T15:21:39.870Z] (lobby) The Pokemon of the Day was changed to Oceagon by Snaquaza.
+[2013-07-10T16:49:41.382Z] (lobby) GaviGator was banned from the Tervari Region by Snaquaza.
+[2013-07-10T16:58:13.621Z] (lobby) bandicam was promoted to Tervari Gym Trainer by Snaquaza.

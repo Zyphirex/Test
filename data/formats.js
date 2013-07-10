@@ -536,8 +536,6 @@ exports.BattleFormats = {
                 // no restrictions, for serious (other than team preview)
                 ruleset: ['Team Preview']
         },
-<<<<<<< HEAD
-=======
 ////////////////Tervari Tiers
 ///////////////////////////////////////////////////////////////////////////////////////////
         tervarirandombattle: {
@@ -774,7 +772,6 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'OHKO Clause'],
                 banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
         },
->>>>>>> ea1dc397dec5924ed1e477e3d0bded062938d9a2
         // Other Metagames
         ///////////////////////////////////////////////////////////////////
         
@@ -1410,6 +1407,18 @@ exports.BattleFormats = {
          // Rulesets
         ///////////////////////////////////////////////////////////////////
 
+	divebattleclause: {
+                effectType: 'Rule',
+                onStart: function() {
+			this.add('rule', 'Dive Battle: Only Water And Ice-type pokemon are allowed.');
+		},
+                validateSet: function(set) {
+                        var template = this.getTemplate(set.type || set.type);
+                        if (set.type !== 'Water' && set.type !== 'Ice') {
+                                return [set.species+" is banned because it is not of the Water type or the Ice Type."];
+                        }
+                }
+        },
           lolclause: {
         	effectType: 'Rule',
 		onFaint: function (pokemon) {

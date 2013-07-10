@@ -818,16 +818,6 @@ capv2: 'capv2',
 	 * Miscellaneous commands
 	 *********************************************************/
 
-	hailsnaq: function(target, room, user) {
-		if (!target) return this.parse('/help hailsnaq');
-		if (!this.can('broadcast', null, room)) return false;
-		
-		if (!this.canTalk()) return;
-
-		this.add('|raw|<div class="broadcast-blue"><b>HAIL SNAQUAZA</b> OUR SERVER ADMINISTRATOR AND OVERLORD</div>');
-		this.logModCommand(user.name+' Hailed Snaq '+target);
-	},
-
 	birkal: function(target, room, user) {
 		this.sendReply("It's not funny anymore.");
 	},

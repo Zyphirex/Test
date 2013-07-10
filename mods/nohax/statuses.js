@@ -170,5 +170,5 @@ exports.BattleStatuses = {
 			}
 			this.effectData.duration = 2;
 		}
-	},
+	}
 };

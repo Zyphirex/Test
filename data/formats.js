@@ -552,7 +552,7 @@ exports.BattleFormats = {
         // Other Metagames
         ///////////////////////////////////////////////////////////////////
         
-        : {
+        1v1: {
                 effectType: 'Format',
                 name: "1v1",
                 section: "OM of the Month",
@@ -586,7 +586,7 @@ exports.BattleFormats = {
                         'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
                 ]
         },
-              1v1TP: {
+        No 1v1TP: {
                 effectType: 'Format',
                 name: "1v1 Team Preview",
                 section: "OM of the Month",

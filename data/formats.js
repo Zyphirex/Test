@@ -1093,7 +1093,6 @@ exports.BattleFormats = {
                 searchShow: true,
                 ruleset: ['No Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
 	},
-	},
         gennextou: {
                 name: "Gen-NEXT OU",
                 section: "Other Metagames",
@@ -1145,7 +1144,7 @@ exports.BattleFormats = {
                 challengeShow: true,
                 ruleset: ['LC'],
                 banlist: ['Abra', 'Aipom', 'Archen', 'Axew', 'Bronzor', 'Chinchou', 'Clamperl', 'Cottonee', 'Cranidos', 'Croagunk', 'Diglett', 'Drifloon', 'Drilbur', 'Dwebble', 'Ferroseed', 'Foongus', 'Frillish', 'Gastly', 'Hippopotas', 'Houndour', 'Koffing', 'Larvesta', 'Lileep', 'Machop', 'Magnemite', 'Mienfoo', 'Misdreavus', 'Munchlax', 'Murkrow', 'Pawniard', 'Ponyta', 'Porygon', 'Riolu', 'Sandshrew', 'Scraggy', 'Shellder', 'Shroomish', 'Slowpoke', 'Snover', 'Staryu', 'Tentacool', 'Timburr', 'Tirtouga']
-                },
+        },
         dreamworld: {
                 name: "Dream World",
                 section: "Other Metagames",

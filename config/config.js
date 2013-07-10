@@ -263,6 +263,8 @@ exports.groups = {
 		forcerename: true,
 		timer: true,
 		modlog: true,
+		weatherchange: true,
+		statswap: true,
 		alts: '%u',
 		bypassblocks: 'u%@&~',
 		receiveauthmessages: true,

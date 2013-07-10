@@ -3865,3 +3865,4 @@
 [2013-07-10T14:15:23.335Z] (lobby) RealPresent was forcibly renamed to ~^_^~ by RealPresent.
 [2013-07-10T14:52:37.620Z] (lobby) ~^_^~ was promoted to Trainer by Snaquaza.
 [2013-07-10T15:01:41.524Z] (lobby) ~^_^~ is hiding auth symbol as ' '
+[2013-07-10T15:21:39.870Z] (lobby) The Pokemon of the Day was changed to Oceagon by Snaquaza.

@@ -12,9 +12,8 @@ exports.BattleMovedex = {
 		priority: 0,
 		isContact: true,
 		multihit: [3,5],
-			onFoeBeforeMove: function(attacker, defender, move) {
-					this.add('-message', pokemon.name + " started throwing vodka bottles everywhere!");
-				}
+			onFoeBeforeMove: function (pokemon) {
+			      this.add('-message', pokemon.name + " is throwing vodka bottles erreywhere!");
 			},
 		secondary: false,
 		target: "normal",

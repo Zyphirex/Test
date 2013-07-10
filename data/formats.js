@@ -1285,6 +1285,19 @@ exports.BattleFormats = {
 		ruleset: ['Pokemon', 'Standard','LOLClause'],
 		banlist: ['Uber']
 	},
+       divebattles: {
+                name: "Dive Battles",
+                section: "Singles",
+
+                effectType: 'Format',
+                challengeDefault: true,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview','Dive Battle Clause'],
+                banlist: ['Uber', 'Drizzle', 'Soul Dew']
+        },	
         // Past Generations
         ///////////////////////////////////////////////////////////////////
 

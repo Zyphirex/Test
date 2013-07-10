@@ -3868,3 +3868,9 @@
 [2013-07-10T15:21:39.870Z] (lobby) The Pokemon of the Day was changed to Oceagon by Snaquaza.
 [2013-07-10T16:49:41.382Z] (lobby) GaviGator was banned from the Tervari Region by Snaquaza.
 [2013-07-10T16:58:13.621Z] (lobby) bandicam was promoted to Tervari Gym Trainer by Snaquaza.
+[2013-07-10T17:34:04.825Z] (battle-usermons-265) AngelKeldeo was locked up in Luxuria Jail by bandicam for 7 minutes.
+[2013-07-10T17:34:18.083Z] (battle-usermons-265) AngelKeldeo was put in an isolated cell in Luxuria Jail by bandicam.
+[2013-07-10T17:38:30.919Z] (lobby) AngelKeldeo was freed by Snaquaza.
+[2013-07-10T17:58:24.675Z] (lobby) (bandicam was demoted to Trainer by Snaquaza.)
+[2013-07-10T17:58:54.529Z] (lobby) bandicam was promoted to Tervari Gym Trainer by Snaquaza.
+[2013-07-10T18:43:59.880Z] (lobby) The Pokemon of the Day was changed to Oceagon by Snaquaza.

@@ -1844,23 +1844,41 @@ exports.BattleFormats = {
 	nohaxclause: {
 		effectType: 'Rule',
 		onStart: function() {
-			this.add('rule', 'No Hax Clause');
+			this.add('rule', 'Hax Clause');
 		},
 		onModifyMovePriority: -100,
 		onModifyMove: function(move) {
 			if (move.secondaries) {
 				for (var s = 0; s < move.secondaries.length; ++s) {
-					if move.secondaries.[s].chance !== 100 {
-						move.secondaries[s].chance = 0;
-					}
+					move.secondaries[s].chance = 0;
 				}
 			}
-			if (move.accuracy !== true) {
-				move.accuracy = true;
+			if (move.accuracy !== true && move.accuracy <= 99) {
+				move.accuracy = 100;
 			}
 			move.willCrit = false;
 		}
 	},
+	//nohaxclausecrash: {
+	//	effectType: 'Rule',
+	//	onStart: function() {
+	//		this.add('rule', 'No Hax Clause');
+	//	},
+	//	onModifyMovePriority: -100,
+	//	onModifyMove: function(move) {
+	//		if (move.secondaries) {
+	//			for (var s = 0; s < move.secondaries.length; ++s) {
+	//				//if move.secondaries.[s].chance !== 100 {
+	//				//	move.secondaries[s].chance = 0;
+	//				//}
+	//			}
+	//		}
+	//		if (move.accuracy !== true) {
+	//			move.accuracy = true;
+	//		}
+	//		move.willCrit = false;
+	//	}
+	//},
         sametypeclause: {
                 effectType: 'Rule',
                 onStart: function() {

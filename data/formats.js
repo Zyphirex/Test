@@ -160,38 +160,6 @@ exports.BattleFormats = {
                 ruleset: []
         },
 
-	// Tervari Other Metagames
-	///////////////////////////////////////////////////////////////////
-
-	usermons: {
-		name: "Usermons!",
-		section: "Tervari Other Metagames",
-
-		mod: 'usermons',
-		effectType: 'Format',
-		challengeDefault: true,
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard','LOL Clause'],
-		banlist: ['Uber']
-	},
-		usermons: {
-		name: "Usermons!",
-		section: "Tervari Other Metagames",
-
-		mod: 'usermons',
-		effectType: 'Format',
-		challengeDefault: true,
-		gameType: 'doubles',
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard','LOL Clause'],
-		banlist: ['Uber']
-	},
                 
         // Doubles
         ///////////////////////////////////////////////////////////////////
@@ -823,7 +791,7 @@ exports.BattleFormats = {
                 searchShow: true,
                 rated: true,
                 ruleset: ['Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Iron Head', 'Bite', ,'Dark Pulse', 'Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
 	randomhaxmons: {
 		effectType: 'Format',
@@ -1015,6 +983,39 @@ capv2: {
                         return problems;
                 }
         },
+	// Tervari Other Metagames
+	///////////////////////////////////////////////////////////////////
+
+	usermons: {
+		name: "Usermons!",
+		section: "Tervari Other Metagames",
+
+		mod: 'usermons',
+		effectType: 'Format',
+		challengeDefault: true,
+		rated: true,
+		challengeShow: true,
+		searchShow: true,
+		isTeambuilderFormat: true,
+		ruleset: ['Pokemon', 'Standard','LOL Clause'],
+		banlist: ['Uber']
+	},
+	//	usermons: {
+	//	name: "Usermons!",
+	//	section: "Tervari Other Metagames",
+
+	//	mod: 'usermons',
+	//	effectType: 'Format',
+	//	challengeDefault: true,
+	//	gameType: 'doubles',
+	//	rated: true,
+	//	challengeShow: true,
+	//	searchShow: true,
+	//	isTeambuilderFormat: true,
+	//	ruleset: ['Pokemon', 'Standard','LOL Clause'],
+	//	banlist: ['Uber']
+	//},
+
 ////////////////Tervari Tiers
 ///////////////////////////////////////////////////////////////////////////////////////////
         tervarirandombattle: {
@@ -1357,21 +1358,21 @@ capv2: {
          // Rulesets
         ///////////////////////////////////////////////////////////////////
 
-      lolclause: {
-        	effectType: 'Rule',
-		onFaint: function (pokemon) {
+      //lolclause: {
+        	//effectType: 'Rule',
+		//onFaint: function (pokemon) {
 			// A poem every time a Pokemon faints
-			var winmessagesu = ["GG WORLD.",
-			"Your so bad, the 1001s on the smogon doubles ladder call you a noob.",
-			"WHAT WAS THAT ABOUT YOU WINNING? oh NOTHING? that's what I thought.",
-			"This is what happens when you chellenge, me, I WARNED 'YA!",
-			"GODDAMNIT WHY ARE YOU SO BAD?", 
-			"One of lifes greatest mysteries is why you suck so much.",
-			"GG NO RED CHECK ME OUT AT YOLOSWAGMONEY.ORG"];
-			haikus = winmessagesu.randomize();
-			this.add('-message', winmessageu[0]);
-		}
-        },
+			//var winmessagesu = ["GG WORLD.",
+			//"Your so bad, the 1001s on the smogon doubles ladder call you a noob.",
+			//"WHAT WAS THAT ABOUT YOU WINNING? oh NOTHING? that's what I thought.",
+			//"This is what happens when you chellenge, me, I WARNED 'YA!",
+			//"GODDAMNIT WHY ARE YOU SO BAD?", 
+			//"One of lifes greatest mysteries is why you suck so much.",
+			//"GG NO RED CHECK ME OUT AT YOLOSWAGMONEY.ORG"];
+			//haikus = winmessagesu.randomize();
+			//this.add('-message', winmessageu[0]);
+		//}
+     //   },
         standard: {
                 effectType: 'Banlist',
                 ruleset: ['Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod'],

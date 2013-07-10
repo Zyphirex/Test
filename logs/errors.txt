@@ -7478,3 +7478,89 @@ user = snaquaza
 ip = 127.0.0.1
 roomid = battle-nohaxmons-262
 message = battle-nohaxmons-262|/dq Snaquaza
+
+SyntaxError: Unexpected token :
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:368:22)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+
+Additional information:
+user = snaquaza
+ip = 127.0.0.1
+roomid = 
+message = |/hotpatch chat
+
+TypeError: Cannot call method 'indexOf' of undefined
+    at Tools.module.exports.Tools.getBanlistTable (/Users/clazinasteunenberg/Downloads/Test/tools.js:653:41)
+    at Tools.module.exports.Tools.getFormat (/Users/clazinasteunenberg/Downloads/Test/tools.js:307:9)
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:690:17)
+    at Object.exports.commands.challenge (/Users/clazinasteunenberg/Downloads/Test/commands.js:1964:24)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot call method 'indexOf' of undefined
+    at Tools.module.exports.Tools.getBanlistTable (/Users/clazinasteunenberg/Downloads/Test/tools.js:653:41)
+    at Tools.module.exports.Tools.getFormat (/Users/clazinasteunenberg/Downloads/Test/tools.js:307:9)
+    at Tools.module.exports.Tools.mod (/Users/clazinasteunenberg/Downloads/Test/tools.js:102:15)
+    at /Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1234:23
+    at Object.Battle [as construct] (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1243:6)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:120:31)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-haxmons-265|init|haxmons|
+
+TypeError: Cannot call method 'indexOf' of undefined
+    at Tools.module.exports.Tools.getBanlistTable (/Users/clazinasteunenberg/Downloads/Test/tools.js:653:41)
+    at Tools.module.exports.Tools.getFormat (/Users/clazinasteunenberg/Downloads/Test/tools.js:307:9)
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:690:17)
+    at Object.exports.commands.challenge (/Users/clazinasteunenberg/Downloads/Test/commands.js:1964:24)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot call method 'indexOf' of undefined
+    at Tools.module.exports.Tools.getBanlistTable (/Users/clazinasteunenberg/Downloads/Test/tools.js:653:41)
+    at Tools.module.exports.Tools.getFormat (/Users/clazinasteunenberg/Downloads/Test/tools.js:307:9)
+    at Tools.module.exports.Tools.mod (/Users/clazinasteunenberg/Downloads/Test/tools.js:102:15)
+    at /Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1234:23
+    at Object.Battle [as construct] (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1243:6)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:120:31)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-haxmons-266|init|haxmons|
+
+TypeError: Cannot call method 'indexOf' of undefined
+    at Tools.module.exports.Tools.getBanlistTable (/Users/clazinasteunenberg/Downloads/Test/tools.js:653:41)
+    at Tools.module.exports.Tools.getFormat (/Users/clazinasteunenberg/Downloads/Test/tools.js:307:9)
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:690:17)
+    at Object.exports.commands.challenge (/Users/clazinasteunenberg/Downloads/Test/commands.js:1964:24)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot call method 'indexOf' of undefined
+    at Tools.module.exports.Tools.getBanlistTable (/Users/clazinasteunenberg/Downloads/Test/tools.js:653:41)
+    at Tools.module.exports.Tools.getFormat (/Users/clazinasteunenberg/Downloads/Test/tools.js:307:9)
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:690:17)
+    at Object.exports.commands.challenge (/Users/clazinasteunenberg/Downloads/Test/commands.js:1964:24)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)

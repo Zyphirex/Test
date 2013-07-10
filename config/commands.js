@@ -816,65 +816,6 @@ capv2: 'capv2',
 	},
 
 	/*********************************************************
-	 * Battle commands
-	 *********************************************************/
-
-	statswap: function(target, room, user) {
-		if (!target) return this.parse('/help statswap');
-		if (!this.can('statswap', null, room)) return false;
-		
-		if (!this.canTalk()) return;
-		
-		this.add('|raw|<div class="broadcast-blue"><b>The Stats Have Now Been Swapped</b></div>');
-		this.logModCommand(user.name+' statswapped '+target);
-		
-                exports.BattleScripts = {
-  	        init: function() {
-  		for (var i in this.data.Pokedex) {
-			var atk = this.data.Pokedex[i].baseStats.atk;
-			var def = this.data.Pokedex[i].baseStats.def;
-			var spa = this.data.Pokedex[i].baseStats.spa;
-			var spd = this.data.Pokedex[i].baseStats.spd;
-      			var spe = this.data.Pokedex[i].baseStats.spe;
-      			var hp = this.data.Pokedex[i].baseStats.hp;
-			this.data.Pokedex[i].baseStats.atk = spa;
-			this.data.Pokedex[i].baseStats.def = spd;
-			this.data.Pokedex[i].baseStats.spa = atk;
-			this.data.Pokedex[i].baseStats.spd = def;
-      			this.data.Pokedex[i].baseStats.spe = hp;
-      			this.data.Pokedex[i].baseStats.hp = spe;
-		  }
-	    }
-
-	},
-	
-		weatherchange: function(target, room, user) {
-		if (!target) return this.parse('/help weatherchange');
-		if (!this.can('weatherchange', null, room)) return false;
-		
-		if (!this.canTalk()) return;
-		
-		this.add('|raw|<div class="broadcast-blue"><b>The Weather Has Now Been Changed</b></div>');
-		this.logModCommand(user.name+' weathered '+target);
-		
-				var weatherMsg = '';
-				var dice = this.random(100);
-				if (dice < 25) {
-					this.setWeather('Rain Dance');
-					weatherMsg = 'a Drizzle';
-				} else if (dice < 50) {
-					this.setWeather('Sunny Day');
-					weatherMsg = 'a Sunny Day';
-				} else if (dice < 75) {
-					this.setWeather('Hail');
-					weatherMsg = 'Hail';
-				} else {
-					this.setWeather('Sandstorm');
-					weatherMsg = 'a Sandstorm';
-				}
-	},
-	
-	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/
 

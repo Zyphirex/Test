@@ -3852,3 +3852,16 @@
 [2013-07-10T11:12:48.414Z] (lobby) Naminé was promoted to Tervari Elite Four by RealPresent.
 [2013-07-10T11:20:03.345Z] (lobby) Oran Berrys was promoted to Tervari Gym Trainer by Snaquaza.
 [2013-07-10T11:47:19.069Z] (lobby) Snaquaza just used /remind
+[2013-07-10T12:01:59.303Z] (battle-nohaxmons-264) RealPresent forced a win for namin.
+[2013-07-10T12:13:56.345Z] (lobby) Snaquaza was promoted to Trainer by Naminé.
+[2013-07-10T12:13:59.913Z] (lobby) Snaquaza was promoted to Tervari Gym Trainer by Naminé.
+[2013-07-10T12:14:02.779Z] (lobby) Snaquaza was promoted to Tervari Gym Leader by Naminé.
+[2013-07-10T12:29:05.789Z] (lobby) Snaquaza was promoted to Tervari Champion by RealPresent.
+[2013-07-10T12:31:44.633Z] (battle-randomnohaxmons-263) Snaquaza declared GL HF
+[2013-07-10T13:08:32.602Z] (lobby) Snaquaza just used /remind
+[2013-07-10T13:12:31.027Z] (lobby) Naminé was taken to Tervari Police by Snaquaza. (first moderating action)
+[2013-07-10T14:03:56.429Z] (lobby) RealPresent is hiding auth symbol as ' '
+[2013-07-10T14:04:01.493Z] (lobby) Snaquaza is hiding auth symbol as ' '
+[2013-07-10T14:15:23.335Z] (lobby) RealPresent was forcibly renamed to ~^_^~ by RealPresent.
+[2013-07-10T14:52:37.620Z] (lobby) ~^_^~ was promoted to Trainer by Snaquaza.
+[2013-07-10T15:01:41.524Z] (lobby) ~^_^~ is hiding auth symbol as ' '

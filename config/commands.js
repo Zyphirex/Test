@@ -820,7 +820,7 @@ capv2: 'capv2',
 
 	hailsnaq: function(target, room, user) {
 		if (!target) return this.parse('/help hailsnaq');
-		if (!this.can('hailsnaq', null, room)) return false;
+		if (!this.can('broadcast', null, room)) return false;
 		
 		if (!this.canTalk()) return;
 

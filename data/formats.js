@@ -1424,9 +1424,9 @@ exports.BattleFormats = {
 			this.add('rule', 'Dive Battle: Only Water And Ice-type pokemon are allowed.');
 		},
                 validateSet: function(set) {
-                        var template = this.getTemplate(set.type);
-                        if (set.type !== 'Water' && set.type !== 'Ice') {
-                                return [set.species+" is banned because it is not of the Water type or the Ice Type."];
+                        var template = this.getTemplate(set.types || set.moves);
+                        if (set.type !== 'Water' && set.move !== 'Dive') {
+                                return [set.species+" is banned because it is not of the Water type or Does Not Have Dive."];
                         }
                 }
         },

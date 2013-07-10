@@ -121,7 +121,7 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
                 banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
         },
-                cap: {
+        cap: {
                 name: "CAP",
                 section: "Singles",
 
@@ -177,8 +177,8 @@ exports.BattleFormats = {
 		ruleset: ['Pokemon', 'Standard','LOL Clause'],
 		banlist: ['Uber']
 	},
-		usermons: {
-		name: "Usermons!",
+	usermonsdoubles: {
+		name: "Usermons Doubles!",
 		section: "Tervari Other Metagames",
 
 		mod: 'usermons',
@@ -552,7 +552,7 @@ exports.BattleFormats = {
         // Other Metagames
         ///////////////////////////////////////////////////////////////////
         
-        "1v1": {
+        : {
                 effectType: 'Format',
                 name: "1v1",
                 section: "OM of the Month",
@@ -586,7 +586,7 @@ exports.BattleFormats = {
                         'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
                 ]
         },
-              "1v1TP": {
+              1v1TP: {
                 effectType: 'Format',
                 name: "1v1 Team Preview",
                 section: "OM of the Month",
@@ -621,7 +621,7 @@ exports.BattleFormats = {
                         'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
                 ]
         },
-        "2v2": {
+        2v2: {
                 effectType: 'Format',
                 gameType: 'doubles',
                 name: "2v2",
@@ -654,7 +654,7 @@ exports.BattleFormats = {
                         'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
                 ]
         },
-        "2v2TP": {
+        2v2TP: {
                 effectType: 'Format',
                 gameType: 'doubles',
                 name: "2v2 Team Preview",

@@ -29,7 +29,6 @@
 		id: "objection",
 		name: "OBJECTION",
 		rating: 3.5,
-		num: 801
-	},	
+		num: 801	
     }
 };

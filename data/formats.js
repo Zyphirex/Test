@@ -775,7 +775,7 @@ exports.BattleFormats = {
         // Other Metagames
         ///////////////////////////////////////////////////////////////////
         
-        1v1: {
+        onev1: {
                 name: "1v1",
                 section: "OM of the Month",
 
@@ -810,7 +810,7 @@ exports.BattleFormats = {
                         'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
                 ]
         },
-        1v1TP: {
+        onev1TP: {
                 name: "1v1 Team Preview",
                 section: "OM of the Month",
 
@@ -846,7 +846,7 @@ exports.BattleFormats = {
                         'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
                 ]
         },
-        2v2: {
+        twov2: {
                 name: "2v2",
                 section: "OM of the Month",
 
@@ -880,7 +880,7 @@ exports.BattleFormats = {
                         'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
                 ]
         },
-        2v2TP: {
+        twov2TP: {
                 name: "2v2 Team Preview",
                 section: "OM of the Month",
 

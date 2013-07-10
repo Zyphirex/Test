@@ -1359,23 +1359,10 @@ capv2: {
          // Rulesets
         ///////////////////////////////////////////////////////////////////
 
-      //lolclause: {
-        	//effectType: 'Rule',
-		//onFaint: function (pokemon) {
+          lolclause: {
+        	effectType: 'Rule',
+		onFaint: function (pokemon) {
 			// A poem every time a Pokemon faints
-<<<<<<< HEAD
-			//var winmessagesu = ["GG WORLD.",
-			//"Your so bad, the 1001s on the smogon doubles ladder call you a noob.",
-			//"WHAT WAS THAT ABOUT YOU WINNING? oh NOTHING? that's what I thought.",
-			//"This is what happens when you chellenge, me, I WARNED 'YA!",
-			//"GODDAMNIT WHY ARE YOU SO BAD?", 
-			//"One of lifes greatest mysteries is why you suck so much.",
-			//"GG NO RED CHECK ME OUT AT YOLOSWAGMONEY.ORG"];
-			//haikus = winmessagesu.randomize();
-			//this.add('-message', winmessageu[0]);
-		//}
-     //   },
-=======
 			var winmessagesu = ["GG WORLD.",
 			"Your so bad, the 1001s on the smogon doubles ladder call you a noob.",
 			"WHAT WAS THAT ABOUT YOU WINNING? oh NOTHING? that's what I thought.",
@@ -1387,7 +1374,6 @@ capv2: {
 			this.add('-message', winmessageu[0]);
 		}
         },
->>>>>>> a61b2cab94998363c9aa6a4fbada80e4e133be89
         standard: {
                 effectType: 'Banlist',
                 ruleset: ['Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod'],

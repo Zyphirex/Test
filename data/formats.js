@@ -1293,7 +1293,7 @@ exports.BattleFormats = {
                 challengeShow: true,
                 searchShow: true,
                 isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview','Dive Battle Clause'],
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview','DiveBattle clause'],
                 banlist: ['Uber', 'Drizzle', 'Soul Dew']
         },	
         // Past Generations
@@ -1424,7 +1424,7 @@ exports.BattleFormats = {
 			this.add('rule', 'Dive Battle: Only Water And Ice-type pokemon are allowed.');
 		},
                 validateSet: function(set) {
-                        var template = this.getTemplate(set.type || set.type);
+                        var template = this.getTemplate(set.type);
                         if (set.type !== 'Water' && set.type !== 'Ice') {
                                 return [set.species+" is banned because it is not of the Water type or the Ice Type."];
                         }

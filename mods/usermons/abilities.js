@@ -13,6 +13,8 @@ exports.BattleAbilities = {
 			 this.boost({atk:2});
 			}
 		},
+		id: "drunkenfist",
+		name: "Drunken Fist",
 		rating: 3,
 		num: -8
 	},

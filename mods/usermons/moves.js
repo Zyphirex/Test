@@ -146,8 +146,8 @@ exports.BattleMovedex = {
 		type: "Dark"
 	},
 	"lunarfist": {
-		num: 7,
-		accuracy: 900,
+		num: 900,
+		accuracy: 100,
 		basePower: 75,
 		category: "Physical",
 		desc: "Deals damage to one adjacent target with a mystical punch. Makes contact. Damage is boosted to 1.2x by the Ability Iron Fist.",

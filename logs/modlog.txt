@@ -3875,3 +3875,5 @@
 [2013-07-10T17:58:54.529Z] (lobby) bandicam was promoted to Tervari Gym Trainer by Snaquaza.
 [2013-07-10T18:43:59.880Z] (lobby) The Pokemon of the Day was changed to Oceagon by Snaquaza.
 [2013-07-11T00:01:23.803Z] (lobby) Snaquaza used /snaqsays to say bandi left
+[2013-07-11T01:05:04.512Z] (lobby) Snaquaza just used /remind
+[2013-07-11T13:46:29.365Z] (lobby) Skalaylee was promoted to Tervari Gym Trainer by Snaquaza.

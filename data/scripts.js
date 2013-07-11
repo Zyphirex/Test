@@ -1,4 +1,4 @@
-bexports.BattleScripts = {
+exports.BattleScripts = {
 	gen: 5,
 	runMove: function(move, pokemon, target, sourceEffect) {
 		if (!sourceEffect && toId(move) !== 'struggle') {

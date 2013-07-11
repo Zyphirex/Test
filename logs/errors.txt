@@ -8754,3 +8754,21 @@ TypeError: Cannot read property 'isActive' of null
     at process.EventEmitter.emit (events.js:98:17)
     at handleMessage (child_process.js:318:10)
     at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.dq (/Users/clazinasteunenberg/Downloads/Test/commands.js:505:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at BattleRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1103:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1028:9)
+    at /Users/clazinasteunenberg/Downloads/Test/app.js:418:10
+    at Array.forEach (native)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:417:22)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+
+Additional information:
+user = snaquaza
+ip = 127.0.0.1
+roomid = battle-haxmons-267
+message = battle-haxmons-267|/dq superman555

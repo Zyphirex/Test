@@ -1,6 +1,6 @@
- exports.BattleAbilities = {
- "drunkenfist": {
-    desc: "If a contact move knocks out this Pokemon, the opponent receives damage equal to one-fourth of its max HP.",
+exports.BattleAbilities = {
+ 	"drunkenfist": {
+   		desc: "If a contact move knocks out this Pokemon, the opponent receives damage equal to one-fourth of its max HP.",
 		shortDesc: "If this Pokemon is KOed with a contact move, that move's user loses 1/4 its max HP.",
 		id: "drunkenfist",
 		name: "Drunken Fist",
@@ -25,10 +25,11 @@
 		onImmunity: function(type, target) {
 			if (type === 'Normal' && !target.activeTurns) {
 				return false;
+			}
 		},
 		id: "objection",
 		name: "OBJECTION",
 		rating: 3.5,
 		num: -9	
-    }
+    	}
 };

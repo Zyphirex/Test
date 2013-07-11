@@ -5,7 +5,7 @@ exports.BattleAbilities = {
 		id: "drunkenfist",
 		name: "Drunken Fist",
 		onStart: function(pokemon) {
-			this.add('-message', 'The effects of weather disappeared. (placeholder)');
+			this.add('-message', pokemon.name + " is drunk!");
 		},
 		onStart: function(pokemon) {
 			pokemon.addVolatile('confusion');

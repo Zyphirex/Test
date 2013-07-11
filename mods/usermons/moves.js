@@ -1,6 +1,6 @@
 exports.BattleMovedex = {
-  "vodkabottlethrow": {
-    num: 800,
+  	"vodkabottlethrow": {
+   		num: 800,
 		accuracy: 85,
 		basePower: 20,
 		category: "Special",
@@ -15,5 +15,53 @@ exports.BattleMovedex = {
 		secondary: false,
 		target: "normal",
 		type: "Water"
+	},
+	"shockbeam": {
+		num: 801,
+		accuracy: 85,
+		basePower: 130,
+		basePowerCallback: function(attacker, defender, move) {
+			if (defender.volatiles['substitute']) {
+				this.debug('You should not have done that substitute person, for Master Spark will hit you harder!');
+				return 540;
+			}
+			return 130;
+		},
+		category: "Special",
+		desc: "MASTAAAAAAA SPAAAAAAAAKU"
+		shortDesc: "BeamSpam",
+		id: "shockbeam",
+		name: "Master Spark",
+		pp: 5,
+		priority: 0,
+		multihit: [1,1]
+		multihitCallback: function(attacker, defender, move) {
+			if (defender.volatiles['substitute']) {
+				return [2,2];
+			}
+			return [1,1];
+		},
+		secondary: {
+			chance: 20,
+			status: 'brn'
+		},
+		target: "normal",
+		type: "Electric"	
+	},
+	"shockspam": {
+		num: 802,
+		accuracy: 100,
+		basePower: 25,
+		category: "Special",
+		desc: "ASFLKJCLV:KMXC?><MQW:RLKJQW:IUQPOEWIURPS",
+		shortDesc: "SPAAAAAAAAAAAAAAAAAM",
+		id: "shockspam",
+		name: "Chain Bolt",
+		pp: 10,
+		priority: 0,
+		multihit: [6,6],
+		secondary: false,
+		target: "normal",
+		type: "Electric"
 	},
 };

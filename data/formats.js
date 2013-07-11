@@ -830,33 +830,33 @@ exports.BattleFormats = {
                 searchShow: true,
                 ruleset: ['Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
 	},
-        //nohaxmons: {
-                //name: "No Haxmons",
-                //section: "Other Metagames",
+        nohaxmons: {
+                name: "No Haxmons",
+                section: "Other Metagames",
 
-               //mod: 'nohax',
-               //effectType: 'Format',
-                //challengeShow: true,
-                //isTeambuilderFormat: true,
-                //searchShow: true,
-                //rated: true,
-                //ruleset: ['No Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                //banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
-        //},
-	//randomnohaxmons: {
-              // name: "Random No Haxmons",
-               //section: "Other Metagames",
+               mod: 'nohax',
+               effectType: 'Format',
+                challengeShow: true,
+                isTeambuilderFormat: true,
+                searchShow: true,
+                rated: true,
+                ruleset: ['No Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+        },
+	randomnohaxmons: {
+               name: "Random No Haxmons",
+               section: "Other Metagames",
 
-               //mod: 'nohax',
-               //effectType: 'Format',
-                //team: 'random',
-                //canUseRandomTeam: true,
-                //searchDefault: true,
-                //rated: true,
-                //challengeShow: true,
-                //searchShow: true,
-                //ruleset: ['No Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
-	//},
+               mod: 'nohax',
+               effectType: 'Format',
+                team: 'random',
+                canUseRandomTeam: true,
+                searchDefault: true,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                ruleset: ['No Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
+	},
         gennextou: {
                 name: "Gen-NEXT OU",
                 section: "Other Metagames",
@@ -1029,31 +1029,6 @@ exports.BattleFormats = {
     //    },
 	// Tervari Other Metagames
 	///////////////////////////////////////////////////////////////////
-
-
-<<<<<<< HEAD
-//	usermons: {
-//		name: "Usermons!",
-//		section: "Other Metagames",
-//		mod: 'usermons',
-//		effectType: 'Format',
-//		challengeShow: true,
-//		isTeambuilderFormat: true,
-//		ruleset: ['Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod', 'Pokemon', 'LOLClause', 'Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod'],
-//		banlist: []
-//	},
-//	usermonsdoubles: {
-//		name: "Usermons Doubles!",
-//		section: "Other Metagames",
-//		mod: 'usermons',
-//		effectType: 'Format',
-//		gameType: 'doubles',
-//		challengeShow: true,
-//		isTeambuilderFormat: true,
-//		ruleset: ['Pokemon', 'Standard','LOLClause'],
-//		banlist: []
-//	},
-=======
 	usermons: {
 		name: "Usermons!",
 		section: "Other Metagames",
@@ -1062,7 +1037,7 @@ exports.BattleFormats = {
 		effectType: 'Format',
 		challengeShow: true,
 		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard','LOLClause'],
+		ruleset: ['HP Percentage Mod', 'Pokemon', 'LOLClause', 'Moody Clause', 'Evasion Moves Clause', 'Team Preview'],
 		banlist: ['Uber']
 	},
 	usermonsdoubles: {
@@ -1074,10 +1049,9 @@ exports.BattleFormats = {
 		gameType: 'doubles',
 		challengeShow: true,
 		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard','LOLClause'],
+		ruleset: ['HP Percentage Mod', 'Pokemon', 'LOLClause', 'Moody Clause', 'Evasion Moves Clause', 'Team Preview'],
 		banlist: ['Uber']
 	},
->>>>>>> 1e1fda932a6ce09a5ac0bf04ea45564287f693d9
  // divebattles: {
  //               name: "Dive Battle",
  //               section: "Other Metagames",

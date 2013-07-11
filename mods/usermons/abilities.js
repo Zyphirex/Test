@@ -5,7 +5,7 @@ exports.BattleAbilities = {
 		id: "drunkenfist",
 		name: "Drunken Fist",
 		onStart: function(pokemon) {
-			this.add('-message', pokemon.name + " is drunk!");
+			this.add('-message', 'The effects of weather disappeared. (placeholder)');
 		},
 		onStart: function(pokemon) {
 			pokemon.addVolatile('confusion');
@@ -13,8 +13,6 @@ exports.BattleAbilities = {
 			 this.boost({atk:2});
 			}
 		},
-		id: "drunkenfist",
-		name: "Drunken Fist",
 		rating: 3,
 		num: -8
 	},
@@ -32,6 +30,80 @@ exports.BattleAbilities = {
 		id: "objection",
 		name: "OBJECTION",
 		rating: 3.5,
-		num: -9	
+		num: -9
+    	},
+    	"ooh": {
+    		desc: "This description is pointless.",
+    		shortDesc: "So is this one.",
+    		onStart: function(pokemon) {
+    			this.add('-message', pokemon.name + " emitted a magical aura!");
+    		},
+    		onModifyAtk: function(atk) {
+			return atk * 1.5;
+		},
+		onModifySpa: function(spa) {
+			return spa * 1.5;
+		},
+    		onAllyModifyPokemonPriority: 100,
+		onAllyModifyPokemon: function(pokemon) {
+			if (this.activePokemon === this.effectData.target && pokemon !== this.activePokemon) {
+				pokemon.ignore['Ability'] = 'A';
+			}
+		},
+		onFoeModifyPokemonPriority: 100,
+		onFoeModifyPokemon: function(pokemon) {
+			if (this.activePokemon === this.effectData.target) {
+				pokemon.ignore['Ability'] = 'A';
+			}
+		},
+		id: "ooh",
+		name: "Pikachu Power",
+		rating: 42,
+		num: -10
+    	},
+    	"cookies": {
+    		desc: "So is this one.",
+    		shortDesc: "This description is pointless.",
+    		onStart: function(pokemon) {
+    			this.add('-message', pokemon.name + " ate a Golden Apple! Oh noes! Now it gets Regeneration!");
+    		},
+    		onResidualOrder: 5,
+		onResidualSubOrder: 2,
+		onResidual: function(pokemon) {
+			this.heal(pokemon.maxhp/8);
+		},
+		id: "cookies",
+		name: "Regeneration II",
+		rating: 1337,
+		num: -11
+    	},
+    	"omnomnom": {
+    		desc: "Why are you even reading these?",
+    		shortDesc: "Why are you even reading these?",
+    		onStart: function(pokemon) {
+    			this.add('-message', pokemon.name + " absorbed a magical aura!");
+    		},
+    		onModifyDef: function(def) {
+			return def * 1.5;
+		},
+		onModifySpd: function(spd) {
+			return spd * 1.5;
+		},
+    		onAllyModifyPokemonPriority: 100,
+		onAllyModifyPokemon: function(pokemon) {
+			if (this.activePokemon === this.effectData.target && pokemon !== this.activePokemon) {
+				pokemon.ignore['Ability'] = 'A';
+			}
+		},
+		onFoeModifyPokemonPriority: 100,
+		onFoeModifyPokemon: function(pokemon) {
+			if (this.activePokemon === this.effectData.target) {
+				pokemon.ignore['Ability'] = 'A';
+			}
+		},
+		id: "omnomnom",
+		name: "Pikachu Sense",
+		rating: 9001,
+		num: -12
     	}
 };

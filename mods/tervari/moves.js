@@ -11197,10 +11197,9 @@ exports.BattleMovedex = {
 				this.effectData.layers = 1;
 			},
 			onRestart: function(side) {
-				if (this.effectData.layers < 3) {
-					this.add('-sidestart', side, 'Spikes');
-					this.effectData.layers++;
-				}
+				if (this.effectData.layers >= 3) return false;
+				this.add('-sidestart', side, 'Spikes');
+				this.effectData.layers++;
 			},
 			onSwitchIn: function(pokemon) {
 				var side = pokemon.side;

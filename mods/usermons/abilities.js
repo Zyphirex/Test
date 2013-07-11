@@ -45,7 +45,7 @@ exports.BattleAbilities = {
 		id: "jointlighter",
 		name: "Joint Lighter",
 		rating: 5,
-		num: -10
+		num: -13
 	},
     	"ooh": {
     		desc: "This description is pointless.",

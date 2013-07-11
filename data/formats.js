@@ -1014,6 +1014,19 @@ exports.BattleFormats = {
                         return problems;
                 }
         },
+    //    lessbasepower: {
+    //            name: "Less Base Power",
+    //            section: "Singles",
+    //		  mod: 'lessbasepower',
+    //            effectType: 'Format',
+    //            challengeDefault: true,
+    //            rated: true,
+    //            challengeShow: true,
+    //            searchShow: true,
+    //            isTeambuilderFormat: true,
+    //            ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+    //            banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+    //    },
 	// Tervari Other Metagames
 	///////////////////////////////////////////////////////////////////
 
@@ -1024,10 +1037,7 @@ exports.BattleFormats = {
 
 		mod: 'usermons',
 		effectType: 'Format',
-		challengeDefault: true,
-		rated: true,
 		challengeShow: true,
-		searchShow: true,
 		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Standard','LOLClause'],
 		banlist: ['Uber']
@@ -1038,28 +1048,39 @@ exports.BattleFormats = {
 
 		mod: 'usermons',
 		effectType: 'Format',
-		challengeDefault: true,
 		gameType: 'doubles',
-		rated: true,
 		challengeShow: true,
-		searchShow: true,
 		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Standard','LOLClause'],
 		banlist: ['Uber']
 	},
-  divebattles: {
-                name: "Dive Battle",
-                section: "Other Metagames",
+ // divebattles: {
+ //               name: "Dive Battle",
+ //               section: "Other Metagames",
 
+ //               effectType: 'Format',
+ //               challengeDefault: true,
+ //               rated: true,
+ //               challengeShow: true,
+ //               searchShow: true,
+ //               isTeambuilderFormat: true,
+ //               ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview','DiveBattle clause'],
+ //               banlist: ['Uber', 'Drizzle', 'Soul Dew']
+ //       },	
+       specialstat: {
+                name: "Special Stat",
+                section: "Other Metagames",
+		mod: 'special',
                 effectType: 'Format',
                 challengeDefault: true,
                 rated: true,
                 challengeShow: true,
                 searchShow: true,
                 isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview','DiveBattle clause'],
-                banlist: ['Uber', 'Drizzle', 'Soul Dew']
-        },	
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+        },
+
         // Past Generations
         ///////////////////////////////////////////////////////////////////
 

@@ -7564,3 +7564,1193 @@ TypeError: Cannot call method 'indexOf' of undefined
     at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
     at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
     at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Object Battle: lessbasepower has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-lessbasepower-295|join|p1|Snaquaza|101
+currentRequest = 
+
+Log:
+
+
+TypeError: Object Battle: lessbasepower has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-lessbasepower-295|join|p1|Snaquaza|101
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: lessbasepower has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-lessbasepower-295|join|p1|Snaquaza|101
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: lessbasepower has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-lessbasepower-295|join|p1|Snaquaza|101
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: lessbasepower has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-lessbasepower-295|join|p1|Snaquaza|101
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: randombattle has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-randombattle-296|join|p1|Angry Raspberry|63
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: capv2 has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-capv2-261|join|p1|Eagle5|1
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: ou has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-ou-261|join|p1|Firehound|2
+currentRequest = 
+
+Log:
+
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Object Battle: ou has no method 'getTeam'
+    at new BattleSide (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1096:27)
+    at Tools.Battle.join (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3333:15)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:3390:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:143:12)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+Additional information:
+message = battle-ou-261|join|p1|Firehound|2
+currentRequest = 
+
+Log:
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+
+TypeError: Cannot read property 'isActive' of null
+    at Tools.Battle.makeRequest (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:1943:15)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Test/battle-engine.js:157:13)
+    at process.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)

@@ -16,40 +16,6 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Water"
 	},
-	"masterspark": {
-		num: 801,
-		accuracy: 85,
-		basePower: 130,
-		category: "Special",
-		desc: "MASTAAAAAAA SPAAAAAAAAKU"
-		shortDesc: "BeamSpam",
-		id: "masterspark",
-		name: "Master Spark",
-		pp: 5,
-		priority: 0,
-		secondary: {
-			chance: 20,
-			status: 'brn'
-		},
-		target: "normal",
-		type: "Electric"
-	},
-	"chainbolt": {
-		num: 802,
-		accuracy: 100,
-		basePower: 25,
-		category: "Special",
-		desc: "insert stuff here",
-		shortDesc: "SPAAAAAAAAAAAAAAAAAM",
-		id: "chainbolt",
-		name: "Chain Bolt",
-		pp: 10,
-		priority: 0,
-		multihit: [4,5],
-		secondary: false,
-		target: "normal",
-		type: "Electric"
-	},
 		"moonblast": {
 		num: 803,
 		accuracy: 90,

@@ -143,6 +143,22 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Fairy"
 	},
+	"snaquazabanpower":{
+		num: 1329,
+		accuracy: 100,
+		basePower: 0,
+		category: "Special",
+		desc: "Deals damage to one adjacent target equal to the target's max HP. Ignores accuracy and evasion modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Ability Sturdy are immune.",
+		shortDesc: "OHKOs the target. Fails if user is a lower level.",
+		id: "banhammer",
+		name: "Snaquaza Ban Hammer",
+		pp: 40,
+		priority: 1,
+		secondary: false,
+		ohko: true,
+		target: "normal",
+		type: "Dark"
+	},
 	"lunarfist": {
 		num: 7,
 		accuracy: 100,

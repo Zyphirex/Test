@@ -841,7 +841,27 @@ exports.BattleFormats = {
                 searchShow: true,
                 rated: true,
                 ruleset: ['No Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+                banlist: ['Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+			'Blaziken',
+                        'Darkrai', 
+                        'Deoxys', 'Deoxys-Attack','Deoxys-Defense','Deoxys-Speed',
+                        'Dialga', 
+			'Excadrill',
+			'Genesect',
+                        'Giratina', 'Giratina-Origin', 
+                        'Groudon', 
+                        'Ho-Oh', 
+                        'Kyogre', 
+                        'Kyurem-White', 
+                        'Lugia', 
+			'Manaphy',
+                        'Mewtwo',
+                        'Palkia', 
+                        'Rayquaza', 
+                        'Reshiram', 
+			'Thundurus',
+			'Tornadus-Therian',
+                        'Zekrom', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
 	randomnohaxmons: {
                name: "Random No Haxmons",
@@ -1027,9 +1047,6 @@ exports.BattleFormats = {
     //            ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
     //            banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
     //    },
-	// Tervari Other Metagames
-	///////////////////////////////////////////////////////////////////
-
 
 	usermons: {
 		name: "Usermons!",

@@ -1055,8 +1055,8 @@ exports.BattleFormats = {
 		effectType: 'Format',
 		challengeShow: true,
 		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard','LOLClause'],
-		banlist: ['Uber']
+		ruleset: ['Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod', 'Pokemon', 'LOLClause', 'Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod'],
+		banlist: []
 	},
 	usermonsdoubles: {
 		name: "Usermons Doubles!",
@@ -1067,7 +1067,7 @@ exports.BattleFormats = {
 		challengeShow: true,
 		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Standard','LOLClause'],
-		banlist: ['Uber']
+		banlist: []
 	},
  // divebattles: {
  //               name: "Dive Battle",

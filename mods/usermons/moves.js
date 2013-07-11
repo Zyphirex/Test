@@ -39,7 +39,7 @@ exports.BattleMovedex = {
 		accuracy: 100,
 		basePower: 25,
 		category: "Special",
-		desc: "ASFLKJCLV:KMXC?><MQW:RLKJQW:IUQPOEWIURPS",
+		desc: "insert stuff here",
 		shortDesc: "SPAAAAAAAAAAAAAAAAAM",
 		id: "chainbolt",
 		name: "Chain Bolt",
@@ -51,7 +51,7 @@ exports.BattleMovedex = {
 		type: "Electric"
 	},
 		"moonblast": {
-		num: 1005,
+		num: 803,
 		accuracy: 90,
 		basePower: 130,
 		category: "Special",
@@ -73,7 +73,7 @@ exports.BattleMovedex = {
 		type: "Fairy"
 	},
 	"fairywind": {
-		num: 1006,
+		num: 804,
 	        accuracy: 100,
 		basePower: 85,
 		category: "Special",
@@ -96,7 +96,7 @@ exports.BattleMovedex = {
 		type: "Fairy"
 	},
 	"mysticcrash": {
-		num: 1007,
+		num: 805,
 	        accuracy: 100,
 		basePower: 120,
 		category: "Physical",
@@ -114,7 +114,7 @@ exports.BattleMovedex = {
 		type: "Fairy"
 	},
 	"starshot": {
-		num: 1008,
+		num: 806,
 	        accuracy: 100,
 		basePower: 80,
 		category: "Special",
@@ -129,24 +129,8 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Fairy"
 	},
-	"snaquazabanhammer":{
-		num: 1329,
-		accuracy: 100,
-		basePower: 0,
-		category: "Special",
-		desc: "Deals damage to one adjacent target equal to the target's max HP. Ignores accuracy and evasion modifiers. This attack's accuracy is equal to (user's level - target's level + 1000)%, and fails if the target is at a higher level. Pokemon with the Ability Sturdy are immune.",
-		shortDesc: "OHKOs the target. Fails if user is a lower level.",
-		id: "snaquazabanhammer",
-		name: "Snaquaza Ban Hammer",
-		pp: 40,
-		priority: 1,
-		secondary: false,
-		ohko: true,
-		target: "normal",
-		type: "Dark"
-	},
 	"lunarfist": {
-		num: 900,
+		num: 807,
 		accuracy: 100,
 		basePower: 75,
 		category: "Physical",

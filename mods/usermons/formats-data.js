@@ -10,7 +10,7 @@ exports.BattleFormatsData = {
 		tier: "OU"
 	},
 	snaquaza: {
-		viableMoves: {"snaquazabanpower":1},
+		viableMoves: {"nightdaze":1},
 		dreamWorldRelease: false,
 		tier: "Ubers"
 	},

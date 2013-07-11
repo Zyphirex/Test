@@ -47,7 +47,7 @@ exports.BattleAbilities = {
 		rating: 5,
 		num: -13
 	},
-    	"ooh": {
+    	"pikachupower": {
     		desc: "This description is pointless.",
     		shortDesc: "So is this one.",
     		onStart: function(pokemon) {
@@ -71,12 +71,12 @@ exports.BattleAbilities = {
 				pokemon.ignore['Ability'] = 'A';
 			}
 		},
-		id: "ooh",
+		id: "pikachupower",
 		name: "Pikachu Power",
 		rating: 42,
 		num: -10
     	},
-    	"cookies": {
+    	"regenerationii": {
     		desc: "So is this one.",
     		shortDesc: "This description is pointless.",
     		onStart: function(pokemon) {
@@ -87,12 +87,12 @@ exports.BattleAbilities = {
 		onResidual: function(pokemon) {
 			this.heal(pokemon.maxhp/8);
 		},
-		id: "cookies",
+		id: "regenerationii",
 		name: "Regeneration II",
 		rating: 1337,
 		num: -11
     	},
-    	"omnomnom": {
+    	"pikachusense": {
     		desc: "Why are you even reading these?",
     		shortDesc: "Why are you even reading these?",
     		onStart: function(pokemon) {
@@ -116,7 +116,7 @@ exports.BattleAbilities = {
 				pokemon.ignore['Ability'] = 'A';
 			}
 		},
-		id: "omnomnom",
+		id: "pikachusense",
 		name: "Pikachu Sense",
 		rating: 9001,
 		num: -12

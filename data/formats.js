@@ -1639,8 +1639,8 @@ exports.BattleFormats = {
 					}
 				}
 			}
-			if (move.accuracy !== true && move.accuracy <= 99) {
-				move.accuracy = 100;
+			if (move.accuracy !== true) {
+				move.accuracy = true;
 			}
 			move.willCrit = false;
 		}

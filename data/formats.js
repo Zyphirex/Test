@@ -1048,27 +1048,27 @@ exports.BattleFormats = {
     //            banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
     //    },
 
-	usermons: {
-		name: "Usermons!",
-		section: "Other Metagames",
-		mod: 'usermons',
-		effectType: 'Format',
-		challengeShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod', 'Pokemon', 'LOLClause', 'Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod'],
-		banlist: []
-	},
-	usermonsdoubles: {
-		name: "Usermons Doubles!",
-		section: "Other Metagames",
-		mod: 'usermons',
-		effectType: 'Format',
-		gameType: 'doubles',
-		challengeShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard','LOLClause'],
-		banlist: []
-	},
+//	usermons: {
+//		name: "Usermons!",
+//		section: "Other Metagames",
+//		mod: 'usermons',
+//		effectType: 'Format',
+//		challengeShow: true,
+//		isTeambuilderFormat: true,
+//		ruleset: ['Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod', 'Pokemon', 'LOLClause', 'Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod'],
+//		banlist: []
+//	},
+//	usermonsdoubles: {
+//		name: "Usermons Doubles!",
+//		section: "Other Metagames",
+//		mod: 'usermons',
+//		effectType: 'Format',
+//		gameType: 'doubles',
+//		challengeShow: true,
+//		isTeambuilderFormat: true,
+//		ruleset: ['Pokemon', 'Standard','LOLClause'],
+//		banlist: []
+//	},
  // divebattles: {
  //               name: "Dive Battle",
  //               section: "Other Metagames",

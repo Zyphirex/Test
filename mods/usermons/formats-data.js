@@ -11,7 +11,7 @@ exports.BattleFormatsData = {
 	},
 	snaquaza: {
 		viableMoves: {"snaquazabanpower":1},
-		dreamWorldRelease: true,
+		dreamWorldRelease: false,
 		tier: "Ubers"
 	},
 };

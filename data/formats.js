@@ -830,33 +830,33 @@ exports.BattleFormats = {
                 searchShow: true,
                 ruleset: ['Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
 	},
-        nohaxmons: {
-                name: "No Haxmons",
-                section: "Other Metagames",
+        //nohaxmons: {
+                //name: "No Haxmons",
+                //section: "Other Metagames",
 
-               mod: 'nohax',
-               effectType: 'Format',
-                challengeShow: true,
-                isTeambuilderFormat: true,
-                searchShow: true,
-                rated: true,
-                ruleset: ['No Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
-        },
-	randomnohaxmons: {
-               name: "Random No Haxmons",
-               section: "Other Metagames",
+               //mod: 'nohax',
+               //effectType: 'Format',
+                //challengeShow: true,
+                //isTeambuilderFormat: true,
+                //searchShow: true,
+                //rated: true,
+                //ruleset: ['No Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                //banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+        //},
+	//randomnohaxmons: {
+              // name: "Random No Haxmons",
+               //section: "Other Metagames",
 
-               mod: 'nohax',
-               effectType: 'Format',
-                team: 'random',
-                canUseRandomTeam: true,
-                searchDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                ruleset: ['No Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
-	},
+               //mod: 'nohax',
+               //effectType: 'Format',
+                //team: 'random',
+                //canUseRandomTeam: true,
+                //searchDefault: true,
+                //rated: true,
+                //challengeShow: true,
+                //searchShow: true,
+                //ruleset: ['No Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
+	//},
         gennextou: {
                 name: "Gen-NEXT OU",
                 section: "Other Metagames",

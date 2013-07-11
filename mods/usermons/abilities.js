@@ -4,19 +4,35 @@
 		shortDesc: "If this Pokemon is KOed with a contact move, that move's user loses 1/4 its max HP.",
 		id: "drunkenfist",
 		name: "Drunken Fist",
-		onSwitchIn: function (pokemon) {
-			      this.add('-message', pokemon.name + " is drunk!");
-			pokemon.addVolatile('confusion');
-			 self: {	
-				boosts: {
-			spa: 2,
-			atk: 2
+		onStart: function(pokemon) {
+			this.add('-message', 'The effects of weather disappeared. (placeholder)');
 		},
+			pokemon.addVolatile('confusion');
+			 this.boost({spa:2});
+			 this.boost({atk:2});
 			}
 		},
 		rating: 3,
-		num: 800
+		num: -8
 	},
+		"download": {
+		desc: "If this Pokemon switches into an opponent with equal Defenses or higher Defense than Special Defense, this Pokemon's Special Attack receives a 50% boost. If this Pokemon switches into an opponent with higher Special Defense than Defense, this Pokemon's Attack receive a 50% boost.",
+		shortDesc: "On switch-in, Attack or Sp. Atk is boosted by 1 based on the foes' weaker Defense.",
+		onStart: function (pokemon) {
+			var foeactive = pokemon.side.foe.active;
+			var totaldef = 0;
+			var totalspd = 0;
+			for (var i=0; i<foeactive.length; i++) {
+				if (!foeactive[i] || foeactive[i].fainted) continue;
+				totaldef += foeactive[i].stats.def;
+				totalspd += foeactive[i].stats.spd;
+			}
+			if (totaldef && totaldef >= totalspd) {
+				this.boost({spa:1});
+			} else if (totalspd) {
+				this.boost({atk:1});
+			}
+		},
 	"objection": {
 		desc: "This Pokémon avoids all Rock-type attacks and hazards when switching in.",
 		shortDesc: "On switch-in, this Pokemon avoids all Rock-type attacks and Stealth Rock.",

@@ -1051,7 +1051,6 @@ exports.BattleFormats = {
 	usermons: {
 		name: "Usermons!",
 		section: "Other Metagames",
-
 		mod: 'usermons',
 		effectType: 'Format',
 		challengeShow: true,
@@ -1062,7 +1061,6 @@ exports.BattleFormats = {
 	usermonsdoubles: {
 		name: "Usermons Doubles!",
 		section: "Other Metagames",
-
 		mod: 'usermons',
 		effectType: 'Format',
 		gameType: 'doubles',

@@ -20,13 +20,6 @@ exports.BattleMovedex = {
 		num: 801,
 		accuracy: 85,
 		basePower: 130,
-		basePowerCallback: function(attacker, defender, move) {
-			if (defender.volatiles['substitute']) {
-				this.debug('You should not have done that substitute person, for Master Spark will hit you harder!');
-				return 540;
-			}
-			return 130;
-		},
 		category: "Special",
 		desc: "MASTAAAAAAA SPAAAAAAAAKU"
 		shortDesc: "BeamSpam",
@@ -34,13 +27,6 @@ exports.BattleMovedex = {
 		name: "Master Spark",
 		pp: 5,
 		priority: 0,
-		multihit: [1,1]
-		multihitCallback: function(attacker, defender, move) {
-			if (defender.volatiles['substitute']) {
-				return [2,2];
-			}
-			return [1,1];
-		},
 		secondary: {
 			chance: 20,
 			status: 'brn'
@@ -59,7 +45,7 @@ exports.BattleMovedex = {
 		name: "Chain Bolt",
 		pp: 10,
 		priority: 0,
-		multihit: [6,6],
+		multihit: [4,5],
 		secondary: false,
 		target: "normal",
 		type: "Electric"

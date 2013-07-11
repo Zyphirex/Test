@@ -1,6 +1,7 @@
 exports.BattleAbilities = {
 	"serenegrace": {
   		inherit: true
+  		onModifyMovePriority: -101,
 		onModifyMove: function(move) {
 			if (move.secondaries) {
 				this.debug('doubling secondary chance');

@@ -1634,7 +1634,9 @@ exports.BattleFormats = {
 		onModifyMove: function(move) {
 			if (move.secondaries) {
 				for (var s = 0; s < move.secondaries.length; ++s) {
-					move.secondaries[s].chance = 0;
+					if (move.secondaries[s].chance !== 100) {
+						move.secondaries[s].chance = 0;
+					}
 				}
 			}
 			if (move.accuracy !== true && move.accuracy <= 99) {

@@ -16,7 +16,7 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Water"
 	},
-	"shockbeam": {
+	"masterspark": {
 		num: 801,
 		accuracy: 85,
 		basePower: 130,
@@ -30,7 +30,7 @@ exports.BattleMovedex = {
 		category: "Special",
 		desc: "MASTAAAAAAA SPAAAAAAAAKU"
 		shortDesc: "BeamSpam",
-		id: "shockbeam",
+		id: "masterspark",
 		name: "Master Spark",
 		pp: 5,
 		priority: 0,
@@ -48,14 +48,14 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Electric"	
 	},
-	"shockspam": {
+	"chainbolt": {
 		num: 802,
 		accuracy: 100,
 		basePower: 25,
 		category: "Special",
 		desc: "ASFLKJCLV:KMXC?><MQW:RLKJQW:IUQPOEWIURPS",
 		shortDesc: "SPAAAAAAAAAAAAAAAAAM",
-		id: "shockspam",
+		id: "chainbolt",
 		name: "Chain Bolt",
 		pp: 10,
 		priority: 0,

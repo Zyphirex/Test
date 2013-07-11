@@ -3888,3 +3888,7 @@
 [2013-07-11T16:45:15.197Z] (lobby) RealPresent turned off /hi
 [2013-07-11T16:47:14.766Z] (lobby) SnaquazAFK-Shut_Up_RP was forcibly renamed to Snaquaza by RealPresent.
 [2013-07-11T17:24:15.298Z] (lobby) Snaquaza just used /remind
+[2013-07-11T19:35:05.138Z] (lobby) EhhhN set modchat to +
+[2013-07-11T19:35:30.665Z] (lobby) EhhhN set modchat to false
+[2013-07-11T19:35:49.925Z] (lobby) Firehound set modchat to &
+[2013-07-11T19:36:01.101Z] (lobby) Firehound set modchat to false

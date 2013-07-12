@@ -28,8 +28,8 @@ exports.BattleStatuses = {
 		onStart: function(target) {
 			this.add('-status', target, 'slp');
 			// 2 turns
+			this.effectData.time = 3;
 			this.effectData.startTime = 3;
-			this.effectData.time = this.effectData.startTime;
 		},
 		onSwitchIn: function(target) {
 			this.effectData.time = this.effectData.startTime;

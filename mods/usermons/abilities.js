@@ -46,5 +46,5 @@ exports.BattleAbilities = {
 		name: "Joint Lighter",
 		rating: 5,
 		num: -13
-	}
+	},
 };

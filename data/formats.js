@@ -1029,10 +1029,7 @@ exports.BattleFormats = {
     //    },
 	// Tervari Other Metagames
 	///////////////////////////////////////////////////////////////////
-<<<<<<< HEAD
 
-=======
->>>>>>> 547e1242590610b5bf429dbe9acc39027a5ed6a7
 	usermons: {
 		name: "Usermons!",
 		section: "Other Metagames",
@@ -1056,10 +1053,7 @@ exports.BattleFormats = {
 		ruleset: ['HP Percentage Mod', 'Pokemon', 'LOLClause', 'Moody Clause', 'Evasion Moves Clause', 'Team Preview'],
 		banlist: ['Uber']
 	},
-<<<<<<< HEAD
 
-=======
->>>>>>> 547e1242590610b5bf429dbe9acc39027a5ed6a7
  // divebattles: {
  //               name: "Dive Battle",
  //               section: "Other Metagames",

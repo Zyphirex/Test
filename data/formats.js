@@ -1043,32 +1043,6 @@ exports.BattleFormats = {
     //            ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
     //            banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
     //    },
-	// Tervari Other Metagames
-	///////////////////////////////////////////////////////////////////
-
-	usermons: {
-		name: "Usermons!",
-		section: "Other Metagames",
-
-		mod: 'usermons',
-		effectType: 'Format',
-		challengeShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['HP Percentage Mod', 'Pokemon', 'LOLClause', 'Moody Clause', 'Evasion Moves Clause', 'Team Preview'],
-		banlist: ['Uber']
-	},
-	usermonsdoubles: {
-		name: "Usermons Doubles!",
-		section: "Other Metagames",
-
-		mod: 'usermons',
-		effectType: 'Format',
-		gameType: 'doubles',
-		challengeShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['HP Percentage Mod', 'Pokemon', 'LOLClause', 'Moody Clause', 'Evasion Moves Clause', 'Team Preview'],
-		banlist: ['Uber']
-	},
 
  // divebattles: {
  //               name: "Dive Battle",

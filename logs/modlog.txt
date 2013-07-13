@@ -3892,3 +3892,12 @@
 [2013-07-11T19:35:30.665Z] (lobby) EhhhN set modchat to false
 [2013-07-11T19:35:49.925Z] (lobby) Firehound set modchat to &
 [2013-07-11T19:36:01.101Z] (lobby) Firehound set modchat to false
+[2013-07-12T22:06:18.268Z] (hii) Snaquaza made the room private.
+[2013-07-13T00:23:22.438Z] (lobby) Mewtwο was promoted to Tervari Gym Trainer by Snaquaza.
+[2013-07-13T08:41:15.864Z] (lobby) Snaquaza just used /remind
+[2013-07-13T09:56:13.021Z] (lobby) The Pokemon of the Day was changed to Torterra by Snaquaza.
+[2013-07-13T09:57:16.691Z] (lobby) The Pokemon of the Day was changed to Meloetta by Snaquaza.
+[2013-07-13T09:58:47.189Z] (lobby) mewtwo was promoted to Inhabitant by Snaquaza.
+[2013-07-13T09:58:55.621Z] (lobby) (Mewtwο was demoted to Inhabitant by Snaquaza.)
+[2013-07-13T10:02:33.777Z] (lobby) Meloetta<3V was forcibly renamed to +Meloetta<3V by Snaquaza.
+[2013-07-13T10:37:29.369Z] (lobby) Snaquaza declared Latios, or I'll ban you

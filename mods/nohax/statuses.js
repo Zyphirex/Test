@@ -161,7 +161,7 @@ exports.BattleStatuses = {
 				// 2^32 - special-cased because Battle.random(n) can't handle n > 2^16 - 1
 				return (this.random()*4294967296 < 1);
 			}
-			this.debug("Success chance: +Math.round(100 - (counter - 1)*100)+"%);
+			this.debug("Success chance: +Math.round(100 - (counter - 1)*100)+%");
 			return (Math.round(counter - 1) === 0);
 		},
 		onRestart: function() {

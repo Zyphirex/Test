@@ -1477,7 +1477,7 @@ exports.BattleScripts = {
 		}
 		keys = keys.randomize();
 
-		// PotD stuff
+		//PotD stuff
 		var potd = {};
 		if ('Rule:potd' in this.getFormat().banlistTable) {
 			potd = this.getTemplate(config.potd);

@@ -1,6 +1,6 @@
 exports.BattleFormats = {
        // Singles
-        ///////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////
 
         randombattle: {
                 name: "Random Battle",
@@ -815,7 +815,11 @@ exports.BattleFormats = {
                 searchShow: true,
                 isTeambuilderFormat: true,
                 ruleset: ['Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
+<<<<<<< HEAD
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Kings Rock', 'Razor Fang']
+=======
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Kings Rock', 'Razor Claw', 'Soul Dew']
+>>>>>>> f5ba96ede4858e14ae3f723cb7f2b6da25a04c99
         },
 	randomhaxmons: {
                name: "Random Haxmons",
@@ -841,7 +845,23 @@ exports.BattleFormats = {
                 searchShow: true,
                 rated: true,
                 ruleset: ['No Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+                banlist: ['Drizzle ++ Swift Swim', 'Soul Dew',
+                	'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+                        'Darkrai', 
+                        'Deoxys', 'Deoxys-Attack',
+                        'Dialga', 
+                        'Excadrill',
+                        'Giratina', 'Giratina-Origin', 
+                        'Groudon', 
+                        'Ho-Oh', 
+                        'Kyogre', 
+                        'Kyurem-White', 
+                        'Lugia', 
+                        'Mewtwo',
+                        'Palkia', 
+                        'Rayquaza', 
+                        'Reshiram', 
+                        'Zekrom',]
         },
 	randomnohaxmons: {
                name: "Random No Haxmons",
@@ -1027,32 +1047,6 @@ exports.BattleFormats = {
     //            ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
     //            banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
     //    },
-	// Tervari Other Metagames
-	///////////////////////////////////////////////////////////////////
-
-	usermons: {
-		name: "Usermons!",
-		section: "Other Metagames",
-
-		mod: 'usermons',
-		effectType: 'Format',
-		challengeShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['HP Percentage Mod', 'Pokemon', 'LOLClause', 'Moody Clause', 'Evasion Moves Clause', 'Team Preview'],
-		banlist: ['Uber']
-	},
-	usermonsdoubles: {
-		name: "Usermons Doubles!",
-		section: "Other Metagames",
-
-		mod: 'usermons',
-		effectType: 'Format',
-		gameType: 'doubles',
-		challengeShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['HP Percentage Mod', 'Pokemon', 'LOLClause', 'Moody Clause', 'Evasion Moves Clause', 'Team Preview'],
-		banlist: ['Uber']
-	},
 
  // divebattles: {
  //               name: "Dive Battle",

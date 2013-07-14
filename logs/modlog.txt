@@ -3901,3 +3901,88 @@
 [2013-07-13T09:58:55.621Z] (lobby) (Mewtwο was demoted to Inhabitant by Snaquaza.)
 [2013-07-13T10:02:33.777Z] (lobby) Meloetta<3V was forcibly renamed to +Meloetta<3V by Snaquaza.
 [2013-07-13T10:37:29.369Z] (lobby) Snaquaza declared Latios, or I'll ban you
+[2013-07-13T10:51:53.881Z] (lobby) AngelicSuicune was forcibly renamed to AngelKeldeo by Snaquaza.
+[2013-07-13T10:56:04.282Z] (lobby) Snaquaza just used /remind
+[2013-07-13T11:04:24.936Z] (lobby) Snaquaza just used /remind
+[2013-07-13T11:12:57.610Z] (lobby) AngelicSuicune was taken to Tervari Police by Oran Berrys. (Calm Yoself AK)
+[2013-07-13T11:23:34.434Z] (lobby) Snaquaza declared Which Tier would you like the next tournament to be
+[2013-07-13T11:25:12.748Z] (lobby) AngelicSuicune was locked up in Luxuria Jail by Oran Berrys for 7 minutes. (Capady Caps Calm Down)
+[2013-07-13T11:25:25.958Z] (lobby) AngelicSuicune was freed by Naminé.
+[2013-07-13T11:30:00.952Z] (lobby) Snaquaza just used /remind
+[2013-07-13T11:40:45.891Z] (lobby) Snaquaza was banned from the Tervari Region by Snaquaza.
+[2013-07-13T11:40:45.952Z] (lobby) Snaquaza's companions were also banned from the Tervari Region: Firehound
+[2013-07-13T11:45:52.767Z] (lobby) Naminé was forcibly renamed to Amerikaanse Slaaf by Snaquaza.
+[2013-07-13T11:48:10.245Z] (lobby) Naminé was forcibly renamed to Slaaf van Nergensheid by Snaquaza.
+[2013-07-13T11:53:49.961Z] (mafia) (BDH93 was demoted to Trainer by Snaquaza.)
+[2013-07-13T12:38:29.778Z] (battle-ru-449) Naminé declared <img src="https://si0.twimg.com/profile_images/3323167878/cd7d43f26d7789d71a58e4f34241b70f.png"/>
+[2013-07-13T13:28:28.598Z] (lobby) Naminé declared Why aren't flinching moves banned ;_;
+[2013-07-13T13:28:52.853Z] (lobby) Naminé declared go op lucario with inner focus and Dark pulse
+[2013-07-13T13:29:01.642Z] (lobby) Naminé declared or steadfast
+[2013-07-13T13:29:08.510Z] (lobby) Snaquaza declared Steadfast is bad
+[2013-07-13T13:33:44.336Z] (lobby) Snaquaza declared What Type of Haxmons team should I make?
+[2013-07-13T15:55:33.602Z] (lobby) The Pokemon of the Day was changed to Oceagon by Snaquaza.
+[2013-07-13T16:48:14.785Z] (lobby) Fishbow was banned from the Tervari Region by Snaquaza.
+[2013-07-13T17:40:43.525Z] (lobby) Snaquaza declared What type of tourney would you like
+[2013-07-13T17:50:31.455Z] (xy) Oiawesome was locked up in Luxuria Jail by Snaquaza for 7 minutes.
+[2013-07-13T17:50:39.983Z] (xy) Oiawesome was freed by Snaquaza.
+[2013-07-13T18:07:54.160Z] (battle-1v1-484) RealPresent forced a win for meloetta3v.
+[2013-07-13T18:14:47.457Z] (lobby) The Pokemon of the Day was changed to Armogeist by Snaquaza.
+[2013-07-13T18:27:06.406Z] (lobby) MELO LEAGUE MELO was taken to Tervari Police by Snaquaza. (spam)
+[2013-07-13T18:57:42.310Z] (lobby) AngelicSuicune was taken to Tervari Police by RealPresent. (that is not nice)
+[2013-07-13T19:00:45.074Z] (lobby) CTB Bugs was taken to Tervari Police by Snaquaza. (spam)
+[2013-07-13T19:23:12.050Z] (lobby) RealPresent is hiding auth symbol as ' '
+[2013-07-13T19:27:49.052Z] (lobby) RealPresent declared <marquee>Hi Eneomas!</marquee>
+[2013-07-13T19:28:46.321Z] (lobby) Eneomas was promoted to Inhabitant by RealPresent.
+[2013-07-13T19:45:41.425Z] (mafia) TheWorldsGreatest was promoted to Tervari Gym Trainer by Snaquaza.
+[2013-07-13T19:46:23.661Z] (lobby) Snaquaza is hiding auth symbol as ' '
+[2013-07-13T19:46:34.124Z] (lobby) Skalaylee was locked up in Luxuria Jail by TheWorldsGreatest for 7 minutes. (test)
+[2013-07-13T19:46:44.945Z] (lobby) Skalaylee was freed by TheWorldsGreatest.
+[2013-07-13T20:02:24.032Z] (mafia) (TheWorldsGreatest was demoted to Trainer by Snaquaza.)
+[2013-07-13T20:28:54.322Z] (lobby) Snaquaza just used /remind
+[2013-07-13T20:45:56.435Z] (lobby) GaviGator was banned from the Tervari Region by Snaquaza.
+[2013-07-13T20:54:16.304Z] (lobby) Snaquaza is hiding auth symbol as ' '
+[2013-07-13T22:23:04.966Z] (lobby) COCK LAUNCHER 9000 was forced to choose a new name by Snaquaza.
+[2013-07-13T22:23:52.043Z] (lobby) (celever was demoted to Trainer by Snaquaza.)
+[2013-07-13T22:54:45.355Z] (lobby) Snaquaza turned off /gr
+[2013-07-14T02:36:10.925Z] (battle-uu-611) BDH93 was promoted to Tervari Gym Trainer by Snaquaza.
+[2013-07-14T03:29:07.248Z] (battle-lc-617) john243 was taken to Tervari Police by BDH93.
+[2013-07-14T03:29:21.994Z] (lobby) john243 was locked up in Luxuria Jail by BDH93 for 7 minutes.
+[2013-07-14T03:29:21.995Z] (lobby) john243's companions were also locked up in Luxuria Jail: matts3ds
+[2013-07-14T03:32:07.300Z] (lobby) colt45 was freed by BDH93.
+[2013-07-14T03:35:31.561Z] (lobby) matts3ds was freed by BDH93.
+[2013-07-14T03:39:28.416Z] (lobby) john243 was locked up in Luxuria Jail by BDH93 for 7 minutes.
+[2013-07-14T03:39:28.417Z] (lobby) john243's companions were also locked up in Luxuria Jail: matts3ds
+[2013-07-14T10:26:30.143Z] (lobby) AngelicSuicune was taken to Tervari Police by Oran Berrys.
+[2013-07-14T10:31:49.249Z] (lobby) AngelicSuicune was taken to Tervari Police by Snaquaza. (stay nice)
+[2013-07-14T10:34:34.378Z] (lobby) AngelicSuicune was taken to Tervari Police by Oran Berrys. (last one)
+[2013-07-14T10:42:01.219Z] (lobby) Snaquaza declared Someone for Ubers?
+[2013-07-14T10:55:50.709Z] (lobby) The Pokemon of the Day was changed to Armogeist by Snaquaza.
+[2013-07-14T11:50:26.619Z] (lobby) Snaquaza declared Anglais SVP
+[2013-07-14T12:05:23.556Z] (lobby) Snaquaza declared I give Eagle5 a 20
+[2013-07-14T12:13:44.301Z] (lobby) Meloetta<3V was taken to Tervari Police by Snaquaza.
+[2013-07-14T12:16:41.149Z] (lobby) Snaquaza just used /remind
+[2013-07-14T13:02:44.995Z] (lobby) MetalMetagross was banned from the Tervari Region by Snaquaza.
+[2013-07-14T13:06:46.654Z] (lobby) (BDH93 was demoted to Trainer by Snaquaza.)
+[2013-07-14T13:29:31.609Z] (lobby) RealPresent is hiding auth symbol as ' '
+[2013-07-14T13:38:22.124Z] (lobby) Naminé is hiding auth symbol as ' '
+[2013-07-14T13:38:37.830Z] (lobby) Snaquaza is hiding auth symbol as ' '
+[2013-07-14T13:56:29.225Z] (lobby) Fishbow was banned from the Tervari Region by Snaquaza.
+[2013-07-14T14:12:21.281Z] (lobby) Meloetta<3V was locked up in Luxuria Jail by Naminé for 7 minutes.
+[2013-07-14T14:12:21.338Z] (lobby) Meloetta<3V's companions were also locked up in Luxuria Jail: letsome1pfurserver
+[2013-07-14T14:12:24.612Z] (lobby) Meloetta<3V was freed by Naminé.
+[2013-07-14T14:12:46.651Z] (lobby) letsome1pfurserver was freed by Naminé.
+[2013-07-14T14:18:06.979Z] (lobby) watertunicsstfuplz was forced to choose a new name by Snaquaza.
+[2013-07-14T14:22:47.927Z] (lobby) WaterTunics was locked up in Luxuria Jail by Naminé for 7 minutes.
+[2013-07-14T14:22:52.091Z] (lobby) Meloetta<3V was locked up in Luxuria Jail by Naminé for 7 minutes.
+[2013-07-14T14:22:52.093Z] (lobby) Meloetta<3V's companions were also locked up in Luxuria Jail: watertunics sux
+[2013-07-14T14:28:31.297Z] (battle-tervariou-712) Naminé forced a win for namin.
+[2013-07-14T14:40:56.917Z] (lobby) arad was taken to Tervari Police by Naminé. (.... i'm Dutch)
+[2013-07-14T14:48:31.296Z] (lobby) Meloetta<3V was taken to Tervari Police by Naminé. (am not... i'm kidding not being a poepgat :P:P:P)
+[2013-07-14T14:50:28.567Z] (lobby) Meloetta<3V was taken to Tervari Police by Naminé. (i know but you don't have to tell me :(:(:( jij poepgat)
+[2013-07-14T14:52:25.995Z] (lobby) Meloetta<3V was taken to Tervari Police by Naminé. (stop being mean)
+[2013-07-14T14:56:21.497Z] (lobby) SpartanMalice was taken to Tervari Police by Naminé. (close some battle rooms :L)
+[2013-07-14T15:01:54.932Z] (lobby) arad was taken to Tervari Police by Snaquaza. (spam)
+[2013-07-14T15:22:55.783Z] (lobby) Snaquaza declared JUST SPEAK ENGLISGH
+[2013-07-14T15:23:16.118Z] (lobby) Snaquaza declared JUST SPEAK ENGLISH
+[2013-07-14T15:23:17.952Z] (lobby) Naminé declared <marquee>Naminé flees</marquee>
+[2013-07-14T15:26:12.484Z] (lobby) Snaquaza just used /remind

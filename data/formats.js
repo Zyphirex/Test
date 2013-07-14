@@ -815,11 +815,7 @@ exports.BattleFormats = {
                 searchShow: true,
                 isTeambuilderFormat: true,
                 ruleset: ['Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
-<<<<<<< HEAD
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Kings Rock', 'Razor Fang']
-=======
-                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Kings Rock', 'Razor Claw', 'Soul Dew']
->>>>>>> f5ba96ede4858e14ae3f723cb7f2b6da25a04c99
         },
 	randomhaxmons: {
                name: "Random Haxmons",

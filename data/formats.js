@@ -1034,6 +1034,63 @@ exports.BattleFormats = {
                         return problems;
                 }
         },
+        bluntmons: {
+                name: "Bluntmons",
+                section: "Other Metagames",
+
+                effectType: 'Format',
+                rated: true,
+        	     challengeShow: true,
+                searchShow: true,
+                debug: true,
+                ruleset: ['Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause'],
+                banlist: ['Unreleased', 'Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
+                validateSet: function (set, format) {
+                        var problems = [];
+                        // Check that moves aren't repeated
+                        var moves = [];
+                        if (set.moves) {
+                                var hasMove = {};
+                                for (var i=0; i<set.moves.length; i++) {
+                                        var move = this.getMove(set.moves[i]);
+                                        var moveid = move.id;
+                                        if (hasMove[moveid]) continue;
+                                        hasMove[moveid] = true;
+                                        moves.push(set.moves[i]);
+                                }
+                        }
+                        set.moves = moves;
+
+                        // Check learnset for illegalities BUT same type moves
+                        var lsetData = {set:set, format:format};
+                        var template = this.getTemplate(string(set.species));
+                        for (var i=0; i<set.moves.length; i++) {
+                                if (!set.moves[i]) continue;
+                                var move = this.getMove(string(set.moves[i]));
+                                // Check if the Pokémon has the move type
+                                var check = true;
+                                for (var t in template.types) {
+                                        if (template.types[t] === move.type) {
+                                        	problems.push(move.name+' is the same type as 'set.name+'.');
+                                        }
+                                }
+                        }
+
+                        // Check EVs
+                        var totalEV = 0;
+                        for (var k in set.evs) {
+                                if (typeof set.evs[k] !== 'number') {
+                                        set.evs[k] = 0;
+                                }
+                                totalEV += set.evs[k];
+                        }
+                        if (totalEV > 510) {
+                                problems.push(name+" has more than 510 total EVs.");
+                        }
+
+                        return problems;
+                }
+        },
     //    lessbasepower: {
     //            name: "Less Base Power",
     //            section: "Singles",

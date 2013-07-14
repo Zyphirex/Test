@@ -108,6 +108,16 @@ exports.BattleFormats = {
                 ruleset: ['NU'],
                 banlist: ["Charizard", "Wartortle", "Kadabra", "Golem", "Haunter", "Exeggutor", "Weezing", "Kangaskhan", "Pinsir", "Lapras", "Ampharos", "Misdreavus", "Piloswine", "Miltank", "Ludicolo", "Swellow", "Gardevoir", "Ninjask", "Torkoal", "Cacturne", "Altaria", "Armaldo", "Gorebyss", "Regirock", "Regice", "Bastiodon", "Floatzel", "Drifblim", "Skuntank", "Lickilicky", "Probopass", "Rotom-Fan", "Samurott", "Musharna", "Gurdurr", "Sawk", "Carracosta", "Garbodor", "Sawsbuck", "Alomomola", "Golurk", "Braviary", "Articuno", "Electabuzz", "Electrode", "Marowak", "Liepard", "Tangela", "Eelektross", "Ditto", "Seismitoad", "Zangoose", "Roselia", "Zebstrika", "Serperior", "Metang", "Tauros", "Torterra", "Cradily", "Primeape", "Munchlax", "Scolipede", "Jynx"]
         },
+        nfe: {
+        	name: "NFE",
+        	section: "Singles",
+        	
+        	effectType: 'Format'.
+        	challengeShow: true,
+        	isTeambuilderFormat: true,
+        	ruleset: ['NU', 'Not Fully Evolved'],
+        	banlist: []
+        }
         lc: {
                 name: "LC",
                 section: "Singles",
@@ -1057,7 +1067,7 @@ exports.BattleFormats = {
                         }
                         set.moves = moves;
 
-                        // Check learnset for illegalities BUT same type moves
+                        // Check learnset for illegalities INCLUDING same type moves that aren't status
                         var lsetData = {set:set, format:format};
                         var template = this.getTemplate(string(set.species));
                         for (var i=0; i<set.moves.length; i++) {
@@ -1066,8 +1076,8 @@ exports.BattleFormats = {
                                 // Check if the Pokémon has the move type
                                 var check = true;
                                 for (var t in template.types) {
-                                        if (template.types[t] === move.type) {
-                                        	problems.push(move.name+' is the same type as '+set.name+'.');
+                                        if (template.types[t] === move.type && move.category !== 'Status') {
+                                        	problems.push(move.name+' is the same type as '+set.name+', and is not a Status move.');
                                         }
                                 }
                         }
@@ -1511,19 +1521,16 @@ exports.BattleFormats = {
                         }
                 }
         },
-   //     nfe: {
-   //             effectType: 'Rule',
-   //             validateSet: function(set) {
-   //                     var template = this.getTemplate(set.species || set.name);
-  //                      if (template.prevo) {
-  //                              return [set.species+" isn't the first in its evolution family."];
-  //                    }
-  //                      if (!template.nfe) {
-  //                              return [set.species+" doesn't have an evolution family."];
-   //                     }
-  //              }
-  //      },
-       speciesclause: {
+        notfullyevolved: {
+               effectType: 'Rule',
+               validateSet: function(set) {
+                        var template = this.getTemplate(set.species || set.name);
+                        if (!template.evo || !template.nfe) {
+                                return [set.species+" is fully evolved or doesn't have an evolutionary family."];
+                        }
+               }
+        },
+        speciesclause: {
                 effectType: 'Rule',
                 onStart: function() {
                         this.add('rule', 'Species Clause: Limit one of each Pokemon');

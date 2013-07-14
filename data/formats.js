@@ -117,7 +117,7 @@ exports.BattleFormats = {
         	isTeambuilderFormat: true,
         	ruleset: ['NU', 'Not Fully Evolved'],
         	banlist: []
-        }
+        },
         lc: {
                 name: "LC",
                 section: "Singles",

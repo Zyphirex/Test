@@ -1067,7 +1067,7 @@ exports.BattleFormats = {
                                 var check = true;
                                 for (var t in template.types) {
                                         if (template.types[t] === move.type) {
-                                        	problems.push(move.name+' is the same type as 'set.name+'.');
+                                        	problems.push(move.name+' is the same type as '+set.name+'.');
                                         }
                                 }
                         }

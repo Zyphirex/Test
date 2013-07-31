@@ -162,7 +162,7 @@ var mNumVotes = 0;
 
 function mNight() {
 	mRoom.send('It is now night. Mafia members, choose a player to kill.');
-	mDaytime = false;
+	mDayTime = false;
 }
 	 
 function mCount() {
@@ -186,12 +186,14 @@ function mCount() {
 	} else {
 		mRoom.send(mChosen + ' was chosen and killed.');
 		var mMobI = mMob.indexOf(mChosen);
-		var mVilI = mVillagers.indexOf(mChosen);
+		var mPlayI = mPlayers.indexOf(mChosen);
 		if ( mMobI !== -1){
 			mMob.splice(mMobI, 1);
 		} else {
-			mVillagers.splice(mVilI, 1);
+			mVillagers.splice(mVillagers.indexOf(mChosen), 1);
 		}
+		mPlayers.splice(mPlayI, 1);
+		mVotes.splice(mPlayI, 1);
 	}
 	if (mMob.length === 0){
 		mRoom.send('All mafia have been killed. The villagers win!');
@@ -206,7 +208,7 @@ function mCount() {
 
 function mDay() {
 	mRoom.send('It is now day. You have 30 seconds to vote on a person to kill.');
-	mDaytime = true;
+	mDayTime = true;
 	mCounted = false;
 	mNumVotes = 0;
 	setTimeout(mCount, 30000);
@@ -950,7 +952,7 @@ capv2: 'capv2',
 			this.sendReplyBox('You are not a member of the mafia.');
 			return;
 		}
-		if (mDaytime){
+		if (mDayTime){
 			this.sendReplyBox('It is not night.');
 			return;
 		}
@@ -966,6 +968,7 @@ capv2: 'capv2',
 		}
 		mPlayers.splice(mPlayers.indexOf(targetUser), 1);
 		mVillagers.splice(mVillagers.indexOf(targetUser), 1);
+		mVotes.splice(mPlayers.indexOf(targetUser), 1);
 		this.send(targetUser + ' has been killed.');
 		if (mVillagers.length === 0){
 			this.add("All villagers have been killed. The mafia win!")
@@ -981,7 +984,7 @@ capv2: 'capv2',
 			this.sendReplyBox('You are not playing.');
 			return;
 		}
-		if (!mDaytime){
+		if (!mDayTime){
 			this.sendReplyBox('It is not day.');
 			return;
 		}

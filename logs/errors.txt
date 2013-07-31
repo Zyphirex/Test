@@ -30986,3 +30986,91 @@ TypeError: Cannot read property '0' of undefined
     at ChildProcess.EventEmitter.emit (events.js:98:17)
     at handleMessage (child_process.js:318:10)
     at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:538:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:538:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+ReferenceError: name is not defined
+    at Tools.exports.BattleFormats.bluntmons.validateSet (/Users/clazinasteunenberg/Downloads/Test/data/formats.js:1094:47)
+    at Tools.module.exports.Tools.validateSet (/Users/clazinasteunenberg/Downloads/Test/tools.js:1008:50)
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:713:27)
+    at GlobalRoom.searchBattle (/Users/clazinasteunenberg/Downloads/Test/rooms.js:235:24)
+    at Object.exports.commands.search (/Users/clazinasteunenberg/Downloads/Test/commands.js:1947:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+ReferenceError: name is not defined
+    at Tools.exports.BattleFormats.bluntmons.validateSet (/Users/clazinasteunenberg/Downloads/Test/data/formats.js:1094:47)
+    at Tools.module.exports.Tools.validateSet (/Users/clazinasteunenberg/Downloads/Test/tools.js:1008:50)
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:713:27)
+    at Object.exports.commands.challenge (/Users/clazinasteunenberg/Downloads/Test/commands.js:1964:24)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+ReferenceError: name is not defined
+    at Tools.exports.BattleFormats.bluntmons.validateSet (/Users/clazinasteunenberg/Downloads/Test/data/formats.js:1094:47)
+    at Tools.module.exports.Tools.validateSet (/Users/clazinasteunenberg/Downloads/Test/tools.js:1008:50)
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:713:27)
+    at GlobalRoom.searchBattle (/Users/clazinasteunenberg/Downloads/Test/rooms.js:235:24)
+    at Object.exports.commands.search (/Users/clazinasteunenberg/Downloads/Test/commands.js:1947:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+ReferenceError: name is not defined
+    at Tools.exports.BattleFormats.bluntmons.validateSet (/Users/clazinasteunenberg/Downloads/Test/data/formats.js:1094:47)
+    at Tools.module.exports.Tools.validateSet (/Users/clazinasteunenberg/Downloads/Test/tools.js:1008:50)
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:713:27)
+    at GlobalRoom.searchBattle (/Users/clazinasteunenberg/Downloads/Test/rooms.js:235:24)
+    at Object.exports.commands.search (/Users/clazinasteunenberg/Downloads/Test/commands.js:1947:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+ReferenceError: name is not defined
+    at Tools.exports.BattleFormats.bluntmons.validateSet (/Users/clazinasteunenberg/Downloads/Test/data/formats.js:1094:47)
+    at Tools.module.exports.Tools.validateSet (/Users/clazinasteunenberg/Downloads/Test/tools.js:1008:50)
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:713:27)
+    at GlobalRoom.searchBattle (/Users/clazinasteunenberg/Downloads/Test/rooms.js:235:24)
+    at Object.exports.commands.search (/Users/clazinasteunenberg/Downloads/Test/commands.js:1947:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+ReferenceError: name is not defined
+    at Tools.exports.BattleFormats.bluntmons.validateSet (/Users/clazinasteunenberg/Downloads/Test/data/formats.js:1094:47)
+    at Tools.module.exports.Tools.validateSet (/Users/clazinasteunenberg/Downloads/Test/tools.js:1008:50)
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:713:27)
+    at Object.exports.commands.challenge (/Users/clazinasteunenberg/Downloads/Test/commands.js:1964:24)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:192:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1429:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1042:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:538:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)

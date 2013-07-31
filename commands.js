@@ -1187,14 +1187,15 @@ viewround: 'vr',
 
 		if ((targetUser.locked || Users.checkBanned(targetUser.latestIp)) && !target) {
 			var problem = ' but was already '+(targetUser.locked ? 'locked' : 'banned');
-			return this.privateModCommand('('+targetUser.name+' would be locked by '+user.name+problem+'.)');
+			return this.privateModCommand('('+targetUser.name+' would be put in an isolated cel in Luxuria Jail by '+user.name+problem+'.)');
 		}
 
 		targetUser.popup(user.name+' has locked you from talking in chats, battles, and PMing regular users.\n\n'+target+'\n\nIf you feel that your lock was unjustified, you can still PM staff members (%, @, &, and ~) to discuss it.');
 
-		this.addModCommand(""+targetUser.name+" was put in an isolated cell in Luxuria Jail by "+user.name+"." + (target ? " (" + target + ")" : ""));
+		this.addModCommand(""+targetUser.name+" was put in an isolated cel in Luxuria Jail by "+user.name+"." + (target ? " (" + target + ")" : ""));
 		var alts = targetUser.getAlts();
-		if (alts.length) this.addModCommand(""+targetUser.name+"'s companions were also put in an isolated cell in Luxuria Jail: "+alts.join(", "));
+		if (alts.length) this.addModCommand(""+targetUser.name+"'s alts were also locked up: "+alts.join(", "));
+		this.add('|unlink|' + targetUser.userid);
 
 		targetUser.lock();
 	},

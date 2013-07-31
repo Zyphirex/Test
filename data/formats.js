@@ -112,7 +112,7 @@ exports.BattleFormats = {
         	name: "NFE",
         	section: "Singles",
         	
-        	effectType: 'Format'.
+        	effectType: 'Format',
         	challengeShow: true,
         	isTeambuilderFormat: true,
         	ruleset: ['NU', 'Not Fully Evolved'],
@@ -824,7 +824,7 @@ exports.BattleFormats = {
                 challengeShow: true,
                 searchShow: true,
                 isTeambuilderFormat: true,
-                ruleset: ['Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
+                ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Kings Rock', 'Razor Fang']
         },
 	randomhaxmons: {
@@ -1138,6 +1138,34 @@ exports.BattleFormats = {
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
 
+      splitmons: {
+                name: "Splitmons",
+                section: "Other Metagames",
+		mod: 'split',
+                effectType: 'Format',
+                challengeDefault: true,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+        },
+
+      levelone: {
+                name: "Level 1",
+                section: "Other Metagames",
+
+                effectType: 'Format',
+                maxForcedLevel: 1,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+                banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Drought']
+        },
+
         // Past Generations
         ///////////////////////////////////////////////////////////////////
 
@@ -1271,22 +1299,7 @@ exports.BattleFormats = {
                         }
                 }
         },
-          lolclause: {
-        	effectType: 'Rule',
-		onFaint: function (pokemon) {
-			// A poem every time a Pokemon faints
-			var winmessagesu = ["GG WORLD.",
-			"Your so bad, the 1001s on the smogon doubles ladder call you a noob.",
-			"WHAT WAS THAT ABOUT YOU WINNING? oh NOTHING? that's what I thought.",
-			"This is what happens when you chellenge, me, I WARNED 'YA!",
-			"GODDAMNIT WHY ARE YOU SO BAD?", 
-			"One of lifes greatest mysteries is why you suck so much.",
-			"GG NO RED CHECK ME OUT AT YOLOSWAGMONEY.ORG"];
-			winmessageu = winmessagesu.randomize();
-			this.add('-message', winmessageu[0]);
-		}
-        },
-        standard: {
+           standard: {
                 effectType: 'Banlist',
                 ruleset: ['Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod'],
                 banlist: ['Unreleased', 'Illegal'],

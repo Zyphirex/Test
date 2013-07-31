@@ -3986,3 +3986,37 @@
 [2013-07-14T15:23:16.118Z] (lobby) Snaquaza declared JUST SPEAK ENGLISH
 [2013-07-14T15:23:17.952Z] (lobby) Naminé declared <marquee>Naminé flees</marquee>
 [2013-07-14T15:26:12.484Z] (lobby) Snaquaza just used /remind
+[2013-07-30T20:54:20.739Z] (lobby) (EhhhN was demoted to Trainer by Snaquaza.)
+[2013-07-30T20:54:26.185Z] (lobby) (BDH93 was demoted to Trainer by Snaquaza.)
+[2013-07-30T21:00:53.904Z] (lobby) GaviGator was taken to Tervari Police by Snaquaza. (Advertising sigh)
+[2013-07-30T21:06:10.874Z] (lobby) Snaquaza declared anyone for Haxmons?
+[2013-07-30T21:16:41.126Z] (lobby) GaviGator was taken to Tervari Police by Snaquaza. (spam)
+[2013-07-30T21:18:11.339Z] (lobby) GaviGator was locked up in Luxuria Jail by Snaquaza for 7 minutes.
+[2013-07-30T21:19:01.433Z] (lobby) GaviGator was freed by Snaquaza.
+[2013-07-30T21:25:20.673Z] (lobby) Skalaylee was promoted to Tervari Gym Trainer by Snaquaza.
+[2013-07-30T21:27:29.866Z] (lobby) GaviGator was put in an isolated cell in Luxuria Jail by Skalaylee.
+[2013-07-30T21:34:31.125Z] (lobby) GaviGator was freed by Snaquaza.
+[2013-07-30T21:34:38.404Z] (lobby) GaviGator was put in an isolated cel in Luxuria Jail by Snaquaza.
+[2013-07-30T21:34:52.854Z] (lobby) GaviGatοr was put in an isolated cel in Luxuria Jail by Skalaylee.
+[2013-07-30T21:35:38.051Z] (lobby) GaviGatοr was freed by Skalaylee.
+[2013-07-30T21:35:48.299Z] (lobby) GaviGatοr was forced to choose a new name by Snaquaza.
+[2013-07-30T21:36:11.370Z] (lobby) GaviGatοr was forcibly renamed to Sir Wailord by Snaquaza.
+[2013-07-30T22:23:41.182Z] (lobby) Brunoo was promoted to Trainer by Snaquaza.
+[2013-07-30T22:23:47.052Z] (lobby) (TheWorldsGreatest was demoted to Inhabitant by Snaquaza.)
+[2013-07-30T23:06:52.286Z] (lobby) Snaquaza temporarily banned the IP: 1
+[2013-07-31T00:19:36.761Z] (lobby) GaviGator was locked up in Luxuria Jail by Snaquaza for 7 minutes.
+[2013-07-31T00:53:45.927Z] (lobby) GaviGator was taken to Tervari Police by Snaquaza.
+[2013-07-31T01:31:11.483Z] (lobby) GaviGator was banned from the Tervari Region by Snaquaza.
+[2013-07-31T12:41:36.498Z] (lobby) Glaceon<3V was promoted to Tervari Champion by Snaquaza.
+[2013-07-31T12:41:37.048Z] (lobby) (Glaceon<3V was demoted to Trainer by Snaquaza.)
+[2013-07-31T12:41:37.575Z] (lobby) (Glaceon<3V was demoted to Inhabitant by Snaquaza.)
+[2013-07-31T12:46:29.150Z] (lobby) Snaquaza is hiding auth symbol as ' '
+[2013-07-31T12:48:28.182Z] (lobby) Snaquaza used /snaqsays to say hi
+[2013-07-31T13:20:02.221Z] (lobby) Glaceon<3V was taken to Tervari Police by bandicam. (plz shut up idk or care why u dont like me and we said stop)
+[2013-07-31T13:25:29.146Z] (mafia) Snaquaza temporarily banned the IP: 174.254.112.187
+[2013-07-31T13:41:56.411Z] (mafia) Oran Berrys was promoted to Tervari Gym Leader by Snaquaza.
+[2013-07-31T13:49:01.286Z] (lobby) Glaceon<3V was locked up in Luxuria Jail by bandicam for 7 minutes. (i didnt knwo)
+[2013-07-31T13:49:12.636Z] (lobby) Glaceon<3V was freed by Oran Berrys.
+[2013-07-31T14:31:11.954Z] (lobby) Snaquaza declared Should I make Tervari Haxmons?
+[2013-07-31T15:10:06.073Z] (mafia) Snaquaza temporarily banned the IP: 198.7.58.98
+[2013-07-31T15:44:48.972Z] (lobby) GaviGator was banned from the Tervari Region by Oran Berrys.

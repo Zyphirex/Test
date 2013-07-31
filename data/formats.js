@@ -382,35 +382,7 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
                 banlist: ['Unreleased', 'Illegal', 'Sky Drop']
         },
-        tervarihackmons: {
-                name: "Tervari Hackmons",
-                section: "Other Tervari Metagames",
-
-                mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon'],
-                banlist: []
-        },
-        tervaribalancedhackmons: {
-                name: "Tervari Balanced Hackmons",
-                section: "Other Tervari Metagames",
-
-                mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'OHKO Clause'],
-                banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
-        },
-
-                
-        // Doubles
+           // Doubles
         ///////////////////////////////////////////////////////////////////
 
         doublesvgc2013: {
@@ -826,6 +798,30 @@ exports.BattleFormats = {
                 isTeambuilderFormat: true,
                 ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Kings Rock', 'Razor Fang']
+        },
+       haxmonsdoubles: {
+                name: "Double Haxmons",
+                section: "Other Metagames",
+		gametype: 'doubles',
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview','Freeze Clause'],
+                banlist: ['Uber', 'Kings Rock', 'Razor Fang']
+        },
+        uberhaxmons: {
+                name: "Haxmons Uber",
+                section: "Other Metagames",
+
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
+                banlist: ['Kings Rock', 'Razor Fang']
         },
 	randomhaxmons: {
                name: "Random Haxmons",
@@ -1283,6 +1279,44 @@ exports.BattleFormats = {
                         set.moves = moves;
                 }
         },
+     tervarihackmons: {
+                name: "Tervari Hackmons",
+                section: "Other Tervari Metagames",
+
+                mod: 'tervari',
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon'],
+                banlist: []
+        },
+        tervaribalancedhackmons: {
+                name: "Tervari Balanced Hackmons",
+                section: "Other Tervari Metagames",
+
+                mod: 'tervari',
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon', 'OHKO Clause'],
+                banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
+        },
+        tervarihaxmons: {
+                name: "Tervari Haxmons",
+                section: "Other Tervari Metagames",
+		mod: 'tervari',
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Kings Rock', 'Razor Fang']
+        },                
 
          // Rulesets
         ///////////////////////////////////////////////////////////////////

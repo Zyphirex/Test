@@ -143,6 +143,84 @@
  * @license MIT license
  */
 
+ /*********************************************************
+  * Mafia Variables
+  *********************************************************/
+ 
+var mGame = false;
+var mDayTime = false;
+var mCounted = false;
+var mPlayers = new Array();
+var mVotes = new Array();
+var mVoted = new Array();
+var mNextPlayers = new Array();
+var mVillagers = new Array();
+var mMob = new Array();
+var mRoom;
+var mNumVotes = 0;
+
+
+function mNight() {
+	mRoom.send('It is now night. Mafia members, choose a player to kill.');
+	mDaytime = false;
+}
+	 
+function mCount() {
+	if (mCounted) { return; }
+	mRoom.send('Counting votes.');
+	mCounted = true;
+	var mChosen;
+	var mChosenNum = 0;
+	var mTie = false;
+	for (var i=0; i<mPlayers.length; i++) {
+		if (mVotes[i] > mChosenNum) {
+			mChosen = mPlayers[i];
+			mChosenNum = mVotes[i];
+			mTie = false;
+		} else if (mVotes[i] === mChosenNum) {
+			mTie = true;
+		}
+	}
+	if (mTie) {
+		mRoom.send('No majority was reached.');
+	} else {
+		mRoom.send(mChosen + ' was chosen and killed.');
+		var mMobI = mMob.indexOf(mChosen);
+		var mVilI = mVillagers.indexOf(mChosen);
+		if ( mMobI !== -1){
+			mMob.splice(mMobI, 1);
+		} else {
+			mVillagers.splice(mVilI, 1);
+		}
+	}
+	if (mMob.length === 0){
+		mRoom.send('All mafia have been killed. The villagers win!');
+		mGame = false;
+	} else if (mVillagers.length === 0){
+		mRoom.send('All villagers have been killed. The mafia win!');
+		mGame = false;
+	} else {
+		mNight();
+	}
+}
+
+function mDay() {
+	mRoom.send('It is now day. You have 30 seconds to vote on a person to kill.');
+	mDaytime = true;
+	mCounted = false;
+	mNumVotes = 0;
+	setTimeout(mCount, 30000);
+}
+	 
+function mInterval() {
+	mRoom.send('You have 30 seconds to discuss.');
+	for (var i=0; i<mPlayers.length; i++) {
+		mVoted[i] = false;
+	}
+	setTimeout(mDay, 30000);
+}
+
+
 var commands = exports.commands = {
 
 	ip: 'whois',
@@ -814,6 +892,129 @@ capv2: 'capv2',
 			return this.sendReplyBox('Pokemon, item, move, or ability not found for generation ' + generation.toUpperCase() + '.');
 		}
 	},
+		
+	/*********************************************************
+	 * Mafia commands
+	 *********************************************************/
+
+	mstart: function(target, room, user, connection) {
+		if (room !== Rooms.rooms.mafia) { return; }
+		if (mGame) {
+			this.sendReplyBox('A game is currently being played.');
+		} else if (mNextPlayers.length < 4) {
+			this.sendReplyBox('At least 4 players are required to play.');
+		} else {
+			mGame = true;
+			mRoom = this;
+			mPlayers = mNextPlayers.slice(0);
+			this.add('A new mafia game has begun. Players: ' + mPlayers);
+			for (var i=0; i<(mPlayers.length*.25); i++) {
+				var mPlayer = Math.floor(Math.random()*mPlayers.length);
+				mMob.push(mPlayers[mPlayer])
+				mPlayers[mPlayer].send("You are a mafia member. Attempt to kill the villagers.");
+			}
+			for (var j=0; j<mPlayers.length; j++) {
+				mVotes[j] = 0;
+				mVoted[j] = false;
+				if (mMob.indexOf(mPlayers[j]) !== -1) { continue; }
+				mPlayers[j].send("You are a villager. Attempt to find out who the mafia are.");
+				mVillagers.push(mPlayers[j]);
+			}
+			mNight();
+		}
+	},
+	
+	mjoin: function(target, room, user, connection) {
+		if (room !== Rooms.rooms.mafia) { return; }
+		if (mNextPlayers.indexOf(user) !== -1){
+			this.sendReplyBox('You have already joined the next mafia game.');
+			return;
+		}
+		mNextPlayers.push(user);
+		this.sendReplyBox('You have joined the next mafia game.');
+	},
+	
+	mleave: function(target, room, user, connection) {
+		if (room !== Rooms.rooms.mafia) { return; }
+		if (mNextPlayers.indexOf(user) === -1){
+			this.sendReplyBox('You are not playing the next game.');
+			return;
+		}
+		mNextPlayers.splice(mNextPlayers.indexOf(user), 1);
+		this.sendReplyBox('You will not play the next mafia game.');
+	},
+	
+	mkill: function(target, room, user, connection) {
+		if (!mGame || room !== Rooms.rooms.mafia) { return; }
+		if (mMob.indexOf(user) === -1){
+			this.sendReplyBox('You are not a member of the mafia.');
+			return;
+		}
+		if (mDaytime){
+			this.sendReplyBox('It is not night.');
+			return;
+		}
+		target = this.splitTarget(target);
+		var targetUser = this.targetUser;
+		if (mMob.indexOf(targetUser) !== -1){
+			this.sendReplyBox('You cannot kill a member of the mafia.');
+			return;
+		}
+		if (mPlayers.indexOf(targetUser) === -1){
+			this.sendReplyBox('That player is not in the game.');
+			return;
+		}
+		mPlayers.splice(mPlayers.indexOf(targetUser, 1));
+		mVillagers.splice(mVillagers.indexOf(targetUser, 1));
+		this.send(targetUser + ' has been killed.');
+		if (mVillagers.length === 0){
+			this.add("All villagers have been killed. The mafia win!")
+			mGame = false;
+		} else {
+			mInterval();
+		}
+	},
+	
+	mvote: function(target, room, user, connection) {
+		if (!mGame || room !== Rooms.rooms.mafia) { return; }
+		if (mPlayers.indexOf(user) === -1){
+			this.sendReplyBox('You are not playing.');
+			return;
+		}
+		if (!mDaytime){
+			this.sendReplyBox('It is not day.');
+			return;
+		}
+		if (mVoted[mPlayers.indexOf(user)]) {
+			this.sendReplyBox('You have already voted.');
+		}
+		target = this.splitTarget(target);
+		var targetUser = this.targetUser;
+		if (mPlayers.indexOf(targetUser) === -1){
+			this.sendReplyBox('That player is not in the game.');
+			return;
+		}
+		this.sendReplyBox('You voted for ' + targetUser + '.');
+		mVoted[mPlayers.indexOf(user)] = true;
+		mVotes[mPlayers.indexOf(targetUser)]++;
+		mNumVotes++;
+		if (mNumVotes === mPlayers.length) {
+			this.send("All players have voted.");
+			mCount();
+		}
+	},
+	
+	mchat: function(target, room, user, connection) {
+		if (!mGame || room !== Rooms.rooms.mafia) { return; }
+		if (mMob.indexOf(user) === -1){
+			this.sendReplyBox('You are not a member of the mafia.');
+			return;
+		}
+		for (var i=0; i<mMob.length; i++) {
+			mMob[i].send("Mafia " + user + ": " + target);
+		}
+	},
+	
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/

@@ -197,7 +197,14 @@ var User = (function () {
 		// initialize
 		users[this.userid] = this;
 	}
-
+	
+	//Mafia user variables
+	
+	User.prototype.inMafia = false;
+	User.prototype.voted = false;
+	User.prototype.votes = 0;
+	User.prototype.group = 'villager';
+	
 	User.prototype.staffAccess = false;
 	User.prototype.forceRenamed = false;
 

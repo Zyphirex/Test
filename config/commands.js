@@ -911,16 +911,16 @@ capv2: 'capv2',
 			for (var i=0; i<(mPlayers.length*.25); i++) {
 				var mPlayer = Math.floor(Math.random()*mPlayers.length);
 				mMob.push(mPlayers[mPlayer])
-				mPlayers[mPlayer].send("You are a mafia member. Attempt to kill the villagers.");
+				mPlayers[mPlayer].sendTo(Rooms.rooms.mafia, "You are a mafia member. Attempt to kill the villagers.");
 			}
 			for (var j=0; j<mPlayers.length; j++) {
 				mVotes[j] = 0;
 				mVoted[j] = false;
 				if (mMob.indexOf(mPlayers[j]) !== -1) { continue; }
-				mPlayers[j].send("You are a villager. Attempt to find out who the mafia are.");
+				mPlayers[j].sendTo(Rooms.rooms.mafia, "You are a villager. Attempt to find out who the mafia are.");
 				mVillagers.push(mPlayers[j]);
 			}
-			mNight();
+			mInterval();
 		}
 	},
 	
@@ -964,8 +964,8 @@ capv2: 'capv2',
 			this.sendReplyBox('That player is not in the game.');
 			return;
 		}
-		mPlayers.splice(mPlayers.indexOf(targetUser, 1));
-		mVillagers.splice(mVillagers.indexOf(targetUser, 1));
+		mPlayers.splice(mPlayers.indexOf(targetUser), 1);
+		mVillagers.splice(mVillagers.indexOf(targetUser), 1);
 		this.send(targetUser + ' has been killed.');
 		if (mVillagers.length === 0){
 			this.add("All villagers have been killed. The mafia win!")
@@ -994,7 +994,7 @@ capv2: 'capv2',
 			this.sendReplyBox('That player is not in the game.');
 			return;
 		}
-		this.sendReplyBox('You voted for ' + targetUser + '.');
+		this.send(user + ' voted for ' + targetUser + '.');
 		mVoted[mPlayers.indexOf(user)] = true;
 		mVotes[mPlayers.indexOf(targetUser)]++;
 		mNumVotes++;

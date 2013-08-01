@@ -9720,11 +9720,9 @@ exports.BattleMovedex = {
 		name: "Root Bomb",
 		pp: 15,
 		priority: 0,
-		onHit: function(pokemon, source) {
-			var item = pokemon.getItem();
-			if (item.isBerry && pokemon.takeItem(source)) {
-				this.add('-enditem', pokemon, item.name, '[from] move: Incinerate');
-			}
+		onHit: function(target) {
+			this.add('-start', target, 'typechange', 'Fire');
+			target.types = ['Fire'];
 		},
 		secondary: false,
 		target: "allAdjacentFoes",

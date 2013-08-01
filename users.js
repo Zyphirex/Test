@@ -203,7 +203,7 @@ var User = (function () {
 	User.prototype.inMafia = false;
 	User.prototype.voted = false;
 	User.prototype.votes = 0;
-	User.prototype.group = 'villager';
+	User.prototype.mGroup = 'villager';
 	
 	User.prototype.staffAccess = false;
 	User.prototype.forceRenamed = false;

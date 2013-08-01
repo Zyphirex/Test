@@ -161,9 +161,9 @@ var mNumVillager = 0;
 function mRemove(user) {
 	mRoom.send(user + " has been killed.");
 	var mPlayI = mPlayers.indexOf(user);
-	if ( user.group === 'villager'){
+	if ( user.mGroup === 'villager'){
 		mNumVillager--;
-	} else if ( user.group === 'mafia'){
+	} else if ( user.mGroup === 'mafia'){
 		mNumMob--;
 	}
 	mPlayers.splice(mPlayI, 1);
@@ -925,16 +925,16 @@ capv2: 'capv2',
 			this.add('A new mafia game has begun. Players: ' + mPlayers);
 			for (var i=0; i<mPlayers.length; i++) {
 				mPlayers[i].inMafia = true;
-				mPlayers[i].group = 'villager';
+				mPlayers[i].mGroup = 'villager';
 			}
 			for (var j=0; j<(mPlayers.length*.25); j++) {
 				var mPlayer = Math.floor(Math.random()*mPlayers.length);
-				mPlayers[mPlayer].group = 'mafia';
+				mPlayers[mPlayer].mGroup = 'mafia';
 				mPlayers[mPlayer].sendTo(Rooms.rooms.mafia, "You are a mafia member. Attempt to kill the villagers.");
 				mNumMob++;
 			}
 			for (var k=0; k<mPlayers.length; k++) {
-				if (mPlayers[k].group === 'mafia') { continue; }
+				if (mPlayers[k].mGroup === 'mafia') { continue; }
 				mPlayers[k].sendTo(Rooms.rooms.mafia, "You are a villager. Attempt to find out who the mafia are.");
 				mNumVillager++;
 			}
@@ -964,7 +964,7 @@ capv2: 'capv2',
 	
 	mkill: function(target, room, user, connection) {
 		if (!mGame || room !== Rooms.rooms.mafia) { return; }
-		if (user.group !== 'mafia'){
+		if (user.mGroup !== 'mafia'){
 			this.sendReplyBox('You are not a member of the mafia.');
 			return;
 		}
@@ -974,7 +974,7 @@ capv2: 'capv2',
 		}
 		target = this.splitTarget(target);
 		var targetUser = this.targetUser;
-		if (targetUser.group === 'mafia'){
+		if (targetUser.mGroup === 'mafia'){
 			this.sendReplyBox('You cannot kill a member of the mafia.');
 			return;
 		}
@@ -1018,25 +1018,15 @@ capv2: 'capv2',
 	
 	mchat: function(target, room, user, connection) {
 		if (!mGame || room !== Rooms.rooms.mafia) { return; }
-		if (user.group !== 'mafia'){
+		if (user.mGroup !== 'mafia'){
 			this.sendReplyBox('You are not a member of the mafia.');
 			return;
 		}
 		for (var i=0; i<mPlayers.length; i++) {
-			if (mPlayers[i].group === 'mafia') {
+			if (mPlayers[i].mGroup === 'mafia') {
 				mPlayers[i].send("Mafia " + user + ": " + target);
 			}
 		}
-	},
-	
-	mend: function(target, room, user, connection) {
-		if (!mGame) { return; }
-		mGame = false;
-	},
-	
-	mtest: function(target, room, user, connection) {
-		user.group = 'test';
-		this.sendReply(user.group);
 	},
 	
 	/*********************************************************

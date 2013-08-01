@@ -16,6 +16,7 @@ const REPORT_USER_STATS_INTERVAL = 1000*60*10;
 
 var modlog = modlog || fs.createWriteStream('logs/modlog.txt', {flags:'a+'});
 var complaint = complaint || fs.createWriteStream('logs/complaint.txt', {flags:'a+'});
+var mafia = require('./config/mafia.js');
 
 
 var GlobalRoom = (function() {
@@ -1412,6 +1413,9 @@ var ChatRoom = (function() {
 	};
 	ChatRoom.prototype.onLeave = function(user) {
 		if (!user) return; // ...
+		if (user.inMafia) {
+			mafia.mRemove(user, true);
+		}
 		delete this.users[user.userid];
 		if (config.reportjoins) {
 			this.add('|l|'+user.getIdentity());
@@ -1426,10 +1430,11 @@ var ChatRoom = (function() {
 		}
 	};
 	ChatRoom.prototype.chat = function(user, message, connection) {
+		
 		message = CommandParser.parse(message, this, user, connection);
 
 
-		if (message) {
+		if (message && (this.id !== 'mafia' || mafia.mGame || user.inMafia)) {
 			this.add('|c|'+user.getIdentity()+'|'+message, true);
 		}
 		this.update();

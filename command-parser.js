@@ -366,6 +366,11 @@ exports.serverVersion = exports.computeServerVersion();
 var commands = exports.commands = require('./commands.js').commands;
 
 var customCommands = require('./config/commands.js');
+var mafiaCommands = require('./config/mafia.js');
 if (customCommands && customCommands.commands) {
 	Object.merge(commands, customCommands.commands);
 }
+if (mafiaCommands && mafiaCommands.commands) {
+	Object.merge(commands, mafiaCommands.commands);
+}
+

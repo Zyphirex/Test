@@ -686,5 +686,6 @@ exports.BattleLearnsets = {
 	aguilari:{learnset:{aerialace:["5L1"],bravebird:["5L68"],bulkup:["5L60","5M"],circlethrow:["5L56"],divingtalon:["5L18"],pursuit:["5L32"],rockblast:["5L64"],stormthrow:["5L1"]}},
 	komolten:{learnset:{bulkup:["5M"],dragondance:["5M71"],earthquake:["5L61","5M"],flareblitz:["5E"],firerocket:["5L19"],stoneedge:["5M"],wildcharge:["5M"]}},
 	oceagon:{learnset:{waterspout:["5L70"],hydropump:["5L70"],shellsmash:["5L20"],fireblast:["5M"],icebeam:["5M"],dragonpulse:["5L50"],glare:["5L1"]}},
-	armogeist:{learnset:{earthquake:["5M"],stoneedge:["5M"],shadowsword:["5L63"],willowisp:["5M"],swordsdance:["5M"]}}
+	armogeist:{learnset:{earthquake:["5M"],stoneedge:["5M"],shadowsword:["5L63"],willowisp:["5M"],swordsdance:["5M"]}},
+	magickorn:{learnset:{tackle:["5L1"],charm:["5L1"],helpinghand:["5L7"],confusion:["5L11"],refresh:["5L14"],hornattack["5L19"],healpulse["5L24"],psybeam["5L28"],luckychant["5L31"],cosmicpower["5L35"],psychic["5L42"],wish["5L49"],skillswap["5L56"],starstorm["5L63"],calmmind:["5M"],toxic:["5M"],hiddenpower:["5M"],hyperbeam:["5M"],lightscreen:["5M"],protect:["5M"],frustration:["5M"],return:["5M"],psychic:["5M"],doubleteam:["5M"],reflect:["5M"],rest:["5M"],willowisp:["5M"],gigaimpact:["5M"],thunderwave:["5M"],swordsdance:["5M"],uturn:["5M"],substitute:["5M"],trickroom:["5M"],wildcharge:["5M"],gravity:["5E"],healbell:["5E"],agility:["5E"],extremespeed:["5E"],safeguard:["5E"],guardswap:["5E"],magiccoat:["5E"],powerswap:["5E"],psychoshift:["5E"],psyshock:["5E"]}}
 };

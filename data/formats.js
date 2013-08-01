@@ -342,6 +342,7 @@ exports.BattleFormats = {
                 // no restrictions, for serious (other than team preview)
                 ruleset: ['Team Preview']
         },
+
         tervaridoubles: {
                 name: "Tervari Doubles",
                 section: "Tervari Double Tiers",
@@ -799,30 +800,30 @@ exports.BattleFormats = {
                 ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Kings Rock', 'Razor Fang']
         },
-       haxmonsdoubles: {
-                name: "Double Haxmons",
-                section: "Other Metagames",
-		gametype: 'doubles',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview','Freeze Clause'],
-                banlist: ['Uber', 'Kings Rock', 'Razor Fang']
-        },
-        uberhaxmons: {
-                name: "Haxmons Uber",
-                section: "Other Metagames",
-
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
-                banlist: ['Kings Rock', 'Razor Fang']
-        },
+      // haxmonsdoubles: {
+        //        name: "Double Haxmons",
+          //      section: "Other Metagames",
+	//	gametype: 'doubles',
+          //      effectType: 'Format',
+            //    rated: true,
+              //  challengeShow: true,
+                //searchShow: true,
+         //       isTeambuilderFormat: true,
+           //     ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview','Freeze Clause'],
+             //   banlist: ['Uber', 'Kings Rock', 'Razor Fang']
+      //  },
+ //       uberhaxmons: {
+   //             name: "Haxmons Uber",
+     //           section: "Other Metagames",
+//
+  //              effectType: 'Format',
+    //            rated: true,
+      //          challengeShow: true,
+        //        searchShow: true,
+          //      isTeambuilderFormat: true,
+            //    ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
+              //  banlist: ['Kings Rock', 'Razor Fang']
+ //       },
 	randomhaxmons: {
                name: "Random Haxmons",
                section: "Other Metagames",
@@ -1148,20 +1149,34 @@ exports.BattleFormats = {
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
 
-      levelone: {
-                name: "Level 1",
+
+
+ //     levelone: {
+   //             name: "Level 1",
+     //           section: "Other Metagames",
+//
+  //              effectType: 'Format',
+    //            maxForcedLevel: 1,
+      //          rated: true,
+        //        challengeShow: true,
+          //      searchShow: true,
+            //    isTeambuilderFormat: true,
+              //  ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+                //banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Drought']
+ //       },
+
+    ne: {
+                name: "NE",
                 section: "Other Metagames",
 
                 effectType: 'Format',
-                maxForcedLevel: 1,
                 rated: true,
                 challengeShow: true,
                 searchShow: true,
                 isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Standard', 'Team Preview'],
-                banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Drought']
+                ruleset: ['Pokemon', 'Standard', 'Team Preview', 'NE'],
+                banlist: ['Soul Dew']
         },
-
         // Past Generations
         ///////////////////////////////////////////////////////////////////
 
@@ -1565,6 +1580,18 @@ exports.BattleFormats = {
                         }
                         if (!template.nfe) {
                                 return [set.species+" doesn't have an evolution family."];
+                        }
+                }
+        },
+        ne: {
+                effectType: 'Rule',
+                validateSet: function(set) {
+                        var template = this.getTemplate(set.species || set.name);
+                        if (template.prevo) {
+                                return [set.species+" did evolve to this."];
+                        }
+                        if (!template.evo) {
+                                return [set.species+" does evolve into better Pokemon."];
                         }
                 }
         },

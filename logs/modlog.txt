@@ -4024,3 +4024,14 @@
 [2013-07-31T17:55:17.045Z] (hi) (bandicam was demoted to Trainer by Snaquaza.)
 [2013-07-31T17:55:20.877Z] (hi) (bandicam was demoted to Inhabitant by Snaquaza.)
 [2013-07-31T20:46:59.229Z] (lobby) Snaquaza declared Should I make Haxmons Ubers or Tervari Haxmons?
+[2013-08-01T02:10:57.173Z] (lobby) Queen Shinx was locked up in Luxuria Jail by Snaquaza for 7 minutes. (you asked for it GR)
+[2013-08-01T02:12:08.910Z] (lobby) Queen Shinx was freed by Snaquaza.
+[2013-08-01T02:15:06.791Z] (mafia) Snaquaza was forcibly renamed to Umbreon Queen by Snaquaza.
+[2013-08-01T02:15:11.236Z] (battle-randomhaxmons-805) Umbreon Queen is hiding auth symbol as ' '
+[2013-08-01T02:16:01.972Z] (battle-randomhaxmons-805) King Eevee was forcibly renamed to REAL LOST SILVER by Umbreon Queen.
+[2013-08-01T02:17:36.369Z] (battle-randomhaxmons-805) Queen Shinx was forcibly renamed to Sora by Snaquaza.
+[2013-08-01T02:17:59.274Z] (battle-randomhaxmons-805) Sora was forcibly renamed to King Eevee by Snaquaza.
+[2013-08-01T02:20:55.196Z] (battle-randomhaxmons-805) King Eevee was forcibly renamed to Natsu Serious by Snaquaza.
+[2013-08-01T02:24:14.408Z] (battle-randomhaxmons-805) REAL LOST SILVER was forcibly renamed to Queen Shinx by Snaquaza.
+[2013-08-01T02:41:11.524Z] (lobby) BDH93 was promoted to Tervari Gym Leader by Snaquaza.
+[2013-08-01T03:43:56.165Z] (lobby) GaviGator was banned from the Tervari Region by BDH93.

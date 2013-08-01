@@ -9709,6 +9709,27 @@ exports.BattleMovedex = {
 		target: "self",
 		type: "Flying"
 	},
+	"rootbomb": {
+		num: 510,
+		accuracy: 100,
+		basePower: 30,
+		category: "Physical",
+		desc: "Deals damage to all adjacent foes and changes type to Grass before hitting.",
+		shortDesc: "Changes foes type to Grass before hitting.",
+		id: "rootbomb",
+		name: "Root Bomb",
+		pp: 15,
+		priority: 0,
+		onHit: function(pokemon, source) {
+			var item = pokemon.getItem();
+			if (item.isBerry && pokemon.takeItem(source)) {
+				this.add('-enditem', pokemon, item.name, '[from] move: Incinerate');
+			}
+		},
+		secondary: false,
+		target: "allAdjacentFoes",
+		type: "Fire"
+	},
 	"round": {
 		num: 496,
 		accuracy: 100,

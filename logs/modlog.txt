@@ -4035,3 +4035,17 @@
 [2013-08-01T02:24:14.408Z] (battle-randomhaxmons-805) REAL LOST SILVER was forcibly renamed to Queen Shinx by Snaquaza.
 [2013-08-01T02:41:11.524Z] (lobby) BDH93 was promoted to Tervari Gym Leader by Snaquaza.
 [2013-08-01T03:43:56.165Z] (lobby) GaviGator was banned from the Tervari Region by BDH93.
+[2013-08-01T16:27:56.353Z] (lobby) (BDH93 was demoted to Trainer by Snaquaza.)
+[2013-08-01T17:55:59.903Z] (lobby) bandicam was locked up in Luxuria Jail by skalaylee for 7 minutes. (i wonder)
+[2013-08-01T18:03:17.983Z] (lobby) bandicam was locked up in Luxuria Jail by skalaylee for 7 minutes.
+[2013-08-01T18:07:05.579Z] (lobby) bandicam was put in an isolated cel in Luxuria Jail by skalaylee.
+[2013-08-01T18:08:02.123Z] (lobby) Bandicammer was put in an isolated cel in Luxuria Jail by skalaylee.
+[2013-08-01T18:08:59.867Z] (lobby) no point just stop was put in an isolated cel in Luxuria Jail by skalaylee.
+[2013-08-01T18:11:07.685Z] (lobby) ant pm admins :/ was put in an isolated cel in Luxuria Jail by skalaylee.
+[2013-08-01T18:12:20.770Z] (lobby) (Guest 87 would be put in an isolated cel in Luxuria Jail by skalaylee but was already locked.)
+[2013-08-01T18:13:43.715Z] (lobby) stap im trying top was put in an isolated cel in Luxuria Jail by skalaylee.
+[2013-08-01T18:14:44.774Z] (lobby) ugh u wont stop me was put in an isolated cel in Luxuria Jail by skalaylee.
+[2013-08-01T18:16:15.204Z] (lobby) thats a yes, Guest 61 were freed by skalaylee.
+[2013-08-01T18:16:24.581Z] (lobby) sadoldporygon, bandicammer were freed by skalaylee.
+[2013-08-01T18:18:07.816Z] (hi) bandicam was promoted to Trainer by Snaquaza.
+[2013-08-01T18:27:55.477Z] (lobby) bandicam was locked up in Luxuria Jail by skalaylee for 60 minutes.

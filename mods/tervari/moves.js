@@ -9725,7 +9725,7 @@ exports.BattleMovedex = {
 			target.types = ['Fire'];
 		},
 		secondary: false,
-		target: "allAdjacentFoes",
+		target: "normal",
 		type: "Fire"
 	},
 	"round": {

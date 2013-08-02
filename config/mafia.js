@@ -155,7 +155,8 @@ var commands = exports.commands = {
 			mGameStarting = true;
 			room.add('A new mafia game is starting. Type /mjoin to join.');
 			mRooms.lobby.add('A new mafia game is starting. Join tervari.psim.us/mafia and type /mjoin to join.');
-			setTimeout(mGameStart, 30000);
+			setTimeout(mGameStart, 60000);
+			setTimeout(room.add('30 seconds remaining to join.'), 30000);
 		}
 	},
 	

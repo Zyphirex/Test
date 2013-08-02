@@ -9721,8 +9721,8 @@ exports.BattleMovedex = {
 		pp: 15,
 		priority: 0,
 		onHit: function(target) {
-			this.add('-start', target, 'typechange', 'Fire');
-			target.types = ['Fire'];
+			this.add('-start', target, 'typechange', 'Grass');
+			target.types = ['Grass'];
 		},
 		secondary: false,
 		target: "normal",

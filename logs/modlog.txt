@@ -4068,3 +4068,30 @@
 [2013-08-02T15:03:54.598Z] (battle-ru-830) Naminé declared haxEhhhN
 [2013-08-02T15:12:35.449Z] (lobby) RealPresent was forcibly renamed to MostlyAFKpresent by RealPresent.
 [2013-08-02T15:13:20.487Z] (lobby) MostlyAFKpresent was forcibly renamed to AlmostAFKPresent by MostlyAFKpresent.
+[2013-08-02T17:12:28.193Z] (mafia) Naminé declared lol
+[2013-08-02T17:15:20.804Z] (mafia) Naminé declared ikr
+[2013-08-02T17:22:17.182Z] (mafia) Naminé declared because when more then 4 want to play it is imposibble to get them
+[2013-08-02T17:24:14.526Z] (lobby) Guest 6 was forcibly renamed to hi by Snaquaza.
+[2013-08-02T17:24:51.839Z] (lobby) Kеldеo was forcibly renamed to hi by RealPresent.
+[2013-08-02T17:25:15.229Z] (lobby) Kеldеo was forcibly renamed to hi by Snaquaza.
+[2013-08-02T17:26:16.075Z] (lobby) hi was forcibly renamed to hue by RealPresent.
+[2013-08-02T17:26:19.756Z] (lobby) (RealPresent was demoted to Tervari Elite Four by Snaquaza.)
+[2013-08-02T17:26:41.949Z] (lobby) hue was forced to choose a new name by Naminé.
+[2013-08-02T17:26:50.555Z] (lobby) RealPresent was forcibly renamed to hiya,hiya by Snaquaza.
+[2013-08-02T17:27:48.890Z] (lobby) RealPresent was promoted to Tervari Champion by Snaquaza.
+[2013-08-02T17:27:58.820Z] (lobby) Young Xehanort was forced to choose a new name by Snaquaza.
+[2013-08-02T17:57:45.071Z] (lobby) RealPresent declared <marquee>PARTY!!!!! TWK GOT VOICED ON A SERVER</marquee>
+[2013-08-02T17:58:08.942Z] (lobby) GaviGator was put in an isolated cel in Luxuria Jail by RealPresent. (dress up)
+[2013-08-02T17:58:33.552Z] (lobby) GaviGator was promoted to Tervari Champion by Snaquaza.
+[2013-08-02T17:58:34.054Z] (lobby) (GaviGator was demoted to Inhabitant by Snaquaza.)
+[2013-08-02T17:58:58.478Z] (lobby) gavigator was freed by RealPresent.
+[2013-08-02T18:00:34.489Z] (lobby) GaviGator was taken to Tervari Police by Snaquaza. (advertising)
+[2013-08-02T18:00:53.775Z] (lobby) Snaquaza was taken to Tervari Police by Snaquaza. (stop impersonating me)
+[2013-08-02T18:00:55.844Z] (lobby) GaviGator was taken to Tervari Police by Naminé. (weres the p for?)
+[2013-08-02T18:01:27.557Z] (lobby) GaviGator was forcibly renamed to I am a bad user by RealPresent.
+[2013-08-02T18:01:33.016Z] (lobby) I am a bad user was locked up in Luxuria Jail by RealPresent for 60 minutes.
+[2013-08-02T18:01:37.317Z] (lobby) I am a bad user was put in an isolated cel in Luxuria Jail by Naminé.
+[2013-08-02T18:01:45.919Z] (lobby) I am a bad user was freed by Naminé.
+[2013-08-02T18:02:14.484Z] (lobby) GaviGator was forcibly renamed to this proves fcexchange isn't good at giving ranks by Snaquaza.
+[2013-08-02T18:02:58.640Z] (lobby) DICK DICK PLAY was banned from the Tervari Region by RealPresent.
+[2013-08-02T21:06:08.601Z] (lobby) Zyphirex was promoted to Trainer by Snaquaza.

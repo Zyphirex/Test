@@ -31092,3 +31092,11 @@ user = snaquaza
 ip = 127.0.0.1
 roomid = 
 message = |/hotpatch chat
+
+ReferenceError: remove is not defined
+    at null._onTimeout (/Users/clazinasteunenberg/Downloads/Test/config/mafia.js:57:4)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+ReferenceError: remove is not defined
+    at null._onTimeout (/Users/clazinasteunenberg/Downloads/Test/config/mafia.js:57:4)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)

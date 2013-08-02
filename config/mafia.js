@@ -94,7 +94,7 @@ function mDay() {
 	mDayTime = true;
 	mCounted = false;
 	mNumVotes = 0;
-	mTimer = setTimeout(mCount, 30000);
+	mTimer = setTimeout(mCount, 150000);
 }
 	 
 function mInterval() {
@@ -106,14 +106,14 @@ function mInterval() {
 		mPlayers[i].voted = false;
 		mPlayers[i].votes = 0;
 	}
-	setTimeout(mDay, 30000);
+	setTimeout(mDay, 150000);
 }
 
 function mGameStart() {
 	if (!mGameStarting ) { return; }
 	if (mNextPlayers.length < 4) {
 		mRooms.rooms.mafia.add('At least 4 players are required to play. Retrying in 30 seconds.');
-		setTimeout(mGameStart, 30000);
+		setTimeout(mGameStart, 60000);
 		return;
 	}
 	mGameStarting = false;

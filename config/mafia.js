@@ -50,7 +50,14 @@ function mNight() {
 		mRoom.send('It is now night. Mafia members, choose a player to kill.');
 		mNightTime = true;
 		mDayTime = false;
-		setTimeout(mRemove(targetUser), 30000)
+		setTimeout(function(mKillTarget){
+				if(mKillTarget !== ""){
+					remove(mKillTarget);
+					mKillTarget = "";
+				} else {
+					mRoom.send('No one was killed.');
+				}
+			}, 30000)
 		mInterval();
 }
 

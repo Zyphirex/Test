@@ -113,7 +113,7 @@ function mGameStart() {
 	if (!mGameStarting ) { return; }
 	if (mNextPlayers.length < 4) {
 		mRooms.rooms.mafia.add('At least 4 players are required to play. Retrying in 30 seconds.');
-		setTimeout(mGameStart, 60000);
+		setTimeout(mGameStart, 30000);
 		return;
 	}
 	mGameStarting = false;

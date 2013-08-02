@@ -1416,6 +1416,9 @@ var ChatRoom = (function() {
 		if (user.inMafia) {
 			mafia.mRemove(user, true);
 		}
+		if (mafia.mNextPlayers.indexOf(user) !== -1) {
+			mafia.mNextPlayers.splice(mafia.mNextPlayers.indexOf(user), 1);
+		}
 		delete this.users[user.userid];
 		if (config.reportjoins) {
 			this.add('|l|'+user.getIdentity());

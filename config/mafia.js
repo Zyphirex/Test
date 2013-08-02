@@ -7,7 +7,7 @@ var mDayTime = false;
 var mNightTime = false;
 var mCounted = false;
 var mPlayers = new Array();
-var mNextPlayers = new Array();
+var mNextPlayers = exports.mNextPlayers = new Array();
 var mRoom;
 var mNumVotes = 0;
 var mNumMob = 0;
@@ -230,6 +230,11 @@ var commands = exports.commands = {
 				mPlayers[i].send("Mafia " + user + ": " + target);
 			}
 		}
+	},
+	
+	mstop: function(target, room, user, connection) {
+		if (!mGame || room !== Rooms.rooms.mafia || !user.can('broadcast')) { return; }
+		mEndGame();
 	}
 	
 };

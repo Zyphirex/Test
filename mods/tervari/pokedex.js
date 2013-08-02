@@ -724,5 +724,5 @@ komolten:{num:658,species:"Komolten",types:["Fire","Ground"],genderRatio:{M:0.87
 oceagon:{num:659,species:"Oceagon",types:["Water","Dragon"],genderRatio:"N",baseStats:{hp:99,atk:118,def:131,spa:154,spd:131,spe:47},abilities:{0:"Rain Dish",DW:"Swift Swim"},heightm:1,weightkg:100,color:"Blue",eggGroups:["No Eggs"]},
 armogeist:{num:660,species:"Armogeist",types:["Steel","Ghost"],genderRatio:"N",baseStats:{hp:85,atk:80,def:105,spa:65,spd:105,spe:60},abilities:{0:"Clear Body",1:"Battle Armor",DW:"Time Twister"},heightm:1,weightkg:350,color:"Grey",eggGroups:["Mineral"]},
 magickorn:{num:661,species:"Magickorn",types:["Psychic"],genderRatio:{M:0.5,F:0.5},baseStats:{hp:95,atk:60,def:100,spa:65,spd:110,spe:70},abilities:{0:"Regenerator",1:"Healer",DW:"Natural Cure"},heightm:1.7,weightkg:101.4,color:"White",eggGroups:["Field","Fairy"]},
-waldince:{num:662,species:"Waldince",types:["Grass","Fire"],genderRatio:{M:0.5,F:0.5],baseStats:{hp:60,atk:115,def:85,spa:88,spd:60,spe:92},abilities:{0:"Flash Fire",1:"Aftermath",DW:"Hotshot"},heightm:1.2,weightkg:60,color:"Green",eggGroups:["Field"]}
+waldince:{num:662,species:"Waldince",types:["Grass","Fire"],genderRatio:{M:0.5,F:0.5},baseStats:{hp:60,atk:115,def:85,spa:88,spd:60,spe:92},abilities:{0:"Flash Fire",1:"Aftermath",DW:"Hotshot"},heightm:1.2,weightkg:60,color:"Green",eggGroups:["Field"]}
 };

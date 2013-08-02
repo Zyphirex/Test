@@ -240,4 +240,10 @@ var commands = exports.commands = {
 		mEndGame();
 	}
 	
+	mcancel: function(target, room, user, connection) {
+		if (!mGameStarting || room !== mRooms.rooms.mafia || !user.can('broadcast')) { return; }
+		mRooms.rooms.mafia.add('Mafia game cancelled.');
+		mGameStarting = false;
+	}
+	
 };

@@ -13,6 +13,7 @@ var mNumVotes = 0;
 var mNumMob = 0;
 var mNumVillager = 0;
 var mKillTarget = "";
+var mTimer;
 
 function mEndGame() {
 	mGame = exports.mGame = false;
@@ -91,7 +92,7 @@ function mDay() {
 	mDayTime = true;
 	mCounted = false;
 	mNumVotes = 0;
-	setTimeout(mCount, 30000);
+	mTimer = setTimeout(mCount, 30000);
 }
 	 
 function mInterval() {
@@ -213,6 +214,7 @@ var commands = exports.commands = {
 		mNumVotes++;
 		if (mNumVotes === mPlayers.length) {
 			this.send("All players have voted.");
+			clearTimeout(mTimer);
 			mCount();
 		}
 	},

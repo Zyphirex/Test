@@ -12,6 +12,7 @@ var mRoom;
 var mNumVotes = 0;
 var mNumMob = 0;
 var mNumVillager = 0;
+var mKillTarget = "";
 
 function mEndGame() {
 	mGame = exports.mGame = false;
@@ -45,12 +46,14 @@ var mRemove = exports.mRemove = function(user, leave) {
 }
 
 function mNight() {
-	if (!mGame) { return; }
-	mRoom.send('It is now night. Mafia members, choose a player to kill.');
-	mNightTime = true;
-	mDayTime = false;
+		if (!mGame) { return; }
+		mRoom.send('It is now night. Mafia members, choose a player to kill.');
+		mNightTime = true;
+		mDayTime = false;
+		setTimeout(mRemove(targetUser), 30000)
+		mInterval();
 }
-	 
+
 function mCount() {
 	if (mCounted || !mGame) { return; }
 	mRoom.send('Counting votes.');
@@ -174,8 +177,7 @@ var commands = exports.commands = {
 			this.sendReplyBox('That player is not in the game.');
 			return;
 		}
-		mRemove(targetUser, false);
-		mInterval();
+		mKillTarget = targetUser;
 	},
 	
 	mvote: function(target, room, user, connection) {

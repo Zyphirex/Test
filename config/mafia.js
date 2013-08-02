@@ -3,12 +3,13 @@
   *********************************************************/
  
 var mGame = exports.mGame = false;
+var mGameStarting = false;
 var mDayTime = false;
 var mNightTime = false;
 var mCounted = false;
 var mPlayers = new Array();
-var mNextPlayers = exports.mNextPlayers = new Array();
-var mRoom;
+var mNextPlayers = new Array();
+var mRooms = require('../rooms.js');
 var mNumVotes = 0;
 var mNumMob = 0;
 var mNumVillager = 0;
@@ -25,9 +26,9 @@ function mEndGame() {
 var mRemove = exports.mRemove = function(user, leave) {
 	if (leave) {
 		mNextPlayers.splice(mNextPlayers.indexOf(user), 1);
-		mRoom.send(user + " has left the game.");
+		mRooms.rooms.mafia.send(user + " has left the game.");
 	} else {
-		mRoom.send(user + " has been killed.");
+		mRooms.rooms.mafia.send(user + " has been killed.");
 	}
 	var mPlayI = mPlayers.indexOf(user);
 	if ( user.mGroup === 'villager'){
@@ -38,33 +39,33 @@ var mRemove = exports.mRemove = function(user, leave) {
 	mPlayers[mPlayI].inMafia = false;
 	mPlayers.splice(mPlayI, 1);
 	if (mNumVillager === 0){
-		mRoom.send("All villagers have been killed. The mafia win!");
+		mRooms.rooms.mafia.add("All villagers have been killed. The mafia win!");
 		mEndGame();
 	}else if (mNumMob === 0){
-		mRoom.send("All mafia have been killed. The villagers win!");
+		mRooms.rooms.mafia.add("All mafia have been killed. The villagers win!");
 		mEndGame();
 	}
 }
 
 function mNight() {
-		if (!mGame) { return; }
-		mRoom.send('It is now night. Mafia members, choose a player to kill.');
-		mNightTime = true;
-		mDayTime = false;
-		setTimeout(function(){
-				if(mKillTarget !== ""){
-					remove(mKillTarget);
-					mKillTarget = "";
-				} else {
-					mRoom.send('No one was killed.');
-				}
-				mInterval()
-			}, 30000);
+	if (!mGame) { return; }
+	mRooms.rooms.mafia.send('It is now night. Mafia members, choose a player to kill.');
+	mNightTime = true;
+	mDayTime = false;
+	setTimeout(function(){
+		if(mKillTarget !== ""){
+			remove(mKillTarget);
+			mKillTarget = "";
+		} else {
+			mRooms.rooms.mafia.send('No one was killed.');
+		}
+		mInterval()
+	}, 30000);
 }
 
 function mCount() {
 	if (mCounted || !mGame) { return; }
-	mRoom.send('Counting votes.');
+	mRooms.rooms.mafia.send('Counting votes.');
 	mCounted = true;
 	var mChosen = mPlayers[0];
 	var mChosenNum = 0;
@@ -79,7 +80,7 @@ function mCount() {
 		}
 	}
 	if (mTie) {
-		mRoom.send('No majority was reached.');
+		mRooms.rooms.mafia.send('No majority was reached.');
 	} else {
 		mRemove(mChosen, false);
 	}
@@ -88,7 +89,7 @@ function mCount() {
 
 function mDay() {
 	if (!mGame) { return; }
-	mRoom.send('It is now day. You have 30 seconds to vote on a person to kill.');
+	mRooms.rooms.mafia.send('It is now day. You have 30 seconds to vote on a person to kill.');
 	mDayTime = true;
 	mCounted = false;
 	mNumVotes = 0;
@@ -99,12 +100,43 @@ function mInterval() {
 	if (!mGame) { return; }
 	mNightTime = false;
 	mDayTime = false;
-	mRoom.send('You have 30 seconds to discuss.');
+	mRooms.rooms.mafia.send('You have 30 seconds to discuss.');
 	for (var i=0; i<mPlayers.length; i++) {
 		mPlayers[i].voted = false;
 		mPlayers[i].votes = 0;
 	}
 	setTimeout(mDay, 30000);
+}
+
+function mGameStart() {
+	if (!mGameStarting ) { return; }
+	if (mNextPlayers.length < 4) {
+		mRooms.rooms.mafia.add('At least 4 players are required to play. Retrying in 30 seconds.');
+		setTimeout(mGameStart, 30000);
+		return;
+	}
+	mGameStarting = false;
+	mGame = exports.mGame = true;
+	mNumMob = 0;
+	mNumVillager = 0;
+	mPlayers = mNextPlayers.slice(0);
+	mRooms.rooms.mafia.add('A new mafia game has begun. Players: ' + mPlayers);
+	for (var i=0; i<mPlayers.length; i++) {
+		mPlayers[i].inMafia = true;
+		mPlayers[i].mGroup = 'villager';
+	}
+	for (var j=0; j<(mPlayers.length*.25); j++) {
+		var mPlayer = Math.floor(Math.random()*mPlayers.length);
+		mPlayers[mPlayer].mGroup = 'mafia';
+		mPlayers[mPlayer].sendTo(mRooms.rooms.mafia, "You are a mafia member. Attempt to kill the villagers.");
+		mNumMob++;
+	}
+	for (var k=0; k<mPlayers.length; k++) {
+		if (mPlayers[k].mGroup === 'mafia') { continue; }
+		mPlayers[k].sendTo(mRooms.rooms.mafia, "You are a villager. Attempt to find out who the mafia are.");
+		mNumVillager++;
+	}
+	mInterval();
 }
 
 	/*********************************************************
@@ -114,39 +146,20 @@ function mInterval() {
 var commands = exports.commands = {
 	 
 	mstart: function(target, room, user, connection) {
-		if (room !== Rooms.rooms.mafia || !user.can('broadcast')) { return; }
+		if (room !== mRooms.rooms.mafia/* || !user.can('broadcast')*/) { return; }
 		if (mGame) {
 			this.sendReplyBox('A game is currently being played.');
-		} else if (mNextPlayers.length < 4) {
-			this.sendReplyBox('At least 4 players are required to play.');
 		} else {
-			mGame = exports.mGame = true;
-			mRoom = this;
-			mNumMob = 0;
-			mNumVillager = 0;
-			mPlayers = mNextPlayers.slice(0);
-			this.add('A new mafia game has begun. Players: ' + mPlayers);
-			for (var i=0; i<mPlayers.length; i++) {
-				mPlayers[i].inMafia = true;
-				mPlayers[i].mGroup = 'villager';
-			}
-			for (var j=0; j<(mPlayers.length*.25); j++) {
-				var mPlayer = Math.floor(Math.random()*mPlayers.length);
-				mPlayers[mPlayer].mGroup = 'mafia';
-				mPlayers[mPlayer].sendTo(Rooms.rooms.mafia, "You are a mafia member. Attempt to kill the villagers.");
-				mNumMob++;
-			}
-			for (var k=0; k<mPlayers.length; k++) {
-				if (mPlayers[k].mGroup === 'mafia') { continue; }
-				mPlayers[k].sendTo(Rooms.rooms.mafia, "You are a villager. Attempt to find out who the mafia are.");
-				mNumVillager++;
-			}
-			mInterval();
+			mNextPlayers = [];
+			mGameStarting = true;
+			room.add('A new mafia game is starting. Type /mjoin to join.');
+			mRooms.lobby.add('A new mafia game is starting. Join tervari.psim.us/mafia and type /mjoin to join.');
+			setTimeout(mGameStart, 30000);
 		}
 	},
 	
 	mjoin: function(target, room, user, connection) {
-		if (room !== Rooms.rooms.mafia) { return; }
+		if (!mGameStarting || room !== mRooms.rooms.mafia) { return; }
 		if (mNextPlayers.indexOf(user) !== -1){
 			this.sendReplyBox('You have already joined the next mafia game.');
 			return;
@@ -155,18 +168,8 @@ var commands = exports.commands = {
 		this.sendReplyBox('You have joined the next mafia game.');
 	},
 	
-	mleave: function(target, room, user, connection) {
-		if (room !== Rooms.rooms.mafia) { return; }
-		if (mNextPlayers.indexOf(user) === -1){
-			this.sendReplyBox('You are not playing the next game.');
-			return;
-		}
-		mNextPlayers.splice(mNextPlayers.indexOf(user), 1);
-		this.sendReplyBox('You will not play the next mafia game.');
-	},
-	
 	mkill: function(target, room, user, connection) {
-		if (!mGame || room !== Rooms.rooms.mafia) { return; }
+		if (!mGame || room !== mRooms.rooms.mafia) { return; }
 		if (user.mGroup !== 'mafia'){
 			this.sendReplyBox('You are not a member of the mafia.');
 			return;
@@ -189,7 +192,7 @@ var commands = exports.commands = {
 	},
 	
 	mvote: function(target, room, user, connection) {
-		if (!mGame || room !== Rooms.rooms.mafia) { return; }
+		if (!mGame || room !== mRooms.rooms.mafia) { return; }
 		if (mPlayers.indexOf(user) === -1){
 			this.sendReplyBox('You are not playing.');
 			return;
@@ -220,7 +223,7 @@ var commands = exports.commands = {
 	},
 	
 	mchat: function(target, room, user, connection) {
-		if (!mGame || room !== Rooms.rooms.mafia) { return; }
+		if (!mGame || room !== mRooms.rooms.mafia) { return; }
 		if (user.mGroup !== 'mafia'){
 			this.sendReplyBox('You are not a member of the mafia.');
 			return;
@@ -233,7 +236,7 @@ var commands = exports.commands = {
 	},
 	
 	mstop: function(target, room, user, connection) {
-		if (!mGame || room !== Rooms.rooms.mafia || !user.can('broadcast')) { return; }
+		if (!mGame || room !== mRooms.rooms.mafia || !user.can('broadcast')) { return; }
 		mEndGame();
 	}
 	

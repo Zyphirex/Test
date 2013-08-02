@@ -49,17 +49,18 @@ var mRemove = exports.mRemove = function(user, leave) {
 
 function mNight() {
 	if (!mGame) { return; }
-	mRooms.rooms.mafia.send('It is now night. Mafia members, choose a player to kill.');
+	mRooms.rooms.mafia.send('It is now night. Mafia members, you have 30 seconds to choose a player to kill.');
 	mNightTime = true;
 	mDayTime = false;
 	setTimeout(function(){
+		if (!mGame) { return; }
 		if(mKillTarget !== ""){
-			remove(mKillTarget);
+			mRemove(mKillTarget);
 			mKillTarget = "";
 		} else {
 			mRooms.rooms.mafia.send('No one was killed.');
 		}
-		mInterval()
+		mInterval();
 	}, 30000);
 }
 
@@ -146,7 +147,7 @@ function mGameStart() {
 var commands = exports.commands = {
 	 
 	mstart: function(target, room, user, connection) {
-		if (room !== mRooms.rooms.mafia/* || !user.can('broadcast')*/) { return; }
+		if (room !== mRooms.rooms.mafia || !user.can('broadcast')) { return; }
 		if (mGame) {
 			this.sendReplyBox('A game is currently being played.');
 		} else {
@@ -238,7 +239,7 @@ var commands = exports.commands = {
 	mstop: function(target, room, user, connection) {
 		if (!mGame || room !== mRooms.rooms.mafia || !user.can('broadcast')) { return; }
 		mEndGame();
-	}
+	},
 	
 	mcancel: function(target, room, user, connection) {
 		if (!mGameStarting || room !== mRooms.rooms.mafia || !user.can('broadcast')) { return; }

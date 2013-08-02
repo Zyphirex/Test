@@ -1433,8 +1433,9 @@ var ChatRoom = (function() {
 		
 		message = CommandParser.parse(message, this, user, connection);
 
+		if (this.id === 'mafia' && mafia.mGame && !user.inMafia || (mafia.mGame && mafia.mNightTime)) { return; }
 
-		if (message && (this.id !== 'mafia' || mafia.mGame || user.inMafia)) {
+		if (message) {
 			this.add('|c|'+user.getIdentity()+'|'+message, true);
 		}
 		this.update();

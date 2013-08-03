@@ -15,6 +15,7 @@ var mNumMob = 0;
 var mNumVillager = 0;
 var mKillTarget = "";
 var mTimer;
+var mTheme = {};
 
 function mEndGame() {
 	mGame = exports.mGame = false;

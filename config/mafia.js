@@ -8,7 +8,6 @@ var mDayTime = false;
 var mNightTime = exports.mNightTime = false;
 var mCounted = false;
 var mPlayers = new Array();
-var mNextPlayers = new Array();
 var mRooms = require('../rooms.js');
 var mNumVotes = 0;
 var mNumMob = 0;
@@ -26,7 +25,6 @@ function mEndGame() {
 	
 var mRemove = exports.mRemove = function(user, leave) {
 	if (leave) {
-		mNextPlayers.splice(mNextPlayers.indexOf(user), 1);
 		mRooms.rooms.mafia.send(user + " has left the game.");
 	} else {
 		mRooms.rooms.mafia.send(user + " has been killed.");
@@ -112,7 +110,7 @@ function mInterval() {
 
 function mGameStart() {
 	if (!mGameStarting ) { return; }
-	if (mNextPlayers.length < 4) {
+	if (mPlayers.length < 4) {
 		mRooms.rooms.mafia.add('At least 4 players are required to play. Retrying in 30 seconds.');
 		setTimeout(mGameStart, 30000);
 		return;
@@ -121,7 +119,6 @@ function mGameStart() {
 	mGame = exports.mGame = true;
 	mNumMob = 0;
 	mNumVillager = 0;
-	mPlayers = mNextPlayers.slice(0);
 	mRooms.rooms.mafia.add('A new mafia game has begun. Players: ' + mPlayers);
 	for (var i=0; i<mPlayers.length; i++) {
 		mPlayers[i].inMafia = true;
@@ -152,7 +149,7 @@ var commands = exports.commands = {
 		if (mGame) {
 			this.sendReplyBox('A game is currently being played.');
 		} else {
-			mNextPlayers = [];
+			mPlayers = [];
 			mGameStarting = true;
 			room.add('A new mafia game is starting. Type /mjoin to join.');
 			mRooms.lobby.add('A new mafia game is starting. Join tervari.psim.us/mafia and type /mjoin to join.');
@@ -168,11 +165,11 @@ var commands = exports.commands = {
 	
 	mjoin: function(target, room, user, connection) {
 		if (!mGameStarting || room !== mRooms.rooms.mafia) { return; }
-		if (mNextPlayers.indexOf(user) !== -1){
+		if (mPlayers.indexOf(user) !== -1){
 			this.sendReplyBox('You have already joined the next mafia game.');
 			return;
 		}
-		mNextPlayers.push(user);
+		mPlayers.push(user);
 		this.sendReplyBox('You have joined the next mafia game.');
 	},
 	

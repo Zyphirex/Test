@@ -4690,6 +4690,18 @@ exports.BattleFormatsData = {
 	},
 	armogeist: {viableMoves: {"willowisp":1,"earthquake":1,"swordsdance":1,"shadowsword":1,"stoneedge":1},
 		dreamWorldRelease: true,
-		tier: "UU",
+		tier: "UU"
+	},
+	waldince: {viableMoves: {"rootbomb":1,"flareblitz":1,"powerwhip":1,"flamecharge":1},
+		dreamWorldRelease: true,
+		tier: "NU"
+	},
+	hydramo: {viableMoves: {"thunderwave":1,"hydropump":1,"thunderbolt":1,"nastyplot":1},
+		dreamWorldRelease: true,
+		tier: "OU"
+	},
+	vireat: {viableMoves: {"bellydrum":1,"flareblitz":1,"earthquake":1,"rockslide":1},
+		dreamWorldRelease: true,
+		tier: "NU"
 	}
 };

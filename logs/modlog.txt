@@ -4095,3 +4095,41 @@
 [2013-08-02T18:02:14.484Z] (lobby) GaviGator was forcibly renamed to this proves fcexchange isn't good at giving ranks by Snaquaza.
 [2013-08-02T18:02:58.640Z] (lobby) DICK DICK PLAY was banned from the Tervari Region by RealPresent.
 [2013-08-02T21:06:08.601Z] (lobby) Zyphirex was promoted to Trainer by Snaquaza.
+[2013-08-03T00:24:02.978Z] (lobby) Snaquaza is hiding auth symbol as ' '
+[2013-08-03T01:31:42.689Z] (lobby) Zyphirex was put in an isolated cel in Luxuria Jail by Snaquaza. (lies!)
+[2013-08-03T01:31:54.167Z] (lobby) Zyphirex was freed by Snaquaza.
+[2013-08-03T01:46:27.122Z] (lobby) Snaquaza just used /remind
+[2013-08-03T01:52:48.825Z] (lobby) Snaquaza just used /remind
+[2013-08-03T01:57:11.278Z] (lobby) GaviGator was locked up in Luxuria Jail by Skalaylee for 7 minutes.
+[2013-08-03T01:57:15.271Z] (lobby) GaviGator was put in an isolated cel in Luxuria Jail by Skalaylee.
+[2013-08-03T02:01:43.376Z] (lobby) BDH93 was promoted to Tervari Gym Leader by Snaquaza.
+[2013-08-03T02:01:43.878Z] (lobby) Skalaylee was promoted to Tervari Gym Leader by Snaquaza.
+[2013-08-03T02:01:58.207Z] (lobby) OKAY UNLOCK ME was banned from the Tervari Region by BDH93.
+[2013-08-03T02:53:24.939Z] (lobby) Skalaylee is hiding auth symbol as ' '
+[2013-08-03T06:05:41.078Z] (lobby) (Skalaylee was demoted to Tervari Gym Trainer by RealPresent.)
+[2013-08-03T06:17:05.044Z] (lobby) RealPresent is hiding auth symbol as '+'
+[2013-08-03T06:35:53.958Z] (lobby) TyranitarTerror was promoted to Inhabitant by RealPresent.
+[2013-08-03T11:56:16.519Z] (battle-ou-818) Naminé was taken to Tervari Police by Snaquaza.
+[2013-08-03T12:03:03.295Z] (lobby) Naminé is hiding auth symbol as ' '
+[2013-08-03T12:24:30.247Z] (battle-ou-819) Glaceon<3V was taken to Tervari Police by Naminé. (************* up)
+[2013-08-03T12:48:06.366Z] (battle-randombattle-822) Glaceon<3V was taken to Tervari Police by Naminé. (stop putting it on, don't be so rude)
+[2013-08-03T15:34:46.247Z] (lobby) Glaceon<3V was promoted to Inhabitant by RealPresent.
+[2013-08-03T15:35:36.938Z] (lobby) Glaceon<3V was promoted to Inhabitant by Snaquaza.
+[2013-08-03T15:36:18.100Z] (lobby) Glaceon<3V was promoted to Inhabitant by Naminé.
+[2013-08-03T15:44:42.701Z] (lobby) GаviGator was locked up in Luxuria Jail by Naminé for 7 minutes.
+[2013-08-03T15:44:49.935Z] (lobby) GаviGator was banned from the Tervari Region by Snaquaza. (this way?)
+[2013-08-03T16:26:42.521Z] (lobby) RealPresent was forcibly renamed to AFKpresent by RealPresent.
+[2013-08-03T16:27:12.118Z] (lobby) Snaquaza was forcibly renamed to SnaquazAFK by Snaquaza.
+[2013-08-03T18:10:44.805Z] (lobby) GaviGator was forcibly renamed to Cute Spammy Boy by RealPresent.
+[2013-08-03T18:11:32.146Z] (lobby) Cute Spammy Boy was forcibly renamed to Cute Spammy Baby Girl by Snaquaza.
+[2013-08-03T18:11:39.712Z] (lobby) Cute Spammy Baby Girl was forcibly renamed to Cute Spammy Girl by Snaquaza.
+[2013-08-03T18:33:55.788Z] (lobby) GaviGator was promoted to Tervari Champion by Snaquaza.
+[2013-08-03T18:33:56.291Z] (lobby) (GaviGator was demoted to Inhabitant by Snaquaza.)
+[2013-08-03T18:34:12.076Z] (battle-gen1oubeta-810) Snaquaza forced a win for gavigator.
+[2013-08-03T18:35:34.658Z] (lobby) (RealPresent was demoted to Inhabitant by Snaquaza.)
+[2013-08-03T18:35:35.158Z] (lobby) RealPresent was promoted to Tervari Champion by Snaquaza.
+[2013-08-03T19:05:20.611Z] (lobby) GaviGator was banned from the Tervari Region by Snaquaza.
+[2013-08-03T19:07:13.390Z] (lobby) (GaviGator would be put in an isolated cel in Luxuria Jail by Skalaylee but was already banned.)
+[2013-08-03T19:08:38.766Z] (lobby) Glaceon<3V was taken to Tervari Police by Naminé. (:_:)
+[2013-08-03T21:45:34.648Z] (lobby) Snaquaza was locked up in Luxuria Jail by Snaquaza for 7 minutes.
+[2013-08-03T21:46:49.280Z] (lobby) Snaquaza was freed by Snaquaza.

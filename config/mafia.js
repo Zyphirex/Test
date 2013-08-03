@@ -15,6 +15,8 @@ var mNumVillager = 0;
 var mKillTarget = "";
 var mTimer;
 var mTheme = {};
+var mRolesOrder = [];
+var mRolesIndex = 1;
 
 function mEndGame() {
 	mGame = exports.mGame = false;
@@ -157,9 +159,10 @@ var commands = exports.commands = {
 			mRooms.lobby.add(mTheme.name);
 			mRooms.lobby.add(mTheme.author);
 			mRooms.lobby.add(mTheme.summary);
+			mRolesOrder = mTheme.roles1;
+			mRolesIndex = 1;
 			*/
-			setTimeout(mGameStart, 60000);
-			setTimeout(room.add('30 seconds remaining to join.'), 30000);
+			mTimer = setTimeout(function() {room.add('30 seconds remaining to join.'); setTimeout(mGameStart, 30000);}, 30000)
 		}
 	},
 	
@@ -170,7 +173,20 @@ var commands = exports.commands = {
 			return;
 		}
 		mPlayers.push(user);
-		this.sendReplyBox('You have joined the next mafia game.');
+		this.sendReplyBox('You have joined the mafia game.');
+		/*
+		if (mTheme["roles" + mRolesIndex].length <= mPlayers.length) {
+			try {
+				mRolesIndex++;
+				mRolesOrder = mTheme["roles" + mRolesIndex];
+			}
+			catch(e) {
+				room.add('Sign-up full. Starting game.');
+				clearTimeout(mTimer)
+				mGameStart()
+			}
+		}
+		*/
 	},
 	
 	mkill: function(target, room, user, connection) {

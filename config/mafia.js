@@ -18,6 +18,29 @@ var mTheme = {};
 var mRolesOrder = [];
 var mRolesIndex = 1;
 
+// Shuffle function courtesy of StackOverflow. If this doesn't work, I'll try something else. :P
+function mShuffle(array) {
+  var currentIndex = array.length
+    , temporaryValue
+    , randomIndex
+    ;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
 function mEndGame() {
 	mGame = exports.mGame = false;
 	for (var i=0; i<mPlayers.length; i++) {
@@ -119,6 +142,12 @@ function mGameStart() {
 	}
 	mGameStarting = false;
 	mGame = exports.mGame = true;
+	/*
+	mShuffle(mPlayers);
+	for (var q=0; i<mPlayers.length; q++) {
+		mPlayers[q].mRole = mTheme["roles" + mRolesIndex][q]
+	}
+	*/
 	mNumMob = 0;
 	mNumVillager = 0;
 	mRooms.rooms.mafia.add('A new mafia game has begun. Players: ' + mPlayers);

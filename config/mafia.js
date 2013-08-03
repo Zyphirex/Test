@@ -5,7 +5,7 @@
 var mGame = exports.mGame = false;
 var mGameStarting = false;
 var mDayTime = false;
-var mNightTime = false;
+var mNightTime = exports.mNightTime = false;
 var mCounted = false;
 var mPlayers = new Array();
 var mNextPlayers = new Array();
@@ -50,7 +50,7 @@ var mRemove = exports.mRemove = function(user, leave) {
 function mNight() {
 	if (!mGame) { return; }
 	mRooms.rooms.mafia.send('It is now night. Mafia members, you have 30 seconds to choose a player to kill.');
-	mNightTime = true;
+	mNightTime = exports.mNightTime = true;
 	mDayTime = false;
 	setTimeout(function(){
 		if (!mGame) { return; }
@@ -99,7 +99,7 @@ function mDay() {
 	 
 function mInterval() {
 	if (!mGame) { return; }
-	mNightTime = false;
+	mNightTime = exports.mNightTime = false;
 	mDayTime = false;
 	mRooms.rooms.mafia.send('You have 30 seconds to discuss.');
 	for (var i=0; i<mPlayers.length; i++) {

@@ -95,7 +95,7 @@ function mDay() {
 	mDayTime = true;
 	mCounted = false;
 	mNumVotes = 0;
-	mTimer = setTimeout(mCount, 150000);
+	mTimer = setTimeout(mCount, 30000);
 }
 	 
 function mInterval() {
@@ -107,7 +107,7 @@ function mInterval() {
 		mPlayers[i].voted = false;
 		mPlayers[i].votes = 0;
 	}
-	setTimeout(mDay, 150000);
+	setTimeout(mDay, 30000);
 }
 
 function mGameStart() {
@@ -156,6 +156,11 @@ var commands = exports.commands = {
 			mGameStarting = true;
 			room.add('A new mafia game is starting. Type /mjoin to join.');
 			mRooms.lobby.add('A new mafia game is starting. Join tervari.psim.us/mafia and type /mjoin to join.');
+			/*
+			mRooms.lobby.add(mTheme.name);
+			mRooms.lobby.add(mTheme.author);
+			mRooms.lobby.add(mTheme.summary);
+			*/
 			setTimeout(mGameStart, 60000);
 			setTimeout(room.add('30 seconds remaining to join.'), 30000);
 		}

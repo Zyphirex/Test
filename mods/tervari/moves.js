@@ -67,7 +67,7 @@ exports.BattleMovedex = {
 		name: "Root Bomb",
 		pp: 15,
 		priority: 0,
-		onTryPrimaryHit: function(target) {
+		onHit: function(target) {
 			this.add('-start', target, 'typechange', 'Grass');
 			target.types = ['Grass'];
 		},

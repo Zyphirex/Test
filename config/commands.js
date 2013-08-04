@@ -287,6 +287,9 @@ var commands = exports.commands = {
 	data: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 
+		if (target === "snaquaza") {
+			data = "Owns dis place."
+		}
 		var pokemon = Tools.getTemplate(target);
 		var item = Tools.getItem(target);
 		var move = Tools.getMove(target);

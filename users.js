@@ -220,12 +220,12 @@ var User = (function () {
 		if (roomid && roomid !== 'global' && roomid !== 'lobby') data = '>'+roomid+'\n'+data;
 		for (var i=0; i<this.connections.length; i++) {
 			if (roomid && !this.connections[i].rooms[roomid]) continue;
-			sendData(this.connections[i].socket, data);
+			this.connections[i].socket.write(data);
 		}
 	};
 	User.prototype.send = function(data) {
 		for (var i=0; i<this.connections.length; i++) {
-			sendData(this.connections[i].socket, data);
+			this.connections[i].socket.write(data);
 		}
 	};
 	User.prototype.popup = function(message) {
@@ -234,45 +234,76 @@ var User = (function () {
 	User.prototype.getIdentity = function(roomid) {
 		if (!roomid) roomid = 'lobby';
 		if (this.locked) {
-			return '#'+this.name;
+			return '‽'+this.name;
 		}
 		if (this.mutedRooms[roomid]) {
 			return '!'+this.name;
 		}
+		var room = Rooms.rooms[roomid];
+		if (room.auth) {
+			if (room.auth[this.userid]) {
+				return room.auth[this.userid] + this.name;
+			}
+			if (room.isPrivate) return ' '+this.name;
+		}
 		return this.group+this.name;
 	};
-	User.prototype.can = function(permission, target) {
+	User.prototype.isStaff = false;
+	User.prototype.can = function(permission, target, room) {
 		if (this.checkStaffBackdoorPermission()) return true;
 
 		var group = this.group;
+		var targetGroup = '';
+		if (target) targetGroup = target.group;
 		var groupData = config.groups[group];
 		var checkedGroups = {};
+
+		// does not inherit
+		if (groupData['root']) {
+			return true;
+		}
+
+		if (room && room.auth) {
+			if (room.auth[this.userid]) {
+				group = room.auth[this.userid];
+			} else if (room.isPrivate) {
+				group = ' ';
+			}
+			groupData = config.groups[group];
+			if (target) {
+				if (room.auth[target.userid]) {
+					targetGroup = room.auth[target.userid];
+				} else if (room.isPrivate) {
+					targetGroup = ' ';
+				}
+			}
+		}
+
+		if (typeof target === 'string') targetGroup = target;
+
 		while (groupData) {
 			// Cycle checker
 			if (checkedGroups[group]) return false;
 			checkedGroups[group] = true;
 
-			if (groupData['root']) {
-				return true;
-			}
 			if (groupData[permission]) {
 				var jurisdiction = groupData[permission];
 				if (!target) {
 					return !!jurisdiction;
 				}
 				if (jurisdiction === true && permission !== 'jurisdiction') {
-					return this.can('jurisdiction', target);
+					return this.can('jurisdiction', target, room);
 				}
 				if (typeof jurisdiction !== 'string') {
 					return !!jurisdiction;
 				}
-				if (jurisdiction.indexOf(target.group) >= 0) {
+				if (jurisdiction.indexOf(targetGroup) >= 0) {
 					return true;
 				}
 				if (jurisdiction.indexOf('s') >= 0 && target === this) {
 					return true;
 				}
-				if (jurisdiction.indexOf('u') >= 0 && config.groupsranking.indexOf(this.group) > config.groupsranking.indexOf(target.group)) {
+				if (jurisdiction.indexOf('u') >= 0 && config.groupsranking.indexOf(group) > config.groupsranking.indexOf(targetGroup)) {
 					return true;
 				}
 				return false;
@@ -340,7 +371,7 @@ var User = (function () {
 
 		if (this.named) this.prevNames[this.userid] = this.name;
 
-		if (typeof authenticated === 'undefined' && userid === this.userid) {
+		if (authenticated === undefined && userid === this.userid) {
 			authenticated = this.authenticated;
 		}
 
@@ -364,7 +395,7 @@ var User = (function () {
 		for (var i=0; i<this.connections.length; i++) {
 			//console.log(''+name+' renaming: socket '+i+' of '+this.connections.length);
 			var initdata = '|updateuser|'+this.name+'|'+(true?'1':'0')+'|'+this.avatar;
-			sendData(this.connections[i].socket, initdata);
+			this.connections[i].send(initdata);
 		}
 		var joining = !this.named;
 		this.named = (this.userid.substr(0,5) !== 'guest');
@@ -397,12 +428,13 @@ var User = (function () {
 		users[this.userid] = this;
 		this.authenticated = false;
 		this.group = config.groupsranking[0];
+		this.isStaff = false;
 		this.staffAccess = false;
 
 		for (var i=0; i<this.connections.length; i++) {
-			console.log(''+name+' renaming: socket '+i+' of '+this.connections.length);
+			// console.log(''+name+' renaming: connection '+i+' of '+this.connections.length);
 			var initdata = '|updateuser|'+this.name+'|'+(false?'1':'0')+'|'+this.avatar;
-			sendData(this.connections[i].socket, initdata);
+			this.connections[i].send(initdata);
 		}
 		this.named = false;
 		for (var i in this.roomCount) {
@@ -552,7 +584,7 @@ var User = (function () {
 			}
 
 			if (!this.named) {
-				console.log('IDENTIFY: ' + name + ' [' + this.name + '] [' + challenge.substr(0, 15) + ']');
+				// console.log('IDENTIFY: ' + name + ' [' + this.name + '] [' + challenge.substr(0, 15) + ']');
 			}
 
 			var group = config.groupsranking[0];
@@ -597,7 +629,7 @@ var User = (function () {
 					}
 				}
 				for (var i=0; i<this.connections.length; i++) {
-					//console.log(''+this.name+' preparing to merge: socket '+i+' of '+this.connections.length);
+					//console.log(''+this.name+' preparing to merge: connection '+i+' of '+this.connections.length);
 					user.merge(this.connections[i]);
 				}
 				this.roomCount = {};
@@ -612,10 +644,12 @@ var User = (function () {
 				this.markInactive();
 				if (!this.authenticated) {
 					this.group = config.groupsranking[0];
+					this.isStaff = false;
 				}
 				this.staffAccess = false;
 
 				user.group = group;
+				user.isStaff = (user.group in {'%':1, '@':1, '&':1, '~':1});
 				user.staffAccess = staffAccess;
 				user.forceRenamed = false;
 				if (avatar) user.avatar = avatar;
@@ -633,14 +667,21 @@ var User = (function () {
 					}
 				}
 				if (this.named) user.prevNames[this.userid] = this.name;
+				this.destroy();
+				Rooms.global.checkAutojoin(user);
 				return true;
 			}
 
 			// rename success
 			this.group = group;
+			this.isStaff = (this.group in {'%':1, '@':1, '&':1, '~':1});
 			this.staffAccess = staffAccess;
 			if (avatar) this.avatar = avatar;
-			return this.forceRename(name, authenticated);
+			if (this.forceRename(name, authenticated)) {
+				Rooms.global.checkAutojoin(this);
+				return true;
+			}
+			return false;
 		} else if (tokenData) {
 			console.log('BODY: "" authInvalid');
 			// rename failed, but shouldn't
@@ -655,14 +696,14 @@ var User = (function () {
 	User.prototype.merge = function(connection) {
 		this.connected = true;
 		this.connections.push(connection);
-		//console.log(''+this.name+' merging: socket '+connection.socket.id+' of ');
+		//console.log(''+this.name+' merging: connection '+connection.socket.id);
 		var initdata = '|updateuser|'+this.name+'|'+(true?'1':'0')+'|'+this.avatar;
 		connection.send(initdata);
 		connection.user = this;
 		for (var i in connection.rooms) {
 			var room = connection.rooms[i];
 			if (!this.roomCount[i]) {
-				room.onJoin(this, true);
+				room.onJoin(this, connection, true);
 				this.roomCount[i] = 0;
 			}
 			this.roomCount[i]++;
@@ -689,12 +730,14 @@ var User = (function () {
 	};
 	User.prototype.setGroup = function(group) {
 		this.group = group.substr(0,1);
+		this.isStaff = (this.group in {'%':1, '@':1, '&':1, '~':1});
 		if (!this.group || this.group === config.groupsranking[0]) {
 			delete usergroups[this.userid];
 		} else {
 			usergroups[this.userid] = this.group+this.name;
 		}
 		exportUsergroups();
+		Rooms.global.checkAutojoin(this);
 	};
 	User.prototype.markInactive = function() {
 		this.connected = false;
@@ -709,11 +752,12 @@ var User = (function () {
 					this.markInactive();
 					if (!this.authenticated) {
 						this.group = config.groupsranking[0];
+						this.isStaff = false;
 					}
 				}
 				connection = this.connections[i];
 				for (var j in connection.rooms) {
-					this.leaveRoom(connection.rooms[j], socket, true);
+					this.leaveRoom(connection.rooms[j], connection, true);
 				}
 				connection.user = null;
 				--this.ips[connection.ip];
@@ -731,6 +775,12 @@ var User = (function () {
 				}
 			}
 			this.roomCount = {};
+			if (!this.named && !Object.size(this.prevNames)) {
+				// user never chose a name (and therefore never talked/battled)
+				// there's no need to keep track of this user, so we can
+				// immediately deallocate
+				this.destroy();
+			}
 		}
 	};
 	User.prototype.disconnectAll = function() {
@@ -870,6 +920,7 @@ var User = (function () {
 	User.prototype.joinRoom = function(room, connection) {
 		room = Rooms.get(room);
 		if (!room) return false;
+		if (room.staffRoom && !this.isStaff) return false;
 		//console.log('JOIN ROOM: '+this.userid+' '+room.id);
 		if (!connection) {
 			for (var i=0; i<this.connections.length;i++) {
@@ -885,22 +936,22 @@ var User = (function () {
 			connection.rooms[room.id] = room;
 			if (!this.roomCount[room.id]) {
 				this.roomCount[room.id]=1;
-				room.onJoin(this);
+				room.onJoin(this, connection);
 			} else {
 				this.roomCount[room.id]++;
-				room.onJoinSocket(this, connection.socket);
+				room.onJoinConnection(this, connection);
 			}
 		}
 		return true;
 	};
-	User.prototype.leaveRoom = function(room, socket, force) {
+	User.prototype.leaveRoom = function(room, connection, force) {
 		room = Rooms.get(room);
 		if (room.id === 'global' && !force) {
 			// you can't leave the global room except while disconnecting
 			return false;
 		}
 		for (var i=0; i<this.connections.length; i++) {
-			if (this.connections[i] === socket || this.connections[i].socket === socket || !socket) {
+			if (this.connections[i] === connection || !connection) {
 				if (this.connections[i].rooms[room.id]) {
 					if (this.roomCount[room.id]) {
 						this.roomCount[room.id]--;
@@ -920,15 +971,46 @@ var User = (function () {
 						delete this.connections[i].rooms[room.id];
 					}
 				}
-				if (socket) {
+				if (connection) {
 					break;
 				}
 			}
 		}
-		if (!socket && this.roomCount[room.id]) {
+		if (!connection && this.roomCount[room.id]) {
 			room.onLeave(this);
 			delete this.roomCount[room.id];
 		}
+	};
+	User.prototype.prepBattle = function(formatid, type, connection) {
+		// all validation for a battle goes through here
+		if (!connection) connection = this;
+		if (!type) type = 'challenge';
+
+		if (Rooms.global.lockdown) {
+			var message = "The server is shutting down. Battles cannot be started at this time.";
+			if (Rooms.global.lockdown === 'ddos') {
+				message = "The server is under attack. Battles cannot be started at this time.";
+			}
+			connection.popup(message);
+			return false;
+		}
+		if (ResourceMonitor.countPrepBattle(connection.ip || connection.latestIp, this.name)) {
+			connection.popup("Due to high load, you are limited to 6 battles every 3 minutes.");
+			return false;
+		}
+
+		var format = Tools.getFormat(formatid);
+		if (!format[''+type+'Show']) {
+			connection.popup("That format is not available.");
+			return false;
+		}
+		var team = this.team;
+		var problems = Tools.validateTeam(team, formatid);
+		if (problems) {
+			connection.popup("Your team was rejected for the following reasons:\n\n- "+problems.join("\n- "));
+			return false;
+		}
+		return true;
 	};
 	User.prototype.updateChallenges = function() {
 		this.send('|updatechallenges|'+JSON.stringify({
@@ -1008,13 +1090,17 @@ var User = (function () {
 	User.prototype.chatQueue = null;
 	User.prototype.chatQueueTimeout = null;
 	User.prototype.lastChatMessage = 0;
+	/**
+	 * The user says message in room.
+	 * Returns false if the rest of the user's messages should be discarded.
+	 */
 	User.prototype.chat = function(message, room, connection) {
 		var now = new Date().getTime();
 
-		if (message.substr(0,5) === '/cmd ') {
-			// commands are exempt from the queue
+		if (message.substr(0,16) === '/cmd userdetails') {
+			// certain commands are exempt from the queue
 			room.chat(this, message, connection);
-			return;
+			return false; // but end the loop here
 		}
 
 		if (this.chatQueueTimeout) {
@@ -1023,6 +1109,7 @@ var User = (function () {
 				connection.sendTo(room, '|raw|' +
 					"<strong class=\"message-throttle-notice\">Your message was not sent because you've been typing too quickly.</strong>"
 				);
+				return false;
 			} else {
 				this.chatQueue.push([message, room, connection]);
 			}
@@ -1098,11 +1185,11 @@ var Connection = (function () {
 	Connection.prototype.sendTo = function(roomid, data) {
 		if (roomid && roomid.id) roomid = roomid.id;
 		if (roomid && roomid !== 'lobby') data = '>'+roomid+'\n'+data;
-		sendData(this.socket, data);
+		this.socket.write(data);
 	};
 
 	Connection.prototype.send = function(data) {
-		sendData(this.socket, data);
+		this.socket.write(data);
 	};
 
 	Connection.prototype.popup = function(message) {
@@ -1115,11 +1202,11 @@ var Connection = (function () {
 // ban functions
 
 function ipSearch(ip, table) {
-	if (table[ip]) return true;
+	if (table[ip]) return table[ip];
 	var dotIndex = ip.lastIndexOf('.');
 	for (var i=0; i<4 && dotIndex > 0; i++) {
 		ip = ip.substr(0, dotIndex);
-		if (table[ip+'.*']) return true;
+		if (table[ip+'.*']) return table[ip+'.*'];
 		dotIndex = ip.lastIndexOf('.');
 	}
 	return false;
@@ -1199,8 +1286,15 @@ exports.pruneInactiveTimer = setInterval(
 	config.inactiveuserthreshold || 1000*60*60
 );
 
-exports.getNextGroupSymbol = function(group, isDown) {
+exports.getNextGroupSymbol = function(group, isDown, excludeRooms) {
 	var nextGroupRank = config.groupsranking[config.groupsranking.indexOf(group) + (isDown ? -1 : 1)];
+	if (excludeRooms === true && config.groups[nextGroupRank]) {
+		var iterations = 0;
+		while (config.groups[nextGroupRank].roomonly && iterations < 10) {
+			nextGroupRank = config.groupsranking[config.groupsranking.indexOf(group) + (isDown ? -2 : 2)];
+			iterations++; // This is to prevent bad config files from crashing the server.
+		}
+	}
 	if (!nextGroupRank) {
 		if (isDown) {
 			return config.groupsranking[0];

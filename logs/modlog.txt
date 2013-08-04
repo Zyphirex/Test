@@ -4135,3 +4135,20 @@
 [2013-08-03T21:46:49.280Z] (lobby) Snaquaza was freed by Snaquaza.
 [2013-08-04T17:20:41.274Z] (lobby) The Pokemon of the Day was changed to Waldince by Snaquaza.
 [2013-08-04T17:24:47.895Z] (battle-randombattle-804) RealPresent forced a win for mrsmellyfeet100.
+[2013-08-04T17:41:23.709Z] (lobby) The Pokemon of the Day was changed to Waldince by Snaquaza.
+[2013-08-04T17:50:38.774Z] (lobby) RealPresent declared <img scr="http://g.mastergreetings.com/happybirthday/205.gif">
+[2013-08-04T17:51:25.357Z] (lobby) RealPresent declared <img src="http://g.mastergreetings.com/happybirthday/205.gif">
+[2013-08-04T17:51:52.163Z] (lobby) (Naminé was forcibly renamed to Princess Ariel by Snaquaza.)
+[2013-08-04T18:00:11.687Z] (battle-tervarirandombattle-808) Snaquaza forced a win for realpresent.
+[2013-08-04T18:01:24.096Z] (lobby) (RealPresent was forcibly renamed to Present is eating Pizza by RealPresent.)
+[2013-08-04T18:02:40.284Z] (lobby) (Princess Ariel was forcibly renamed to Ariel eating Pizza Fish by Snaquaza.)
+[2013-08-04T18:11:04.122Z] (staff) (Present is eating Pizza was forcibly renamed to Present is eating Brains by Snaquaza.)
+[2013-08-04T18:22:01.807Z] (lobby) The Pokemon of the Day was changed to hydramo by Snaquaza.
+[2013-08-04T18:26:32.054Z] (lobby) (RealPresent was forcibly renamed to RealPresent: $5 by Snaquaza.)
+[2013-08-04T18:40:50.103Z] (lobby) Princess Bell was banned from the Tervari Region by Naminé.
+[2013-08-04T18:40:50.103Z] (lobby) Princess Bell's companions were also banned from the Tervari Region: EhhhN
+[2013-08-04T18:41:35.798Z] (lobby) Princess Bell is allowed to visit the Tervari Region again.
+[2013-08-04T18:57:21.739Z] (lobby) The Pokemon of the Day was changed to hiedramo by RealPresent.
+[2013-08-04T18:57:35.363Z] (lobby) The Pokemon of the Day was changed to hydramo by RealPresent.
+[2013-08-04T19:04:33.874Z] (lobby) Zyphirex was banned from the Tervari Region by Naminé.
+[2013-08-04T19:04:40.632Z] (lobby) Zyphirex is allowed to visit the Tervari Region again.

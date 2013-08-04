@@ -2,7 +2,7 @@ exports.BattleStatuses = {
 	frz: {
 		effectType: 'Status',
 		onStart: function(target) {
-			this.add('-status', target.id, 'frz');
+			this.add('-status', target, 'frz');
 		},
 		duration: 2,
 		onBeforeMovePriority: 2,
@@ -11,13 +11,16 @@ exports.BattleStatuses = {
 				pokemon.cureStatus();
 				return;
 			}
-			this.add('cant', pokemon.id, 'frz');
+			this.add('cant', pokemon, 'frz');
 			return false;
 		},
 		onHit: function(target, source, move) {
 			if (move.type === 'Fire' && move.category !== 'Status' || move.thawsUser) {
 				target.cureStatus();
 			}
+		},
+		onEnd: function(target) {
+			this.battle.add('-curestatus', target, 'frz');
 		}
 	},
 	lockedmove: {
@@ -92,6 +95,10 @@ exports.BattleStatuses = {
 				pokemon.ability = 'adaptability';
 				pokemon.baseAbility = 'adaptability';
 			}
+		},
+		onModifyPokemon: function(pokemon) {
+			if (pokemon.transformed) return;
+			pokemon.types = [pokemon.hpType || 'Dark'];
 		}
 	},
 	bronzong: {

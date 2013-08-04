@@ -1292,7 +1292,7 @@ viewround: 'vr',
 		if (room.isPrivate && room.auth) {
 			return this.sendReply('You can\'t warn here: This is a privately-owned room not subject to global rules.');
 		}
-		if (!this.can('warn', targetUser)) return false;
+		if (!this.can('warn', targetUser, room)) return false;
 
 		this.addModCommand(''+targetUser.name+' was taken to Tervari Police by '+user.name+'.' + (target ? " (" + target + ")" : ""));
 		targetUser.send('|c|~|/warn '+target);
@@ -1639,7 +1639,7 @@ viewround: 'vr',
 	wall: 'announce',
 	announce: function(target, room, user) {
 		if (!target) return this.parse('/help announce');
-		if (!this.can('announce')) return false;
+		if (!this.can('announce', null, room)) return false;
 
 		target = this.canTalk(target);
 		if (!target) return;

@@ -31148,3 +31148,14 @@ user = snaquaza
 ip = 127.0.0.1
 roomid = 
 message = |/hotpatch chat
+
+TypeError: Object glaceon3v has no method 'prepBattle'
+    at Object.exports.commands.challenge (/Users/clazinasteunenberg/Downloads/Test/commands.js:2181:13)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1434:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1049:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+ReferenceError: Data is not defined
+    at tour.reset.tour.(anonymous function).status [as _onTimeout] (/Users/clazinasteunenberg/Downloads/Test/commands.js:18:38)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)

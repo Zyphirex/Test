@@ -4133,3 +4133,5 @@
 [2013-08-03T19:08:38.766Z] (lobby) Glaceon<3V was taken to Tervari Police by Naminé. (:_:)
 [2013-08-03T21:45:34.648Z] (lobby) Snaquaza was locked up in Luxuria Jail by Snaquaza for 7 minutes.
 [2013-08-03T21:46:49.280Z] (lobby) Snaquaza was freed by Snaquaza.
+[2013-08-04T17:20:41.274Z] (lobby) The Pokemon of the Day was changed to Waldince by Snaquaza.
+[2013-08-04T17:24:47.895Z] (battle-randombattle-804) RealPresent forced a win for mrsmellyfeet100.

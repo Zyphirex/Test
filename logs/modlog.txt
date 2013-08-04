@@ -4209,3 +4209,4 @@
 [2013-08-04T22:05:36.122Z] (lobby) Talagand was locked up in Luxuria Jail by Oran Berrys for 60 minutes. (In case he comes back to spam his terrible game)
 [2013-08-04T22:07:29.845Z] (lobby) Cooleuropean was promoted to Trainer by Snaquaza.
 [2013-08-04T22:47:41.184Z] (zyphirex) Zyphirex was appointed Room Owner by Snaquaza.
+[2013-08-04T23:53:21.681Z] (lobby) Snaquaza used /snaqsays to say hi

@@ -15,7 +15,7 @@ if (typeof tour == "undefined") {
 	tour = new Object();
 }
 tour.tiers = new Array();
-setTimeout(function() {for (var i in Data.base.Formats) {tour.tiers.push(i);}}, 1000);
+setTimeout(function() {for (var i in Tools.data.Formats) {tour.tiers.push(i);}}, 1000);
 tour.reset = function(rid) {
 	tour[rid] = {
 		status: 0,

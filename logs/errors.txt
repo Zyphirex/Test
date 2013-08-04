@@ -31112,3 +31112,39 @@ TypeError: Cannot read property '0' of undefined
     at ChildProcess.EventEmitter.emit (events.js:98:17)
     at handleMessage (child_process.js:318:10)
     at Pipe.channel.onread (child_process.js:345:11)
+
+SyntaxError: Unexpected string
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:381:22)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+
+Additional information:
+user = snaquaza
+ip = 127.0.0.1
+roomid = 
+message = |/hotpatch chat
+
+SyntaxError: Unexpected string
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:381:22)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+
+Additional information:
+user = snaquaza
+ip = 127.0.0.1
+roomid = 
+message = |/hotpatch chat

@@ -20,7 +20,7 @@ exports.BattleMovedex = {
 		secondary: false,
 		target: "normal",
 		type: "Psychic"
-	}
+	},
 	"divingtalon": {
 		num: 702,
 		accuracy: 100,

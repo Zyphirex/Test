@@ -1,6 +1,28 @@
 exports.BattleMovedex = {
+	"distortion": {
+		num: 701,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		desc: "Blah Blah Blah",
+		shortDesc: "Blah Blah Blah",
+		id: "distortion",
+		isViable: true,
+		name: "Distortion",
+		pp: 10,
+		priority: -1,
+		beforeTurnCallback: function(pokemon, target) {
+			decision = this.willMove(target);
+			if (decision.move.priority !== 0) {
+				this.willMove(pokemon).move.priority = decision.move.priority + 1;
+			}
+		},
+		secondary: false,
+		target: "normal",
+		type: "Psychic"
+	}
 	"divingtalon": {
-		num: 704,
+		num: 702,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -33,14 +55,57 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Fire"
 	},
+	"focusball": {
+		num: 704,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		desc: "Deals damage to one adjacent target with a 20% chance to lower its Special Defense by 1 stage.",
+		shortDesc: "20% chance to lower the target's Sp. Def by 1.",
+		id: "focusball",
+		isViable: true,
+		name: "Focus Ball",
+		pp: 15,
+		priority: 0,
+		secondary: {
+			chance: 20,
+			boosts: {
+				spd: -1
+			}
+		},
+		target: "normal",
+		type: "Fighting"
+	},
+	"mindforce": {
+		num: 705,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		desc: "Deals damage to one adjacent target. Fails if the target did not select a status move for use this turn, or if the target moves before the user. Priority +1.",
+		shortDesc: "Usually goes first. Fails if target is not using a status move.",
+		id: "mindforce",
+		isViable: true,
+		name: "Mind Force",
+		pp: 5,
+		priority: 1,
+		onTryHit: function(target) {
+			decision = this.willMove(target);
+			if (!decision || decision.choice !== 'move' || (decision.move.category !== 'Status' && decision.move.id !== 'mefirst')) {
+				return false;
+			}
+		},
+		secondary: false,
+		target: "normal",
+		type: "Psychic"
+	},
 	"rabidfrenzy": {
-		num: 370,
+		num: 706,
 		accuracy: 100,
 		basePower: 120,
 		category: "Physical",
 		desc: "Deals damage to one adjacent target and lowers the user's Defense and Special Defense by 1 stage. Makes contact.",
 		shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
-		id: "rapidfrenzy",
+		id: "rabidfrenzy",
 		isViable: true,
 		name: "Rabid Frenzy",
 		pp: 5,
@@ -57,7 +122,7 @@ exports.BattleMovedex = {
 		type: "Dark"
 	},
 	"rootbomb": {
-		num: 510,
+		num: 707,
 		accuracy: 100,
 		basePower: 30,
 		category: "Physical",
@@ -76,7 +141,7 @@ exports.BattleMovedex = {
 		type: "Fire"
 	},
 	"shadowsword": {
-		num: 610,
+		num: 708,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -97,7 +162,7 @@ exports.BattleMovedex = {
 		type: "Ghost"
 	},
 	"shortcircuit": {
-		num: 705,
+		num: 709,
 		accuracy: 100,
 		basePower: 40,
 		category: "Special",
@@ -114,7 +179,7 @@ exports.BattleMovedex = {
 		type: "Electric"
 	},
         "vendetta": {
-                num: 702,
+                num: 710,
                 accuracy: 85,
                 basePower: 120,
                 category: "Special",
@@ -139,7 +204,7 @@ exports.BattleMovedex = {
                 type: "Ghost"
         },
 	"voidhorn": {
-		num: 701,
+		num: 711,
 		accuracy: 85,
 		basePower: 120,
 		category: "Physical",

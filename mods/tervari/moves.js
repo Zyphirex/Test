@@ -76,6 +76,42 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Fighting"
 	},
+	"gyre": {
+		num: 710,
+		accuracy: 85,
+		basePower: 100,
+		basePowerCallback: function() {
+			if (this.weather) return 125;
+			return 100;
+		},
+		category: "Special",
+		desc: "Deals damage to one adjacent target. Power doubles during weather effects and this move's type changes to match; Ice-type during Hail, Water-type during Rain Dance, Rock-type during Sandstorm, and Fire-type during Sunny Day.",
+		shortDesc: "Power doubles and type varies in each weather.",
+		id: "gyre",
+		isViable: true,
+		name: "Gyre",
+		pp: 10,
+		priority: 0,
+		onModifyMove: function(move) {
+			switch (this.effectiveWeather()) {
+			case 'sunnyday':
+				move.type = 'Fire';
+				break;
+			case 'raindance':
+				move.type = 'Water';
+				break;
+			case 'sandstorm':
+				move.type = 'Rock';
+				break;
+			case 'hail':
+				move.type = 'Ice';
+				break;
+			}
+		},
+		secondary: false,
+		target: "flying",
+		type: "Flying"
+	},
 	"mindforce": {
 		num: 705,
 		accuracy: 100,

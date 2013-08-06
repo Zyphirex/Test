@@ -1,5 +1,7 @@
 [
 {"title":"Lobby","autojoin":true},
 {"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
-{"title":"Zyphirex","auth":{}}
+{"title":"hispam"},
+{"title":"Tervari Olympics","isPrivate":true},
+{"title":"Tervari League","isPrivate":true}
 ]

@@ -168,9 +168,11 @@ exports.BattleMovedex = {
 		name: "Root Bomb",
 		pp: 15,
 		priority: 0,
-		effect: onBeforeMove: function(target) {
-			this.add('-start', target, 'typechange', 'Grass');
-			target.types = ['Grass'];
+		effect: { 
+			onBeforeMove: function(target) {
+				this.add('-start', target, 'typechange', 'Grass');
+				target.types = ['Grass'];
+			}
 		},
 		secondary: false,
 		target: "normal",

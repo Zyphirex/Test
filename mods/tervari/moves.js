@@ -169,7 +169,7 @@ exports.BattleMovedex = {
 		pp: 15,
 		priority: 0,
 		effect: { 
-			onBeforeMove: function(target) {
+			onBeforeMove: function(pokemon, target, move) {
 				this.add('-start', target, 'typechange', 'Grass');
 				target.types = ['Grass'];
 			}

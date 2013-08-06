@@ -150,6 +150,26 @@ exports.BattleFormats = {
 		ruleset: ['RU'],
 		banlist: ['RU','BL3']
 	},
+	pu: {
+		name: "PU",
+		section: "Singles",
+
+		effectType: 'Format',
+		challengeShow: true,
+		isTeambuilderFormat: true,
+		ruleset: ['NU'],
+		banlist: ["Charizard", "Wartortle", "Kadabra", "Golem", "Haunter", "Exeggutor", "Weezing", "Kangaskhan", "Pinsir", "Lapras", "Ampharos", "Misdreavus", "Piloswine", "Miltank", "Ludicolo", "Swellow", "Gardevoir", "Ninjask", "Torkoal", "Cacturne", "Altaria", "Armaldo", "Gorebyss", "Regirock", "Regice", "Bastiodon", "Floatzel", "Drifblim", "Skuntank", "Lickilicky", "Probopass", "Rotom-Fan", "Samurott", "Musharna", "Gurdurr", "Sawk", "Carracosta", "Garbodor", "Sawsbuck", "Alomomola", "Golurk", "Braviary", "Articuno", "Electabuzz", "Electrode", "Marowak", "Liepard", "Tangela", "Eelektross", "Ditto", "Seismitoad", "Zangoose", "Roselia", "Zebstrika", "Serperior", "Metang", "Tauros", "Torterra", "Cradily", "Primeape", "Munchlax", "Scolipede", "Jynx"]
+	},
+	nfe: {
+		name: "NFE",
+		section: "Singles",
+
+		effectType: 'Format',
+		challengeShow: true,
+		isTeambuilderFormat: true,
+		ruleset: ['NU', 'Not Fully Evolved'],
+		banlist: []
+	}, 
 	lc: {
 		name: "LC",
 		section: "Singles",

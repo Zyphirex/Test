@@ -1085,6 +1085,7 @@ exports.BattleFormats = {
 			for (var i=0; i<set.moves.length; i++) {
 				if (set.moves[i].substr(1,1) in {M:1,T:1,E:1}) problems.push(set.moves[i]);
 			}
+			return problems;
 		}
 	},
         stabmons: {

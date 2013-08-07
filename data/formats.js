@@ -1068,6 +1068,25 @@ exports.BattleFormats = {
         	ruleset: ['CAP Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         	banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
+	puremeta: {
+		name: "Pure Meta",
+		section: "Singles",
+
+		effectType: 'Format',
+		challengeDefault: true,
+		rated: true,
+		challengeShow: true,
+		searchShow: true,
+		isTeambuilderFormat: true,
+		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
+		validateSet: function (set, format) {
+			var problems = [];
+			for (var i=0; i<set.moves.length; i++) {
+				if (set.moves[i].substr(1,1) in {M:1,T,E:1}) problems.push(set.moves[i]);
+			}
+		}
+	},
         stabmons: {
                 name: "Stabmons",
                 section: "Other Metagames",

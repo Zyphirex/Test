@@ -1070,7 +1070,7 @@ exports.BattleFormats = {
 	},
 	puremeta: {
 		name: "Pure Meta",
-		section: "Singles",
+		section: "Other Metagames",
 
 		effectType: 'Format',
 		challengeDefault: true,

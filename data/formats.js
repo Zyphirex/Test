@@ -1043,7 +1043,7 @@ exports.BattleFormats = {
         },
 
         snaqshift: {
-                name: "Snaq Shift",
+                name: "Super Shift",
                 section: "Other Metagames",
 
                 mod: 'snaqshift',

@@ -5009,3 +5009,527 @@
 [2013-08-06T21:28:03.981Z] (battle-nohaxmons-1067) CrystalEmpoleon was taken to Tervari Police by EhhhN. (no flipping pls)
 [2013-08-06T21:39:00.630Z] (staff) (CrystalEmpoleon was forcibly renamed to Umbreon The Knight by Snaquaza.)
 [2013-08-06T21:46:06.824Z] (lobby) Meloetta<3V was freed by Snaquaza.
+[2013-08-07T00:02:50.305Z] (battle-haxmons-1073) Snaquaza forced a tie.
+[2013-08-07T00:13:21.986Z] (battle-tervaricustomgame-1074) Snaquaza forced a tie.
+[2013-08-07T00:17:41.322Z] (lobby) ChaosGallant6 was taken to Tervari Police by BDH93.
+[2013-08-07T00:29:23.026Z] (staff) (Natu Serious was forcibly renamed to Natsu Serious by Snaquaza.)
+[2013-08-07T01:04:35.890Z] (lobby) The Gavinator was banned from the Tervari Region by Snaquaza.
+[2013-08-07T09:31:58.397Z] (staff) (RealPresent was forcibly renamed to ~^_^~ by RealPresent.)
+[2013-08-07T09:32:03.257Z] (lobby) ~^_^~ is hiding auth symbol as ' '
+[2013-08-07T10:02:02.014Z] (lobby) ~^_^~ turned off /gr
+[2013-08-07T10:02:03.837Z] (lobby) ~^_^~ turned off /hi
+[2013-08-07T11:09:05.021Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:05.888Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:06.677Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:07.270Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:07.770Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:08.271Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:09.749Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:20.420Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:21.205Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:21.731Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:53.360Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:54.251Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:54.393Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:55.216Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:09:56.173Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:10:45.290Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:10:46.212Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:10:47.026Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:10.040Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:10.985Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:11.485Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:11.987Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:12.488Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:12.988Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:13.489Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:13.989Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:14.489Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:14.989Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:15.491Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:15.991Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:16.491Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:16.991Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:17.492Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:17.992Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:18.494Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:18.994Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:19.494Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:21.891Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:22.736Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:23.236Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:23.736Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:24.236Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:24.736Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:25.237Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:25.738Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:26.239Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:26.740Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:27.240Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:27.742Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:28.243Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:28.744Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:29.245Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:29.745Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:30.245Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:30.747Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:31.248Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:31.749Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:32.250Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:44.317Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:45.126Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:46.078Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:46.580Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:47.081Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:47.582Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:48.082Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:48.582Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:49.084Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:49.584Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:50.084Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:50.586Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:51.086Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:51.586Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:52.086Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:52.587Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:53.087Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:53.588Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:54.089Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:54.590Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:55.092Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:55.592Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:58.694Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:13:59.563Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:00.063Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:00.565Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:01.065Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:01.566Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:02.067Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:02.568Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:03.068Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:03.569Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:04.071Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:04.572Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:05.072Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:08.795Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:09.548Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:10.049Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:10.549Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:11.051Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:11.551Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:12.052Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:55.662Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:56.583Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:57.317Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:57.818Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:58.319Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:58.820Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:59.321Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:14:59.821Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:00.321Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:00.821Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:01.322Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:01.823Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:02.323Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:02.824Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:03.324Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:03.824Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:04.324Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:04.824Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:05.324Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:05.826Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:06.327Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:06.827Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:07.329Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:26.375Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:27.144Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:28.069Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:28.902Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:29.730Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:30.355Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:15:31.346Z] (hispam) Naminé declared <img src="http://www.cj-weblog.nl/wp-content/uploads/2009/11/Spam.jpg"/>
+[2013-08-07T11:21:18.169Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:18.797Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:19.541Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:20.041Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:20.543Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:21.045Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:21.546Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:22.047Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:22.547Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:23.047Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:23.549Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:24.050Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:27.040Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:27.684Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:28.186Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:28.687Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:29.188Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:29.690Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:30.191Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:30.691Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:31.191Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:31.691Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:32.193Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:32.693Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:33.193Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:33.694Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:34.194Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:34.695Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:35.197Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:35.697Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:21:36.239Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:37.204Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:38.002Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:38.503Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:40.107Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:41.026Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:41.526Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:42.027Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:42.527Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:43.027Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:43.528Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:44.028Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:44.530Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:45.031Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:45.532Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:46.032Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:46.533Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:47.033Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:47.534Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:48.036Z] (hispam) ~^_^~ set modchat to ~
+[2013-08-07T11:21:48.536Z] (hispam) ~^_^~ set modchat to false
+[2013-08-07T11:21:51.002Z] (hispam) Naminé set modchat to false
+[2013-08-07T11:21:51.680Z] (hispam) Naminé set modchat to false
+[2013-08-07T11:21:52.818Z] (hispam) Naminé set modchat to false
+[2013-08-07T11:21:53.653Z] (hispam) Naminé set modchat to false
+[2013-08-07T11:21:54.153Z] (hispam) Naminé set modchat to false
+[2013-08-07T11:21:54.654Z] (hispam) Naminé set modchat to false
+[2013-08-07T11:21:55.155Z] (hispam) Naminé set modchat to false
+[2013-08-07T11:21:55.657Z] (hispam) Naminé set modchat to false
+[2013-08-07T11:21:56.158Z] (hispam) Naminé set modchat to false
+[2013-08-07T11:22:02.062Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:22:04.906Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:22:05.406Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:22:05.907Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:22:06.409Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:22:06.912Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:22:07.415Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:22:07.918Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:22:08.421Z] (hispam) Naminé declared <img src="http://static.giantbomb.com/uploads/original/0/112/335905-namine00.jpg"/>
+[2013-08-07T11:23:11.461Z] (hispam) Naminé declared <img src="http://4.bp.blogspot.com/-6W8JBGyiKTE/TqzSR5417FI/AAAAAAAAAic/VBSCBoHwK6k/s640/Ganondorf-Chillin.jpg"/>
+[2013-08-07T11:23:26.635Z] (hispam) Naminé declared <img src="http://4.bp.blogspot.com/-6W8JBGyiKTE/TqzSR5417FI/AAAAAAAAAic/VBSCBoHwK6k/s640/Ganondorf-Chillin.jpg"/>
+[2013-08-07T11:24:14.466Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:20.610Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:21.258Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:21.759Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:22.261Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:22.762Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:23.263Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:23.763Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:24.264Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:24.765Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:25.267Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:25.769Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:26.270Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:26.772Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:27.273Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:27.773Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:28.273Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:28.773Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T11:24:29.273Z] (hispam) Naminé declared <img src="http://static.tvtropes.org/pmwiki/pub/images/Demise_2290.jpg"/>
+[2013-08-07T12:43:27.858Z] (hispam) Naminé declared pisspisspisspisspoopooopoopooopooopooopooo Baantjerbaantjer
+[2013-08-07T13:09:20.528Z] (lobby) Naminé declared <img src="http://media.tumblr.com/tumblr_mb5e6dtB141qjx8xz.gif"/> And that's why everyone hates Larxene
+[2013-08-07T13:09:56.633Z] (lobby) Meloetta<3V was taken to Tervari Police by Naminé. (;_;)
+[2013-08-07T13:14:04.742Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:05.564Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:06.403Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:06.903Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:07.404Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:08.591Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:09.341Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:09.842Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:10.342Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:10.842Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:11.343Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:11.843Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:12.344Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:12.844Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:13.345Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:13.846Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:14.347Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:14.848Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:15.350Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:15.850Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:16.350Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:16.851Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:17.351Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:17.852Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:18.353Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:18.854Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:19.355Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:19.856Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:20.356Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:20.856Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/1b374c6373ad41c8d8d72f624fa4c558/tumblr_mihlvyGdJ81qbc2ylo1_500.gif"/>
+[2013-08-07T13:14:43.722Z] (lobby) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Ugly Naminé
+[2013-08-07T13:15:15.067Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/>
+[2013-08-07T13:15:53.321Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:15:59.473Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:15:59.736Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:00.470Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:00.970Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:01.470Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:01.972Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:02.205Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:02.473Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:02.913Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:02.973Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:03.413Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:03.474Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:03.913Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:03.976Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:04.415Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:04.477Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:04.916Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:04.977Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:05.417Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:05.477Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:05.918Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:05.979Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:06.420Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:06.480Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:06.922Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:06.981Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:07.423Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:07.481Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:07.924Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:07.982Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:08.425Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:08.483Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:08.925Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:08.983Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:09.425Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:09.485Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:09.927Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:09.987Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:10.427Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:10.489Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:10.928Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:10.989Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:11.429Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:11.490Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:11.930Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:11.991Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:12.430Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:12.493Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:12.932Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:12.994Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:13.433Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:13.495Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:13.935Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:13.997Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:14.436Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:14.497Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:14.937Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:14.998Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:15.439Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:15.498Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:15.939Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:15.999Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:16.440Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:16.501Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:16.942Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:17.001Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:17.442Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:17.502Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:17.944Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:18.004Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:18.444Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:18.504Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:18.946Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:19.005Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:19.447Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:19.507Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:19.948Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:20.007Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:20.450Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:20.508Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:20.951Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:21.010Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:21.451Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:21.512Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:21.951Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:22.012Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:22.451Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:22.513Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:22.952Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:23.013Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:23.454Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:23.514Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:23.956Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:24.016Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:24.457Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:24.517Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:24.958Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:25.018Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:25.460Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:25.518Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:26.018Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:26.518Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:26.760Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:27.019Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:27.484Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:27.519Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:27.985Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:28.020Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:28.486Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:28.520Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:28.986Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:29.021Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:29.488Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:29.521Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:29.988Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:30.022Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:30.488Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:30.522Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:30.989Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:31.023Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:31.490Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:31.523Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:31.992Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:32.023Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:32.492Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:32.524Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:32.993Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:33.026Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:33.493Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:33.527Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:33.993Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:34.028Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:34.494Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:34.529Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:34.996Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:35.030Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:35.530Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:36.032Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:36.532Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:37.033Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:37.334Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:37.533Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:38.033Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:38.126Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:38.533Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:38.627Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:39.033Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:39.128Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:39.535Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:39.629Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:40.036Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:40.129Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:40.537Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:40.630Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:41.037Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:41.131Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:41.538Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:41.632Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:42.040Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:42.134Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:42.540Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:42.634Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:43.040Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:43.134Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:43.541Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:43.635Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:44.042Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:44.136Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:44.542Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:44.637Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:45.137Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:45.638Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:50.041Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:52.845Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:55.870Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:56.619Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:56.838Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:57.119Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:57.620Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:58.122Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:16:58.469Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:16:58.623Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:00.030Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:17:02.445Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:17:05.165Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:17:07.909Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:17:14.043Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:15.027Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:15.528Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:16.030Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:16.530Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:17.031Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:17.531Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:18.033Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:18.533Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:19.033Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:19.535Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:22.385Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:24.859Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:25.361Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:25.862Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:26.362Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:26.863Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:27.364Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:27.864Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:28.364Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:28.866Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:29.367Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:29.868Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:30.369Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:30.871Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:31.372Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:31.872Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:33.279Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:34.666Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:51.864Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:17:57.053Z] (hispam) Naminé was taken to Tervari Police by Snaquaza. (take this declare /declare <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL)
+[2013-08-07T13:18:07.708Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:18:08.169Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:18:09.169Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:18:10.922Z] (hispam) Naminé was taken to Tervari Police by Snaquaza. (take this declare /declare <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL)
+[2013-08-07T13:18:13.474Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:18:13.993Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:18:14.810Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:18:15.322Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:18:16.433Z] (hispam) Snaquaza declared <img src="http://fc03.deviantart.net/fs71/f/2012/047/0/f/namine_ugly_by_vanitastami-d4pws6f.jpg"/> Portrait of Namine IRL
+[2013-08-07T13:18:38.572Z] (hispam) Naminé was put in an isolated cel in Luxuria Jail by Snaquaza.
+[2013-08-07T13:18:38.573Z] (hispam) Naminé's alts were also locked up: ~^_^~
+[2013-08-07T13:18:44.353Z] (hispam) Naminé was freed by Naminé.
+[2013-08-07T13:18:49.017Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:19:09.294Z] (hispam) RealPresent was freed by Snaquaza.
+[2013-08-07T13:19:24.652Z] (hispam) Naminé declared <img src="http://31.media.tumblr.com/tumblr_lvggp7Z9PT1r73u3ko1_500.gif"/> <h1>for Meloetta<3V</h1>
+[2013-08-07T13:21:00.807Z] (hispam) Naminé declared <img src="http://i204.photobucket.com/albu/>ms/bb58/Crystal_Zelda/tumblr_lfuxzuqfjC1qzmpi9o1_500.gif"
+[2013-08-07T13:21:12.340Z] (hispam) Naminé declared <img src="http://i204.photobucket.com/albu/>ms/bb58/Crystal_Zelda/tumblr_lfuxzuqfjC1qzmpi9o1_500.gif"/>
+[2013-08-07T13:21:56.718Z] (hispam) ~^_^~ declared <img src="http://24.media.tumblr.com/tumblr_mal1fjuds21qbulyio3_500.gif"/>
+[2013-08-07T13:22:08.364Z] (lobby) Snaquaza turned on /gr
+[2013-08-07T13:22:12.348Z] (lobby) Snaquaza turned off /gr
+[2013-08-07T13:22:50.479Z] (lobby) Naminé turned on /gr
+[2013-08-07T13:22:55.413Z] (lobby) Naminé turned off /gr
+[2013-08-07T13:23:20.548Z] (hispam) Naminé declared <img src="http://24.media.tumblr.com/tumblr_mdmbs8Xc8L1rkey39o1_r3_500.gif"/>
+[2013-08-07T13:24:17.687Z] (hispam) ~^_^~ declared <img src="http://i1132.photobucket.com/albums/m571/adol_the_red71/tumblr_m42fezMweU1rs8mvvo1_500.gif">
+[2013-08-07T13:24:19.261Z] (hispam) Naminé declared <img src="http://24.media.tumblr.com/cd68e9c14a58f526e4db4bacca37aa18/tumblr_mi4svnOVay1s5f6zto1_400.gif"/>
+[2013-08-07T13:24:34.797Z] (hispam) ~^_^~ declared <img src="http://i1132.photobucket.com/albums/m571/adol_the_red71/tumblr_m42fezMweU1rs8mvvo1_500.gif">
+[2013-08-07T13:25:15.083Z] (lobby) Snaquaza turned on /gr
+[2013-08-07T13:25:18.570Z] (lobby) Snaquaza turned off /gr
+[2013-08-07T13:25:24.695Z] (hispam) Naminé declared <img src="https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=y-fVOOgAIO3XMM&tbnid=gdKiMcLa2Vc5bM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.ganggarrison.com%2Fforums%2Findex.php%3Ftopic%3D32742.15&ei=tkoCUomeIYzKswafk4HAAw&psig=AFQjCNHWpU9tdQnRLBjEhqPFpqX2uOIHRA&ust=1375968290648029f"/>
+[2013-08-07T13:25:29.610Z] (hispam) ~^_^~ declared <img src
+[2013-08-07T13:25:38.212Z] (hispam) ~^_^~ declared <img src="http://24.media.tumblr.com/d1cfc5809c554b623c5edeade00d2fcb/tumblr_mmietmFdWp1rh0m1xo1_500.gif">
+[2013-08-07T13:25:53.538Z] (hispam) Naminé declared <img src="http://s1251.photobucket.com/user/Fegelnort/media/Xeha-Stare-Sig2.gif.htmlf"/>
+[2013-08-07T13:27:03.432Z] (lobby) Snaquaza turned on /gr
+[2013-08-07T13:27:07.640Z] (lobby) Snaquaza turned off /gr
+[2013-08-07T13:27:44.780Z] (hispam) Naminé declared <img src="http://static1.fjcdn.com/thumbnails/comments/that+story+only+made+me+like+majoras+mask+even+more+_6d1ed0869f317700fb3cd2819009c11c.gif"/>
+[2013-08-07T13:27:56.146Z] (hispam) ~^_^~ declared <img src="http://25.media.tumblr.com/tumblr_mavdqfE4xp1rsdd0mo1_500.gif">
+[2013-08-07T13:29:05.063Z] (hispam) ~^_^~ declared <img src="http://24.media.tumblr.com/c1dbd9a40f65a5dd6bd78bc66c1d19b8/tumblr_mibqjqGvV21s3kqxeo1_500.gif">
+[2013-08-07T13:30:22.500Z] (hispam) Naminé declared <img src="https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=4gcRk9QqEHg2xM&tbnid=Fv7mtOXuCDscnM:&ved=0CAIQjBw&url=http%3A%2F%2Fmedia.tumblr.com%2Ftumblr_m1vtl8tu9H1r6xri9.gif&ei=30sCUuS1HInItAbfjoDADg&psig=AFQjCNHoOJ-pDfr6fMzhIz1i-fn6Zg5Lfg&ust=1375968587115929"/>
+[2013-08-07T13:30:36.611Z] (hispam) Naminé declared <img src="http://media.tumblr.com/tumblr_m1vtl8tu9H1r6xri9.gif"/>
+[2013-08-07T13:31:52.314Z] (hispam) ~^_^~ declared <img src="http://25.media.tumblr.com/dc261ca14a81f7fb2d8d3599c9831bf6/tumblr_mg1aisfE4a1rvl3nyo1_500.gif">
+[2013-08-07T13:32:08.487Z] (hispam) Naminé declared <img http://24.media.tumblr.com/e81c7591fff685714bce3400b0c9bef3/tumblr_mo8y5263Ja1svp19ro1_400.gif"/>
+[2013-08-07T13:32:23.608Z] (hispam) Naminé declared <img src="http://24.media.tumblr.com/e81c7591fff685714bce3400b0c9bef3/tumblr_mo8y5263Ja1svp19ro1_400.gif"/>

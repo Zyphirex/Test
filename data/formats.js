@@ -1083,7 +1083,7 @@ exports.BattleFormats = {
 		validateSet: function (set, format) {
 			var problems = [];
 			for (var i=0; i<set.moves.length; i++) {
-				if (set.species.learnset[set.moves[i]].substr(1,1) in {M:1,T:1,E:1}) problems.push(set.species + 'has' set.moves[i]);
+				if (set.species.learnset[set.moves[i]].substr(1,1) in ["M","E","T"]) problems.push(set.species + 'has' set.moves[i]);
 			}
 			return problems;
 		}

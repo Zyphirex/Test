@@ -1042,7 +1042,7 @@ exports.BattleFormats = {
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
 
-        snaqshift: {
+        supershift: {
                 name: "Super Shift",
                 section: "Other Metagames",
 

@@ -1068,7 +1068,7 @@ exports.BattleFormats = {
         	ruleset: ['CAP Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         	banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
-	puremeta: {
+	/*puremeta: {
 		name: "Pure Meta",
 		section: "Other Metagames",
 
@@ -1089,7 +1089,7 @@ exports.BattleFormats = {
 			}
 			return problems;
 		}
-	},
+	},*/
         stabmons: {
                 name: "Stabmons",
                 section: "Other Metagames",

@@ -1082,8 +1082,10 @@ exports.BattleFormats = {
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
 		validateSet: function (set, format) {
 			var problems = [];
+			var lmove = ""
 			for (var i=0; i<set.moves.length; i++) {
-				if (set.species.learnset[set.moves[i]].substr(1,1) in ["M","E","T"]) problems.push(set.species + 'has' set.moves[i]);
+				lmove = set.species.learnset[set.moves[i]].substr(1,1)
+				if (lmove === "M" || lmove === "T" || lmove === "E") problems.push(set.species + 'has' set.moves[i]);
 			}
 			return problems;
 		}

@@ -1070,34 +1070,34 @@ exports.BattleFormats = {
         	banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
 	
-	puremeta: {
-		name: "Pure Meta",
-		section: "Other Metagames",
-
-		effectType: 'Format',
-		challengeDefault: true,
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
-		validateSet: function (set, format) {
-			var problems = [];
-			var lmove = "";
-			var j = 0;
-			var movelegal = false;
-			for (var i=0; i<set.moves.length; i++) {
-				movelegal = false;
-				for (j=0; j<set.species.learnset[set.moves[i]].length; j++) {
-					lmove = set.species.learnset[set.moves[i]][j].substr(1,1);
-					if (lmove === "L") movelegal = true;
-				}
-				if (!movelegal) problems.push(set.species + ' has ' + set.moves[i]);
-			}
-			return problems;
-		}
-	},
+//	puremeta: {
+//		name: "Pure Meta",
+//		section: "Other Metagames",
+//
+//		effectType: 'Format',
+//		challengeDefault: true,
+//		rated: true,
+//		challengeShow: true,
+//		searchShow: true,
+//		isTeambuilderFormat: true,
+//		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+//		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
+//		validateSet: function (set, format) {
+//			var problems = [];
+//			var lmove = "";
+//			var j = 0;
+//			var movelegal = false;
+//			for (var i=0; i<set.moves.length; i++) {
+//				movelegal = false;
+//				for (j=0; j<set.species.learnset[set.moves[i]].length; j++) {
+//					lmove = set.species.learnset[set.moves[i]][j].substr(1,1);
+//					if (lmove === "L") movelegal = true;
+//				}
+//				if (!movelegal) problems.push(set.species + ' has ' + set.moves[i]);
+//			}
+//			return problems;
+//		}
+//	},
 	
         stabmons: {
                 name: "Stabmons",

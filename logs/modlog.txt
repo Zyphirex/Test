@@ -6519,3 +6519,4 @@
 [2013-08-07T21:21:05.037Z] (lobby) Snaquaza declared Promotions are going slow lately, I don't want hurried promotions again, although I might have some things already wrong, but I try not to demote if it is my fault as demotes can hurt to people
 [2013-08-07T21:40:03.541Z] (lobby) Snaquaza is hiding auth symbol as '+'
 [2013-08-07T21:44:06.552Z] (lobby) Snaquaza is hiding auth symbol as '+'
+[2013-08-10T19:21:48.109Z] (lobby) Snaquaza declared Good Job Zyphirex

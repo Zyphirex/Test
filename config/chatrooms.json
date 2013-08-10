@@ -3,5 +3,7 @@
 {"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
 {"title":"hispam"},
 {"title":"Tervari Olympics","isPrivate":true},
-{"title":"Tervari League","isPrivate":true}
+{"title":"Tervari League","isPrivate":true},
+{"title":"Teambuilding"},
+{"title":"XY","auth":{"blazinlitleo":"#","nayder":"#","gear101":"%"}}
 ]

@@ -883,7 +883,7 @@ exports.BattleFormats = {
                 challengeShow: true,
                 searchShow: true,
                 isTeambuilderFormat: true,
-                ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause', 'Standard'],
+                ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause', 'standard'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Kings Rock', 'Razor Fang']
         },
       // haxmonsdoubles: {
@@ -1068,28 +1068,28 @@ exports.BattleFormats = {
         	ruleset: ['CAP Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         	banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
-	puremeta: {
-		name: "Pure Meta",
-		section: "Other Metagames",
-
-		effectType: 'Format',
-		challengeDefault: true,
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
-		validateSet: function (set, format) {
-			var problems = [];
-			var lmove = ""
-			for (var i=0; i<set.moves.length; i++) {
-				lmove = set.species.learnset[set.moves[i]].substr(1,1)
-				if (lmove === "M" || lmove === "T" || lmove === "E") problems.push(set.species + 'has' set.moves[i]);
-			}
-			return problems;
-		}
-	},
+//	puremeta: {
+//		name: "Pure Meta",
+//		section: "Other Metagames",
+//
+//		effectType: 'Format',
+//		challengeDefault: true,
+//		rated: true,
+//		challengeShow: true,
+//		searchShow: true,
+//		isTeambuilderFormat: true,
+//		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+//		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
+//		validateSet: function (set, format) {
+//			var problems = [];
+//			var lmove = ""
+//			for (var i=0; i<set.moves.length; i++) {
+//				lmove = set.species.learnset[set.moves[i]].substr(1,1)
+//				if (lmove === "M" || lmove === "T" || lmove === "E") problems.push(set.species + 'has' set.moves[i]);
+//			}
+//			return problems;
+//		}
+//	},
         stabmons: {
                 name: "Stabmons",
                 section: "Other Metagames",

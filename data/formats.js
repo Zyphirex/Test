@@ -1093,7 +1093,7 @@ exports.BattleFormats = {
 					lmove = set.species.learnset[set.moves[i]][j].substr(1,1);
 					if (lmove === "L") movelegal = true;
 				}
-				if (!movelegal) problems.push(set.species + 'has' set.moves[i]);
+				if (!movelegal) problems.push(set.species + ' has ' + set.moves[i]);
 			}
 			return problems;
 		}

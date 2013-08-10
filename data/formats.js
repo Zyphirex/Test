@@ -1088,13 +1088,15 @@ exports.BattleFormats = {
 			var lmove = "";
 			var j = 0;
 			var movelegal = false;
+			var template = this.getTemplate(string(set.species));
 			for (var i=0; i<set.moves.length; i++) {
 				movelegal = false;
-				for (j=0; j<set.species.learnset[set.moves[i]].length; j++) {
-					lmove = set.species.learnset[set.moves[i]][j].substr(1,1);
+				var move = string(set.moves[i])
+				for (j=0; j<template.learnset[move].length; j++) {
+					lmove = template.learnset[move][j].substr(1,1);
 					if (lmove === "L") movelegal = true;
 				}
-				if (!movelegal) problems.push(set.species + ' has ' + set.moves[i]);
+				if (!movelegal) problems.push(string(set.species) + ' has ' + move;
 			}
 			return problems;
 		}

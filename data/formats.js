@@ -194,35 +194,7 @@ exports.BattleFormats = {
 		isTeambuilderFormat: true,
 		ruleset: ['CAP Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
-	},
-	customgame: {
-		name: "Custom Game",
-		section: "Singles",
-
-		effectType: 'Format',
-		challengeShow: true,
-		canUseRandomTeam: true,
-		debug: true,
-		maxLevel: 1000,
-		defaultLevel: 100,
-		// no restrictions, for serious (other than team preview)
-		ruleset: ['Team Preview'],
-		banlist: ['Arceus']
-	},
-	customgamenoteampreview: {
-		name: "Custom Game (no Team Preview)",
-		section: "Singles",
-
-		effectType: 'Format',
-		challengeShow: true,
-		canUseRandomTeam: true,
-		debug: true,
-		maxLevel: 1000,
-		defaultLevel: 100,
-		// no restrictions, for serious
-		ruleset: [],
-		banlist: ['Arceus']
-	},
+},
 	gbusingles: {
 		name: "GBU Singles",
 		section: "Singles",
@@ -414,23 +386,7 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
                 banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
         },
-        tervaricustomgame: {
-                name: "Tervari Custom Game",
-                section: "Tervari Tiers",
-
-                mod: 'tervari',
-                effectType: 'Format',
-                challengeShow: true,
-                canUseRandomTeam: true,
-                searchShow: true,
-                debug: true,
-                maxLevel: 1099511627775,
-                defaultLevel: 100,
-                // no restrictions, for serious (other than team preview)
-                ruleset: ['Team Preview']
-        },
-
-        tervaridoubles: {
+            tervaridoubles: {
                 name: "Tervari Doubles",
                 section: "Tervari Double Tiers",
 

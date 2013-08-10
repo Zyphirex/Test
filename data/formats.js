@@ -1026,9 +1026,10 @@ exports.BattleFormats = {
 			var j = 0;
 			var movelegal = false;
 			var template = this.getTemplate(string(set.species));
+			var move = ""
 			for (var i=0; i<set.moves.length; i++) {
 				movelegal = false;
-				var move = string(set.moves[i])
+				move = string(set.moves[i])
 				for (j=0; j<template.learnset[move].length; j++) {
 					lmove = template.learnset[move][j].substr(1,1);
 					if (lmove === "L") movelegal = true;

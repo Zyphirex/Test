@@ -1070,7 +1070,7 @@ exports.BattleFormats = {
         	banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
 	
-	/*
+	
 	puremeta: {
 		name: "Pure Meta",
 		section: "Other Metagames",
@@ -1101,7 +1101,7 @@ exports.BattleFormats = {
 			return problems;
 		}
 	},
-	*/
+	
 	
         stabmons: {
                 name: "Stabmons",

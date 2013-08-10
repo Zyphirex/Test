@@ -1096,7 +1096,7 @@ exports.BattleFormats = {
 					lmove = template.learnset[move][j].substr(1,1);
 					if (lmove === "L") movelegal = true;
 				}
-				if (!movelegal) problems.push(string(set.species) + ' has ' + move;
+				if (!movelegal) problems.push(string(set.species) + ' has ' + move);
 			}
 			return problems;
 		}

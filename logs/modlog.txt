@@ -6805,3 +6805,12 @@
 [2013-08-10T23:50:47.865Z] (lobby) (Snaquaza was forcibly renamed to Zyphirex by Snaquaza.)
 [2013-08-10T23:51:02.993Z] (lobby) Zyphirex is hiding auth symbol as '+'
 [2013-08-10T23:55:04.215Z] (lobby) (a was forcibly renamed to Zyphirsux by Snaquaza.)
+[2013-08-11T00:10:33.935Z] (lobby) SOP was locked up in Luxuria Jail by Snaquaza for 7 minutes. (bcuz I can)
+[2013-08-11T00:10:37.054Z] (lobby) SOP was freed by Snaquaza.
+[2013-08-11T01:06:07.018Z] (lobby) (TheFieryHypno was forcibly renamed to TheFieryNatsu by Snaquaza.)
+[2013-08-11T01:10:01.987Z] (lobby) (PeanutButterSnaqs was forced to choose a new name by Snaquaza: PeanutButterSnacks)
+[2013-08-11T01:39:09.517Z] (lobby) Zyphirex was banned from the Tervari Region by Snaquaza. (test)
+[2013-08-11T01:39:15.251Z] (lobby) Zyphirex is allowed to visit the Tervari Region again.
+[2013-08-11T01:40:21.199Z] (lobby) Zyphirex was promoted to Tervari Champion by Snaquaza.
+[2013-08-11T01:42:06.962Z] (lobby) Snaquaza was banned from the Tervari Region by Zyphirex.
+[2013-08-11T01:42:17.611Z] (lobby) snaquaza is allowed to visit the Tervari Region again.

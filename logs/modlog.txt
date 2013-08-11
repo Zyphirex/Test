@@ -6814,3 +6814,6 @@
 [2013-08-11T01:40:21.199Z] (lobby) Zyphirex was promoted to Tervari Champion by Snaquaza.
 [2013-08-11T01:42:06.962Z] (lobby) Snaquaza was banned from the Tervari Region by Zyphirex.
 [2013-08-11T01:42:17.611Z] (lobby) snaquaza is allowed to visit the Tervari Region again.
+[2013-08-11T01:59:15.040Z] (lobby) Snaquaza was banned from the Tervari Region by Zyphirex.
+[2013-08-11T02:00:06.245Z] (lobby) SOP was banned from the Tervari Region by Snaquaza.
+[2013-08-11T02:03:19.677Z] (lobby) Snaquaza declared Site up again

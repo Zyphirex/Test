@@ -1527,15 +1527,6 @@ viewround: 'vr',
 			var problem = ' but was already banned';
 			return this.sendreply('('+targetUser.name+' would be banned by '+user.name+problem+'.)');
 		}
-		
-		this.addModCommand(""+targetUser.name+" was banned from the Tervari Region by "+user.name+"." + (target ? " (" + target + ")" : ""));
-		var alts = targetUser.getAlts();
-		if (alts.length) {
-			this.sendReply(""+targetUser.name+"'s companions were also banned from the Tervari Region: "+alts.join(", "));
-			for (var i = 0; i < alts.length; ++i) {
-				this.add('|unlink|' + toId(alts[i]));
-			}
-		}
 
 		this.add('|unlink|' + targetUser.userid);
 		targetUser.ban();

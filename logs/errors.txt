@@ -31391,3 +31391,13 @@ TypeError: Cannot call method 'validateTeam' of undefined
     at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
     at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1136:13)
     at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot call method 'validateTeam' of undefined
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Test/tools.js:695:28)
+    at User.prepBattle (/Users/clazinasteunenberg/Downloads/Test/users.js:1008:24)
+    at GlobalRoom.searchBattle (/Users/clazinasteunenberg/Downloads/Test/rooms.js:269:13)
+    at Object.exports.commands.search (/Users/clazinasteunenberg/Downloads/Test/commands.js:2205:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1136:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)

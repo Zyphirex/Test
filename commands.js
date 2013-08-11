@@ -1527,8 +1527,6 @@ viewround: 'vr',
 			var problem = ' but was already banned';
 			return this.sendReply('('+targetUser.name+' would be banned by '+user.name+problem+'.)');
 		}
-<<<<<<< HEAD
-=======
 		
 		this.sendReply(""+targetUser.name+" was banned from the Tervari Region by "+user.name+"." + (target ? " (" + target + ")" : ""));
 		var alts = targetUser.getAlts();
@@ -1538,7 +1536,6 @@ viewround: 'vr',
 				this.add('|unlink|' + toId(alts[i]));
 			}
 		}
->>>>>>> 61616cc23e95e80243eefa1b260825ed5a4ebe73
 
 		this.add('|unlink|' + targetUser.userid);
 		targetUser.ban();

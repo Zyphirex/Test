@@ -430,7 +430,7 @@ exports.BattleFormats = {
                 name: "Pure Mons",
                 section: "Tervari Other Metagames",
 
-                mod: 'puremons',
+                mod: 'puremeta',
                 effectType: 'Format',
                 challengeDefault: true,
                 rated: true,

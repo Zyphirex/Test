@@ -6801,3 +6801,7 @@
 [2013-08-10T22:44:55.550Z] (lobby) (Licklikclicklick was forcibly renamed to I will leave now as I am on two accounts by Snaquaza.)
 [2013-08-10T23:07:48.561Z] (lobby) (Zyphirex was forcibly renamed to Zyphirsex by Snaquaza.)
 [2013-08-10T23:09:16.305Z] (battle-customgame-1215) SADOP was kicked from a battle by Snaquaza
+[2013-08-10T23:50:43.273Z] (lobby) (Zyphirex was forcibly renamed to a by Snaquaza.)
+[2013-08-10T23:50:47.865Z] (lobby) (Snaquaza was forcibly renamed to Zyphirex by Snaquaza.)
+[2013-08-10T23:51:02.993Z] (lobby) Zyphirex is hiding auth symbol as '+'
+[2013-08-10T23:55:04.215Z] (lobby) (a was forcibly renamed to Zyphirsux by Snaquaza.)

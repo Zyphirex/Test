@@ -1515,7 +1515,7 @@ viewround: 'vr',
 	},
 	
 	invisiban: function(target, room, user) {
-		if (!target) return this.parse('Must have a single target user.');
+		if (!target) return this.parse('/help ban');
 		target = this.splitTarget(target);
 		var targetUser = this.targetUser;
 		if (!targetUser) {

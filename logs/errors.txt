@@ -31401,3 +31401,21 @@ TypeError: Cannot call method 'validateTeam' of undefined
     at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
     at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1136:13)
     at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot set property 'auth' of undefined
+    at Object.exports.commands.roomowner (/Users/clazinasteunenberg/Downloads/Test/commands.js:934:54)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = snaquaza
+ip = 127.0.0.1
+roomid = 
+message = |/roomowner Snaquaza

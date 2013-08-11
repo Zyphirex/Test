@@ -6817,3 +6817,4 @@
 [2013-08-11T01:59:15.040Z] (lobby) Snaquaza was banned from the Tervari Region by Zyphirex.
 [2013-08-11T02:00:06.245Z] (lobby) SOP was banned from the Tervari Region by Snaquaza.
 [2013-08-11T02:03:19.677Z] (lobby) Snaquaza declared Site up again
+[2013-08-11T02:10:57.012Z] (lobby) (Zyphirex was demoted to Trainer by Firehound.)

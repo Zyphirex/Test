@@ -426,6 +426,20 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
                 banlist: ['Unreleased', 'Illegal', 'Sky Drop']
         },
+        puremons: {
+                name: "Pure Mons",
+                section: "Tervari Other Metagames",
+
+                mod: 'puremons',
+                effectType: 'Format',
+                challengeDefault: true,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']        
+        },
            // Doubles
         ///////////////////////////////////////////////////////////////////
 
@@ -1007,11 +1021,11 @@ exports.BattleFormats = {
         	banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
 	
+	/*
 	puremeta: {
 		name: "Pure Meta",
 		section: "Other Metagames",
 
-		mod: 'puremeta',
 		effectType: 'Format',
 		challengeDefault: true,
 		rated: true,
@@ -1019,8 +1033,30 @@ exports.BattleFormats = {
 		searchShow: true,
 		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
+		validateSet: function (set, format) {
+			var problems = [];
+			var lmove = "";
+			var j = 0;
+			var movelegal = false;
+			var template = this.getTemplate(string(set.species));
+			var move = "";
+			var lset =[];
+			for (var i=0; i<set.moves.length; i++) {
+				movelegal = false;
+				move = string(set.moves[i]);
+				lset = template.learnset[move];
+				if (typeof lset === 'string') lset = [lset];
+				for (j=0; j<lset.length; j++) {
+					lmove = lset[j].substr(1,1);
+					if (lmove === "L") movelegal = true;
+				}
+				if (!(movelegal)) problems.push(string(set.species) + ' has ' + move);
+			}
+			return problems;
+		}
 	},
+	*/
 	
         stabmons: {
                 name: "Stabmons",

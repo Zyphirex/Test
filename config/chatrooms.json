@@ -1,5 +1,6 @@
 [
 {"title":"Lobby","autojoin":true},
+{"title":"Mafia","autojoin":true},
 {"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
 {"title":"hispam"},
 {"title":"Tervari Olympics","isPrivate":true},

@@ -992,7 +992,6 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
-
         supershift: {
                 name: "Super Shift",
                 section: "Other Metagames",
@@ -1005,7 +1004,6 @@ exports.BattleFormats = {
                 isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         },
-        
 	capv2: {
         	name: "CAP V. 2",
         	section: "Other Metagames",
@@ -1019,23 +1017,7 @@ exports.BattleFormats = {
         	isTeambuilderFormat: true,
         	ruleset: ['CAP Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         	banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
-	},
-	
-	puremeta: {
-		name: "Pure Meta",
-		section: "Other Metagames",
-
-		mod: 'puremeta',
-		effectType: 'Format',
-		challengeDefault: true,
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
-	},
-	
+	},	
         stabmons: {
                 name: "Stabmons",
                 section: "Other Metagames",
@@ -1188,7 +1170,6 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
-
       splitmons: {
                 name: "Splitmons",
                 section: "Other Metagames",
@@ -1202,9 +1183,6 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
-
-
-
  //     levelone: {
    //             name: "Level 1",
      //           section: "Other Metagames",

@@ -16,8 +16,8 @@ exports.BattleScripts = {
 			else {
 				var ph = this.data.Pokedex[i].baseStats.def
 			}
-			this.data.Pokedex[i].baseStats.atk = sp;
-			this.data.Pokedex[i].baseStats.def = sp;
+			this.data.Pokedex[i].baseStats.atk = ph;
+			this.data.Pokedex[i].baseStats.def = ph;
 		}
 	}
 };

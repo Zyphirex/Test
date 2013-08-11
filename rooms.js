@@ -1526,8 +1526,6 @@ console.log("NEW GLOBAL: global");
 rooms.global = new GlobalRoom('global');
 console.log("NEW CHATROOM: lobby");
 rooms.lobby = new ChatRoom('lobby');
-console.log("NEW CHATROOM: mafia");
-rooms.mafia = new ChatRoom('mafia');
 
 
 exports.GlobalRoom = GlobalRoom;

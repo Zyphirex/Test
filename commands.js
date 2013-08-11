@@ -1525,10 +1525,10 @@ viewround: 'vr',
 
 		if (Users.checkBanned(targetUser.latestIp) && !target && !targetUser.connected) {
 			var problem = ' but was already banned';
-			return this.sendreply('('+targetUser.name+' would be banned by '+user.name+problem+'.)');
+			return this.sendReply('('+targetUser.name+' would be banned by '+user.name+problem+'.)');
 		}
 		
-		this.addModCommand(""+targetUser.name+" was banned from the Tervari Region by "+user.name+"." + (target ? " (" + target + ")" : ""));
+		this.sendReply(""+targetUser.name+" was banned from the Tervari Region by "+user.name+"." + (target ? " (" + target + ")" : ""));
 		var alts = targetUser.getAlts();
 		if (alts.length) {
 			this.sendReply(""+targetUser.name+"'s companions were also banned from the Tervari Region: "+alts.join(", "));

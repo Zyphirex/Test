@@ -1513,6 +1513,46 @@ viewround: 'vr',
 		delete Users.bannedIps[target];
 		this.addModCommand(user.name+' unbanned the '+(target.charAt(target.length-1)==='*'?'IP range':'IP')+': '+target);
 	},
+	
+	invisiban: function(target, room, user) {
+		if (!target) return this.parse('Must have a single target user.');
+		target = this.splitTarget(target);
+		var targetUser = this.targetUser;
+		if (!targetUser) {
+			return this.sendReply('User '+this.targetUsername+' not found.');
+		}
+		if (!this.can('rangeban', targetUser)) return false;
+
+		if (Users.checkBanned(targetUser.latestIp) && !target && !targetUser.connected) {
+			var problem = ' but was already banned';
+			return this.sendreply('('+targetUser.name+' would be banned by '+user.name+problem+'.)');
+		}
+		
+		this.addModCommand(""+targetUser.name+" was banned from the Tervari Region by "+user.name+"." + (target ? " (" + target + ")" : ""));
+		var alts = targetUser.getAlts();
+		if (alts.length) {
+			this.sendReply(""+targetUser.name+"'s companions were also banned from the Tervari Region: "+alts.join(", "));
+			for (var i = 0; i < alts.length; ++i) {
+				this.add('|unlink|' + toId(alts[i]));
+			}
+		}
+
+		this.add('|unlink|' + targetUser.userid);
+		targetUser.ban();
+	},
+
+	uninvisiban: function(target, room, user) {
+		if (!target) return this.parse('/help unban');
+		if (!this.can('rangeban')) return false;
+
+		var name = Users.unban(target);
+
+		if (name) {
+			this.sendReply(''+name+' is allowed to visit the Tervari Region again.');
+		} else {
+			this.sendReply('User '+target+' is not banned.');
+		}
+	},
 
 	/*********************************************************
 	 * Moderating: Other

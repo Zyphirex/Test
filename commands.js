@@ -1515,7 +1515,7 @@ viewround: 'vr',
 	},
 	
 	invisiban: function(target, room, user) {
-		if (!target) return this.parse('Must have a single target user.');
+		if (!target) return this.parse('/help ban');
 		target = this.splitTarget(target);
 		var targetUser = this.targetUser;
 		if (!targetUser) {
@@ -1525,8 +1525,20 @@ viewround: 'vr',
 
 		if (Users.checkBanned(targetUser.latestIp) && !target && !targetUser.connected) {
 			var problem = ' but was already banned';
-			return this.sendreply('('+targetUser.name+' would be banned by '+user.name+problem+'.)');
+			return this.sendReply('('+targetUser.name+' would be banned by '+user.name+problem+'.)');
 		}
+<<<<<<< HEAD
+=======
+		
+		this.sendReply(""+targetUser.name+" was banned from the Tervari Region by "+user.name+"." + (target ? " (" + target + ")" : ""));
+		var alts = targetUser.getAlts();
+		if (alts.length) {
+			this.sendReply(""+targetUser.name+"'s companions were also banned from the Tervari Region: "+alts.join(", "));
+			for (var i = 0; i < alts.length; ++i) {
+				this.add('|unlink|' + toId(alts[i]));
+			}
+		}
+>>>>>>> 61616cc23e95e80243eefa1b260825ed5a4ebe73
 
 		this.add('|unlink|' + targetUser.userid);
 		targetUser.ban();

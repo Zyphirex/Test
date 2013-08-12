@@ -848,7 +848,7 @@ capv2: 'capv2',
 	capv2: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('Here you can find the changes made in CAP V. 2:<br />' +
-			'- <a href="https://www.piratepad.ca/p/CAP__What_they_could%27ve_been/timeslider#999">Cap V. 2</a><br />' +
+			'- <a href="http://www.smogon.com/forums/threads/cap-v2-what-they-couldve-been-other-metagame.3485714/">Cap V. 2</a><br />' +
 			'</div>');
 	},
 

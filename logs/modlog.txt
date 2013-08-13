@@ -6830,3 +6830,9 @@
 [2013-08-11T19:13:53.076Z] (lobby) (Naminé was forcibly renamed to FLOOPFLOOPIAMAFISHTHATWANTSTOGETBANNEDIFIGETOFFTHISNAMEDUEMYOWNPOWER by Snaquaza.)
 [2013-08-11T20:43:38.230Z] (silver) REAL LOST SILVER was appointed Room Owner by Snaquaza.
 [2013-08-11T20:46:43.834Z] (lobby) SOP is allowed to visit the Tervari Region again.
+[2013-08-12T23:25:49.402Z] (lobby) Snaquaza temporarily banned the IP: 172.6.71.97
+[2013-08-13T00:49:29.615Z] (lobby) Team Glacier Gavin was banned from the Tervari Region by Snaquaza.
+[2013-08-13T00:56:14.125Z] (staff) (Zyphirex was forcibly renamed to Samantha by Snaquaza.)
+[2013-08-13T01:01:13.758Z] (staff) (Umbreon Queen was forcibly renamed to GhostlyGengar200 by Snaquaza.)
+[2013-08-13T01:03:04.028Z] (lobby) BDH93 was redirected to a private room by Snaquaza.
+[2013-08-13T01:04:01.988Z] (staff) (GhostlyGengar200 was forcibly renamed to GhostlyGengar99 by Snaquaza.)

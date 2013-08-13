@@ -559,7 +559,7 @@ exports.BattleFormats = {
         // Other Metagames
         ///////////////////////////////////////////////////////////////////
         
-        onev1: {
+       /* onev1: {
                 name: "1v1",
                 section: "OM of the Month",
 
@@ -770,6 +770,7 @@ exports.BattleFormats = {
                         }
                 }
         },
+*/
         challengecup: {
                 name: "Challenge Cup",
                 section: "Other Metagames",
@@ -1222,6 +1223,20 @@ exports.BattleFormats = {
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
+       puremons: {
+                name: "Pure Meta",
+                section: "Other Metagames",
+
+                mod: 'puremeta',
+                effectType: 'Format',
+                challengeDefault: true,
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']        
+        },
         // Past Generations
         ///////////////////////////////////////////////////////////////////
 

@@ -15,16 +15,6 @@ exports.BattleFormats = {
 		searchShow: true,
 		ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
 	},
-	unratedrandombattle: {
-		name: "Unrated Random Battle",
-		section: "Singles",
-
-		effectType: 'Format',
-		team: 'random',
-		canUseRandomTeam: true,
-		searchShow: true,
-		ruleset: ['Random Battle']
-	},
 	ou: {
 		name: "OU",
 		section: "Singles",
@@ -195,40 +185,6 @@ exports.BattleFormats = {
 		ruleset: ['CAP Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 },
-	gbusingles: {
-		name: "GBU Singles",
-		section: "Singles",
-
-		effectType: 'Format',
-		challengeShow: true,
-		rated: true,
-		searchShow: true,
-		validateSet: function(set) {
-		if (!set.level || set.level >= 50) set.forcedLevel = 50;
-			return [];
-		},
-		onBegin: function() {
-			this.debug('cutting down to 3');
-			this.p1.pokemon = this.p1.pokemon.slice(0,3);
-			this.p1.pokemonLeft = this.p1.pokemon.length;
-			this.p2.pokemon = this.p2.pokemon.slice(0,3);
-			this.p2.pokemonLeft = this.p2.pokemon.length;
-		},
-		ruleset: ['Pokemon', 'Species Clause', 'Item Clause', 'Team Preview GBU'],
-		banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
-		'Mewtwo', 'Mew', 'Lugia', 'Ho-Oh', 'Celebi', 'Kyogre', 'Groudon',
-		'Rayquaza', 'Jirachi', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Speed', 'Deoxys-Defense',
-		'Chatot', 'Dialga', 'Palkia', 'Giratina', 'Giratina-Origin', 'Phione',
-		'Manaphy', 'Darkrai', 'Shaymin', 'Shaymin-Sky',
-		'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire',
-		'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus-Poison',
-		'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
-		'Victini', 'Reshiram', 'Zekrom', 'Kyurem', 'Kyurem-Black', 'Kyurem-White',
-		'Keldeo', 'Keldeo-Resolute', 'Meloetta', 'Genesect'
-		]
-	},
-
-
 
 
 ////////////////Tervari Tiers

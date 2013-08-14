@@ -6836,3 +6836,94 @@
 [2013-08-13T01:01:13.758Z] (staff) (Umbreon Queen was forcibly renamed to GhostlyGengar200 by Snaquaza.)
 [2013-08-13T01:03:04.028Z] (lobby) BDH93 was redirected to a private room by Snaquaza.
 [2013-08-13T01:04:01.988Z] (staff) (GhostlyGengar200 was forcibly renamed to GhostlyGengar99 by Snaquaza.)
+[2013-08-13T09:07:22.785Z] (lobby) RealPresent was taken to Tervari Police by Snaquaza. (:"""""""""( STOAP CAWLLING NAM)
+[2013-08-13T12:52:28.365Z] (lobby) Ѕhаdow was locked up in Luxuria Jail by Naminé for 7 minutes.
+[2013-08-13T12:52:32.723Z] (lobby) Ѕhаdow was freed by Naminé.
+[2013-08-13T17:03:06.009Z] (lobby) Snaquaza is hiding auth symbol as '+'
+[2013-08-13T17:18:55.593Z] (staff) (Snaquaza was forcibly renamed to Eagle5 by Snaquaza.)
+[2013-08-13T17:20:35.800Z] (lobby) (Ѕhаdow was forcibly renamed to Shadow by Eagle5.)
+[2013-08-13T17:21:24.065Z] (lobby) (Ѕhаdow was forcibly renamed to Shadow by Eagle5.)
+[2013-08-13T17:23:12.049Z] (staff) (Snaquaza was forcibly renamed to Glaceon<3V by Snaquaza.)
+[2013-08-13T17:23:16.113Z] (lobby) Glaceon<3V is hiding auth symbol as ' '
+[2013-08-13T17:23:50.960Z] (lobby) bandi was taken to Tervari Police by Glaceon<3V.
+[2013-08-13T18:01:55.405Z] (lobby) RealPresent was taken to Tervari Police by Snaquaza. (:()
+[2013-08-13T18:04:50.118Z] (lobby) Snaquaza is hiding auth symbol as '+'
+[2013-08-13T18:05:20.050Z] (lobby) RealPresent is hiding auth symbol as ' '
+[2013-08-13T18:12:44.613Z] (lobby) (RealPresent was forcibly renamed to R.I.Present by Snaquaza.)
+[2013-08-13T18:13:11.300Z] (lobby) (Snaquaza was forcibly renamed to Snacks -uaza by R.I.Present.)
+[2013-08-13T18:13:33.674Z] (lobby) R.I.Present was taken to Tervari Police by Snacks -uaza. (:P)
+[2013-08-13T18:13:42.021Z] (lobby) (ScreamingMilotic was forcibly renamed to Crème Milotic by R.I.Present.)
+[2013-08-13T18:13:50.306Z] (lobby) (Naminé was forcibly renamed to Mjaminé by R.I.Present.)
+[2013-08-13T18:14:13.972Z] (lobby) (Ѕhаdow was forcibly renamed to shallow (inedible) by R.I.Present.)
+[2013-08-13T18:14:32.402Z] (lobby) (Meloetta<3V was forcibly renamed to Me fruita by R.I.Present.)
+[2013-08-13T18:15:17.559Z] (staff) (Snaquaza was forcibly renamed to Shadow by Snaquaza.)
+[2013-08-13T18:15:26.167Z] (lobby) Shadow is hiding auth symbol as ' '
+[2013-08-13T18:15:46.313Z] (staff) (RealPresent was forcibly renamed to Shadow by RealPresent.)
+[2013-08-13T18:17:56.547Z] (silver) (RealPresent was forcibly renamed to Shaclow by RealPresent.)
+[2013-08-13T18:18:39.504Z] (staff) (Mjaminé was forcibly renamed to Shadovv by Shaclow.)
+[2013-08-13T18:18:56.346Z] (staff) (Shaclow was forcibly renamed to ShU+0061dow by Shadow.)
+[2013-08-13T18:19:03.929Z] (staff) (ShU+0061dow was forcibly renamed to RealPresent by Shadow.)
+[2013-08-13T18:19:19.960Z] (staff) (RealPresent was forcibly renamed to Shadow by Shadow.)
+[2013-08-13T18:19:48.624Z] (staff) (RealPresent was forcibly renamed to Shadow by Shadow.)
+[2013-08-13T18:19:54.002Z] (silver) (RealPresent was forcibly renamed to Shaclow by RealPresent.)
+[2013-08-13T18:21:36.238Z] (staff) (Shaclow was forcibly renamed to Shadovv by Shadow.)
+[2013-08-13T18:21:52.965Z] (staff) (BDH93 was forcibly renamed to $hadow by Shadow.)
+[2013-08-13T18:22:08.600Z] (lobby) (ScreamingMilotic was forcibly renamed to Shaclovv by Shaclow.)
+[2013-08-13T18:22:25.187Z] (lobby) (Me fruita was forcibly renamed to $haclow by Shaclow.)
+[2013-08-13T18:22:32.350Z] (staff) ($haclow was forcibly renamed to Shad0w by Shadow.)
+[2013-08-13T18:22:48.927Z] (lobby) Shaclow is hiding auth symbol as ' '
+[2013-08-13T18:22:49.042Z] (lobby) Shadovv is hiding auth symbol as ' '
+[2013-08-13T18:23:55.035Z] (lobby) (Ѕhаdow was forcibly renamed to RealPresent by Shadow.)
+[2013-08-13T18:24:08.409Z] (lobby) (RealPresent was forced to choose a new name by Shaclow)
+[2013-08-13T18:24:09.056Z] (staff) (Shadow was forcibly renamed to Ѕhаdow by Shadow.)
+[2013-08-13T18:24:40.973Z] (lobby) (Givethenameback was forcibly renamed to $had0w by RealPresent.)
+[2013-08-13T18:24:41.582Z] (lobby) ($had0w was forcibly renamed to Shadow by Ѕhаdow.)
+[2013-08-13T18:25:36.728Z] (lobby) (Snaquaza was forcibly renamed to Snaquaza eats RealPresent by Snaquaza.)
+[2013-08-13T18:25:58.695Z] (lobby) (Naminé was forcibly renamed to Naminé cuts Snaquaza into little pieces for eating RealPresent by RealPresent.)
+[2013-08-13T18:26:19.956Z] (lobby) (RealPresent was forcibly renamed to RealPresent is Naminé's Slave by Snaquaza eats RealPresent.)
+[2013-08-13T18:26:41.397Z] (silver) (RealPresent is Naminé's Slave was forcibly renamed to ~^_^~ by RealPresent is Naminé's Slave.)
+[2013-08-13T18:26:45.449Z] (lobby) (~^_^~ was forced to choose a new name by Snaquaza eats RealPresent)
+[2013-08-13T18:27:02.956Z] (silver) (RealPresent was forcibly renamed to ~^_^~ by RealPresent.)
+[2013-08-13T18:27:13.961Z] (lobby) ~^_^~ is hiding auth symbol as ' '
+[2013-08-13T18:27:31.304Z] (lobby) (Naminé cuts Snaquaza into little pieces for eating RealPresent was forced to choose a new name by Snaquaza)
+[2013-08-13T18:27:56.446Z] (lobby) (~^_^~ was forcibly renamed to PresentDaPartyPooper by Snaquaza.)
+[2013-08-13T18:28:10.319Z] (silver) (PresentDaPartyPooper was forcibly renamed to ~^_^~ by PresentDaPartyPooper.)
+[2013-08-13T18:30:35.501Z] (lobby) (~^_^~ was forcibly renamed to MSG-Possible-Name by Snaquaza.)
+[2013-08-13T18:43:08.524Z] (staff) (Snaquaza was forcibly renamed to [ by Snaquaza.)
+[2013-08-13T18:45:45.382Z] (lobby) [ is hiding auth symbol as ' '
+[2013-08-13T18:47:56.939Z] (staff) ([ was forcibly renamed to D by [.)
+[2013-08-13T18:48:16.611Z] (staff) (D was forcibly renamed to [ by D.)
+[2013-08-13T18:50:00.952Z] (lobby) (Naminé was forcibly renamed to ( by [.)
+[2013-08-13T18:50:16.879Z] (staff) (Naminé was forcibly renamed to { by [.)
+[2013-08-13T18:50:20.647Z] (staff) (Naminé was forcibly renamed to D by [.)
+[2013-08-13T18:51:11.463Z] (staff) (Naminé was forcibly renamed to < by [.)
+[2013-08-13T18:51:19.864Z] (staff) ([ was forcibly renamed to ( by [.)
+[2013-08-13T18:51:33.647Z] (staff) (Naminé was forcibly renamed to ( by Snaquaza.)
+[2013-08-13T18:51:37.975Z] (staff) (Snaquaza was forcibly renamed to [ by Snaquaza.)
+[2013-08-13T18:51:44.150Z] (staff) (Snaquaza was forcibly renamed to [ by Snaquaza.)
+[2013-08-13T18:52:34.254Z] (staff) (( was forcibly renamed to 3 by Snaquaza.)
+[2013-08-13T18:52:38.805Z] (staff) (Snaquaza was forcibly renamed to [ by Snaquaza.)
+[2013-08-13T18:53:02.267Z] (lobby) ([ was forcibly renamed to messaging by RealPresent.)
+[2013-08-13T19:06:13.714Z] (staff) (Snaquaza was forcibly renamed to [ by Snaquaza.)
+[2013-08-13T19:15:32.801Z] (lobby) (Snaquaza was forcibly renamed to [ by Snaquaza.)
+[2013-08-13T19:25:39.560Z] (lobby) Snaquaza turned off /gr
+[2013-08-13T19:26:06.497Z] (lobby) RealPresent turned off /hi
+[2013-08-13T20:07:20.026Z] (staff) (Katie Perri was forcibly renamed to I_kissed_a_boy by Snaquaza.)
+[2013-08-13T20:10:12.190Z] (lobby) BDH93 was locked up in Luxuria Jail by Snaquaza for 7 minutes. (I win :3)
+[2013-08-13T20:10:24.084Z] (lobby) BDH93 was freed by Snaquaza.
+[2013-08-13T20:11:40.473Z] (staff) (Slakuaza was forcibly renamed to I_fucked_a_guy by Snaquaza.)
+[2013-08-13T20:15:30.512Z] (staff) (meloensappy was forcibly renamed to I_fucked_a_guy_no_girl_wants_to_ever_fuck_me by Snaquaza.)
+[2013-08-13T20:43:46.472Z] (lobby) (BDH is shit was forced to choose a new name by BDH93)
+[2013-08-13T20:44:27.843Z] (lobby) (BDH is shit was forced to choose a new name by BDH93)
+[2013-08-13T20:44:53.644Z] (xy) (Snaquaza was forcibly renamed to BDH is shit by Snaquaza.)
+[2013-08-13T20:44:55.939Z] (xy) BDH is shit is hiding auth symbol as ' '
+[2013-08-13T20:46:53.400Z] (lobby) Snaquaza turned on /hi
+[2013-08-13T20:52:55.641Z] (lobby) Snaquaza turned on /gr
+[2013-08-13T20:53:00.552Z] (lobby) Snaquaza turned off /gr
+[2013-08-13T20:58:27.984Z] (lobby) Snaquaza set modchat to +
+[2013-08-13T20:58:39.831Z] (lobby) Snaquaza set modchat to false
+[2013-08-13T21:12:00.904Z] (xy) (Snaquaza was forcibly renamed to BDH is STILL a LOSER! by Snaquaza.)
+[2013-08-13T21:25:21.098Z] (staff) (Ѕhаdow was forcibly renamed to I_fucked_a_guy_no_girl_wants_to_ever_fuck_me by Snaquaza.)
+[2013-08-13T21:28:15.943Z] (staff) (meloensappy was forcibly renamed to MelDaOen by Snaquaza.)
+[2013-08-14T00:01:08.181Z] (hispam) Snaquaza set modchat to %
+[2013-08-14T00:01:43.331Z] (hispam) (ScreamingMilotic was forcibly renamed to Miss Cox by Snaquaza.)

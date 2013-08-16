@@ -31419,3 +31419,230 @@ user = snaquaza
 ip = 127.0.0.1
 roomid = 
 message = |/roomowner Snaquaza
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:617:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.j (/Users/clazinasteunenberg/Downloads/Test/commands.js:320:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = desokoro
+ip = 68.192.248.96
+roomid = mafia
+message = mafia|/j
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.j (/Users/clazinasteunenberg/Downloads/Test/commands.js:320:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = desokoro
+ip = 68.192.248.96
+roomid = mafia
+message = mafia|/j
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.j (/Users/clazinasteunenberg/Downloads/Test/commands.js:320:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = desokoro
+ip = 68.192.248.96
+roomid = mafia
+message = mafia|/j
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.remind (/Users/clazinasteunenberg/Downloads/Test/commands.js:453:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = zyphirex
+ip = 68.40.166.230
+roomid = spam
+message = spam|/remind
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.remind (/Users/clazinasteunenberg/Downloads/Test/commands.js:453:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = zyphirex
+ip = 68.40.166.230
+roomid = spam
+message = spam|/remind
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.tour (/Users/clazinasteunenberg/Downloads/Test/commands.js:232:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = zyphirex
+ip = 68.40.166.230
+roomid = spam
+message = spam|/tour ou, 3
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.endtour (/Users/clazinasteunenberg/Downloads/Test/commands.js:271:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = zyphirex
+ip = 68.40.166.230
+roomid = spam
+message = spam|/endtour
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.tour (/Users/clazinasteunenberg/Downloads/Test/commands.js:232:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = zyphirex
+ip = 68.40.166.230
+roomid = spam
+message = spam|/tour
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.tour (/Users/clazinasteunenberg/Downloads/Test/commands.js:232:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = zyphirex
+ip = 68.40.166.230
+roomid = spam
+message = spam|/tour
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.tour (/Users/clazinasteunenberg/Downloads/Test/commands.js:232:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = zyphirex
+ip = 68.40.166.230
+roomid = spam
+message = spam|/tour
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.tour (/Users/clazinasteunenberg/Downloads/Test/commands.js:232:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Test/users.js:1136:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:617:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:617:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:617:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:617:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)

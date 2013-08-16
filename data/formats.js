@@ -87,37 +87,13 @@ exports.BattleFormats = {
 		effectType: 'Format',
 		rated: true,
 		challengeShow: true,
-		//searchShow: true,
+		searchShow: true,
 		isTeambuilderFormat: true,
 		ruleset: ['OU'],
 		banlist: ['OU', 'BL', 'Drought', 'Sand Stream']
 	},
-	uususpecttest: {
-		name: "UU (suspect test)",
-		section: "Singles",
-
-		effectType: 'Format',
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['OU'],
-		banlist: ['OU', 'BL', 'Drought', 'Sand Stream', 'Froslass']
-	},
 	ru: {
 		name: "RU",
-		section: "Singles",
-
-		effectType: 'Format',
-		rated: true,
-		challengeShow: true,
-		//searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['UU'],
-		banlist: ['UU', 'BL2', 'Shell Smash + Baton Pass']
-	},
-	rususpecttest: {
-		name: "RU (suspect test)",
 		section: "Singles",
 
 		effectType: 'Format',
@@ -382,20 +358,6 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
                 banlist: ['Unreleased', 'Illegal', 'Sky Drop']
         },
-        puremons: {
-                name: "Pure Mons",
-                section: "Tervari Other Metagames",
-
-                mod: 'puremeta',
-                effectType: 'Format',
-                challengeDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']        
-        },
            // Doubles
         ///////////////////////////////////////////////////////////////////
 
@@ -498,20 +460,7 @@ exports.BattleFormats = {
 		debug: true,
 		ruleset: ['Pokemon', 'HP Percentage Mod']
 	},
-	doublescustomgame: {
-		name: "Doubles Custom Game",
-		section: 'Doubles',
 
-		effectType: 'Format',
-		gameType: 'doubles',
-		challengeShow: true,
-		canUseRandomTeam: true,
-		debug: true,
-		maxLevel: 1000,
-		defaultLevel: 100,
-		// no restrictions, for serious (other than team preview)
-		ruleset: ['Team Preview']
-	},
         // Other Metagames
         ///////////////////////////////////////////////////////////////////
         
@@ -812,7 +761,7 @@ exports.BattleFormats = {
 
                 effectType: 'Format',
                 rated: true,
-               challengeShow: true,
+                challengeShow: true,
                 searchShow: true,
                 isTeambuilderFormat: true,
                 ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
@@ -1179,20 +1128,20 @@ exports.BattleFormats = {
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
-       puremons: {
-                name: "Pure Meta",
-                section: "Other Metagames",
-
-                mod: 'puremeta',
-                effectType: 'Format',
-                challengeDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']        
-        },
+ //     puremons: {
+  //              name: "Pure Meta",
+   //             section: "Other Metagames",
+//
+  //              mod: 'puremeta',
+    //            effectType: 'Format',
+      //          challengeDefault: true,
+        //        rated: true,
+          //      challengeShow: true,
+            //    searchShow: true,
+              //  isTeambuilderFormat: true,
+                //ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+ //               banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']        
+   //     },
         // Past Generations
         ///////////////////////////////////////////////////////////////////
 
@@ -1309,32 +1258,6 @@ exports.BattleFormats = {
                         }
                         set.moves = moves;
                 }
-        },
-     tervarihackmons: {
-                name: "Tervari Hackmons",
-                section: "Other Tervari Metagames",
-
-                mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon'],
-                banlist: []
-        },
-        tervaribalancedhackmons: {
-                name: "Tervari Balanced Hackmons",
-                section: "Other Tervari Metagames",
-
-                mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'OHKO Clause'],
-                banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
         },
                  // Rulesets
         ///////////////////////////////////////////////////////////////////

@@ -127,7 +127,7 @@ exports.BattleStatuses = {
 	lockedmove: {
 		// Outrage, Thrash, Petal Dance...
 		durationCallback: function() {
-			return 4;
+			return 3;
 		},
 		onResidual: function(target) {
 			if (target.lastMove === 'struggle' || target.status === 'slp' || !target.moveThisTurn) {

@@ -1,3 +1,4 @@
+exports.BattleFormatsData = {
 shayminsky: {
 viableMoves: {"seedflare":1,"earthpower":1,"airslash":1,"hiddenpowerice":1,"hiddenpowerfire":1,"substitute":1,"leechseed":1},
 eventPokemon: [
@@ -8,3 +9,4 @@ eventPokemon: [
 ],
 tier: "OU"
 },
+};

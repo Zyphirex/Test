@@ -27,3 +27,7 @@ this.data.Pokedex[i].baseStats.def -= adjustment;
 this.data.Pokedex[i].baseStats.spa -= adjustment;
 this.data.Pokedex[i].baseStats.spd -= adjustment;
 this.data.Pokedex[i].baseStats.spe -= adjustment;
+	}
+}
+}
+};

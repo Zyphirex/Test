@@ -365,17 +365,215 @@ function clean(string) {
  *********************************************************/
 var cmds = {
 	//edited commands
-	makechatroom: function(target, room, user) {
-		if (!this.can('makeroom')) return;
-		var id = toId(target);
-		if (Rooms.rooms[id]) {
-			return this.sendReply("The room '"+target+"' already exists.");
+
+	savelearnsets: function(target, room, user) {
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+		fs.writeFile('data/learnsets.js', 'exports.BattleLearnsets = '+JSON.stringify(BattleLearnsets)+";\n");
+		this.sendReply('learnsets.js saved.');
+	},	
+
+	disableladder: function(target, room, user) {
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+		if (LoginServer.disabled) {
+			return this.sendReply('/disableladder - Ladder is already disabled.');
 		}
-		if (Rooms.global.addChatRoom(target)) {
-			tour.reset(id);
-			return this.sendReply("The room '"+target+"' was created.");
+		LoginServer.disabled = true;
+		this.logModCommand('The ladder was disabled by ' + user.name + '.');
+		this.add('|raw|<div class="broadcast-red"><b>Due to high server load, the ladder has been temporarily disabled</b><br />Rated games will no longer update the ladder. It will be back momentarily.</div>');
+	},
+
+	enableladder: function(target, room, user) {
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+		if (!LoginServer.disabled) {
+			return this.sendReply('/enable - Ladder is already enabled.');
 		}
-		return this.sendReply("An error occurred while trying to create the room '"+target+"'.");
+		LoginServer.disabled = false;
+		this.logModCommand('The ladder was enabled by ' + user.name + '.');
+		this.add('|raw|<div class="broadcast-green"><b>The ladder is now back.</b><br />Rated games will update the ladder now.</div>');
+	},
+
+	lockdown: function(target, room, user) {
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+
+		Rooms.global.lockdown = true;
+		for (var id in Rooms.rooms) {
+			if (id !== 'global') Rooms.rooms[id].addRaw('<div class="broadcast-red"><b>The server is restarting soon.</b><br />Please finish your battles quickly. No new battles can be started until the server resets in a few minutes.</div>');
+			if (Rooms.rooms[id].requestKickInactive && !Rooms.rooms[id].battle.ended) Rooms.rooms[id].requestKickInactive(user, true);
+		}
+
+		this.logEntry(user.name + ' used /lockdown');
+
+	},
+
+	endlockdown: function(target, room, user) {
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+
+		if (!Rooms.global.lockdown) {
+			return this.sendReply("We're not under lockdown right now.");
+		}
+		Rooms.global.lockdown = false;
+		for (var id in Rooms.rooms) {
+			if (id !== 'global') Rooms.rooms[id].addRaw('<div class="broadcast-green"><b>The server shutdown was canceled.</b></div>');
+		}
+
+		this.logEntry(user.name + ' used /endlockdown');
+
+	},
+
+	kill: function(target, room, user) {
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+
+		if (!Rooms.global.lockdown) {
+			return this.sendReply('For safety reasons, /kill can only be used during lockdown.');
+		}
+
+		if (CommandParser.updateServerLock) {
+			return this.sendReply('Wait for /updateserver to finish before using /kill.');
+		}
+
+		room.destroyLog(function() {
+			room.logEntry(user.name + ' used /kill');
+		}, function() {
+			process.exit();
+		});
+
+		// Just in the case the above never terminates, kill the process
+		// after 10 seconds.
+		setTimeout(function() {
+			process.exit();
+		}, 10000);
+	},
+
+	loadbanlist: function(target, room, user, connection) {
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+
+		connection.sendTo(room, 'Loading ipbans.txt...');
+		fs.readFile('config/ipbans.txt', function (err, data) {
+			if (err) return;
+			data = (''+data).split("\n");
+			var count = 0;
+			for (var i=0; i<data.length; i++) {
+				data[i] = data[i].split('#')[0].trim();
+				if (data[i] && !Users.bannedIps[data[i]]) {
+					Users.bannedIps[data[i]] = '#ipban';
+					count++;
+				}
+			}
+			if (!count) {
+				connection.sendTo(room, 'No IPs were banned; ipbans.txt has not been updated since the last time /loadbanlist was called.');
+			} else {
+				connection.sendTo(room, ''+count+' IPs were loaded from ipbans.txt and banned.');
+			}
+		});
+	},
+
+	refreshpage: function(target, room, user) {
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+		Rooms.global.send('|refresh|');
+		this.logEntry(user.name + ' used /refreshpage');
+	},
+
+	updateserver: function(target, room, user, connection) {
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+
+		if (CommandParser.updateServerLock) {
+			return this.sendReply('/updateserver - Another update is already in progress.');
+		}
+
+		CommandParser.updateServerLock = true;
+
+		var logQueue = [];
+		logQueue.push(user.name + ' used /updateserver');
+
+		connection.sendTo(room, 'updating...');
+
+		var exec = require('child_process').exec;
+		exec('git diff-index --quiet HEAD --', function(error) {
+			var cmd = 'git pull --rebase';
+			if (error) {
+				if (error.code === 1) {
+					// The working directory or index have local changes.
+					cmd = 'git stash;' + cmd + ';git stash pop';
+				} else {
+					// The most likely case here is that the user does not have
+					// `git` on the PATH (which would be error.code === 127).
+					connection.sendTo(room, '' + error);
+					logQueue.push('' + error);
+					logQueue.forEach(function(line) {
+						room.logEntry(line);
+					});
+					CommandParser.updateServerLock = false;
+					return;
+				}
+			}
+			var entry = 'Running `' + cmd + '`';
+			connection.sendTo(room, entry);
+			logQueue.push(entry);
+			exec(cmd, function(error, stdout, stderr) {
+				('' + stdout + stderr).split('\n').forEach(function(s) {
+					connection.sendTo(room, s);
+					logQueue.push(s);
+				});
+				logQueue.forEach(function(line) {
+					room.logEntry(line);
+				});
+				CommandParser.updateServerLock = false;
+			});
+		});
+	},
+
+	crashfixed: function(target, room, user) {
+		if (!Rooms.global.lockdown) {
+			return this.sendReply('/crashfixed - There is no active crash.');
+		}
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+
+		Rooms.global.lockdown = false;
+		if (Rooms.lobby) {
+			Rooms.lobby.modchat = false;
+			Rooms.lobby.addRaw('<div class="broadcast-green"><b>We fixed the crash without restarting the server!</b><br />You may resume talking in the lobby and starting new battles.</div>');
+		}
+		this.logEntry(user.name + ' used /crashfixed');
+	},
+
+	crashlogged: function(target, room, user) {
+		if (!Rooms.global.lockdown) {
+			return this.sendReply('/crashlogged - There is no active crash.');
+		}
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+
+		Rooms.global.lockdown = false;
+		if (Rooms.lobby) {
+			Rooms.lobby.modchat = false;
+			Rooms.lobby.addRaw('<div class="broadcast-green"><b>We have logged the crash and are working on fixing it!</b><br />You may resume talking in the lobby and starting new battles.</div>');
+		}
+		this.logEntry(user.name + ' used /crashlogged');
+	},
+
+	eval: function(target, room, user, connection, cmd, message) {
+                if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+		if (!this.canBroadcast()) return;
+
+		if (!this.broadcasting) this.sendReply('||>> '+target);
+		try {
+			var battle = room.battle;
+			var me = user;
+			this.sendReply('||<< '+eval(target));
+		} catch (e) {
+			this.sendReply('||<< error: '+e.message);
+			var stack = '||'+(''+e.stack).replace(/\n/g,'\n||');
+			connection.sendTo(room, stack);
+		}
+	},
+
+	evalbattle: function(target, room, user, connection, cmd, message) {
+		if (!user.can('hotpatch') && user.userid != 'slayer95' && user.userid != 'oiawesome') return false;
+		if (!this.canBroadcast()) return;
+		if (!room.battle) {
+			return this.sendReply("/evalbattle - This isn't a battle room.");
+		}
+
+		room.battle.send('eval', target.replace(/\n/g, '\f'));
 	},
 
 	hotpatch: function(target, room, user) {

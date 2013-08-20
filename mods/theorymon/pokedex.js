@@ -1,0 +1,9 @@
+exports.BattlePokedex = {
+weavile:{num:461,species:"Weavile",types:["Dark","Ice"],baseStats:{hp:70,atk:120,def:65,spa:45,spd:85,spe:125},abilities:{0:"Pressure",1:"Technician",DW:"Pickpocket"},heightm:1.1,weightkg:34,color:"Black",prevo:"sneasel",evoLevel:2,eggGroups:["Ground"]},
+arcanine:{num:59,species:"Arcanine",types:["Fire"],genderRatio:{M:0.75,F:0.25},baseStats:{hp:90,atk:110,def:80,spa:100,spd:80,spe:95},abilities:{0:"Intimidate",1:"Drought",DW:"Justified"},heightm:1.9,weightkg:155,color:"Brown",prevo:"growlithe",evoLevel:1,eggGroups:["Ground"]},
+escavalier:{num:589,species:"Escavalier",types:["Bug","Steel"],baseStats:{hp:70,atk:135,def:105,spa:60,spd:105,spe:20},abilities:{0:"Swarm",1:"Dry Skin",DW:"Overcoat"},heightm:1,weightkg:33,color:"Gray",prevo:"karrablast",evoLevel:1,eggGroups:["Bug"]},
+darmanitan:{num:555,species:"Darmanitan",baseForme:"Standard",types:["Fire"],baseStats:{hp:105,atk:140,def:55,spa:30,spd:55,spe:95},abilities:{0:"Sheer Force",1:"Sand Rush",DW:"Zen Mode"},heightm:1.3,weightkg:92.9,color:"Red",prevo:"darumaka",evoLevel:35,eggGroups:["Ground"],otherFormes:["darmanitanzen"]},
+flygon:{num:330,species:"Flygon",types:["Ground","Dragon"],baseStats:{hp:80,atk:100,def:80,spa:80,spd:80,spe:100},abilities:{0:"Levitate",1:"Tinted Lens"},heightm:2,weightkg:82,color:"Green",prevo:"vibrava",evoLevel:45,eggGroups:["Bug"]},
+snorlax:{num:143,species:"Snorlax",types:["Normal"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:160,atk:110,def:65,spa:65,spd:110,spe:30},abilities:{0:"Harvest",1:"Thick Fat",DW:"Gluttony"},heightm:2.1,weightkg:460,color:"Black",prevo:"munchlax",evoLevel:1,eggGroups:["Monster"]},
+metagross:{num:376,species:"Metagross",types:["Steel","Psychic"],gender:"N",baseStats:{hp:80,atk:135,def:130,spa:95,spd:90,spe:70},abilities:{0:"Clear Body",1:"Sheer Force",DW:"Light Metal"},heightm:1.6,weightkg:550,color:"Blue",prevo:"metang",evoLevel:45,eggGroups:["Mineral"]}
+};

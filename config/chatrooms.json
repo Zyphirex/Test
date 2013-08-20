@@ -1,7 +1,7 @@
 [
 {"title":"Lobby","autojoin":true},
-{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
-{"title":"Silver","auth":{"umbreonqueen":"#","kingeevee":"%"}},
-{"title":"mafia"},
-{"title":"SPAM"}
+{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true,"auth":{}},
+{"title":"spam"},
+{"title":"Silver","auth":{"umbreonqueen":"#","trainergrace":"+","rocketlucas":"+","chaosgallant6":"+"}},
+{"title":"Mafia"}
 ]

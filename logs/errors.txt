@@ -31654,3 +31654,177 @@ TypeError: Cannot read property '0' of undefined
     at ChildProcess.EventEmitter.emit (events.js:98:17)
     at handleMessage (child_process.js:318:10)
     at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:617:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:617:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:617:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property 'mGroup' of undefined
+    at Object.exports.commands.mkill (/Users/clazinasteunenberg/Downloads/Test/config/mafia.js:233:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = screamingmilotic
+ip = 70.160.13.247
+roomid = mafia
+message = mafia|/mkill snaq
+
+TypeError: Cannot read property 'mGroup' of undefined
+    at Object.exports.commands.mkill (/Users/clazinasteunenberg/Downloads/Test/config/mafia.js:233:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = eneomas
+ip = 86.88.192.179
+roomid = mafia
+message = mafia|/mkill de-evolvedfeeebas
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:617:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:617:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property '0' of undefined
+    at BattleRoom.win (/Users/clazinasteunenberg/Downloads/Test/rooms.js:617:33)
+    at Simulator.receive (/Users/clazinasteunenberg/Downloads/Test/simulator.js:154:14)
+    at ChildProcess.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/simulator.js:23:9)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+    at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot set property 'auth' of undefined
+    at Object.exports.commands.roomowner (/Users/clazinasteunenberg/Downloads/Test/commands.js:934:54)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = snaquaza
+ip = 127.0.0.1
+roomid = 
+message = |/roomowner Neptoona
+
+TypeError: Cannot set property 'auth' of undefined
+    at Object.exports.commands.roomowner (/Users/clazinasteunenberg/Downloads/Test/commands.js:934:54)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = snaquaza
+ip = 127.0.0.1
+roomid = 
+message = |/roomowner NeptoonA
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.j (/Users/clazinasteunenberg/Downloads/Test/commands.js:320:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = snaquaza
+ip = 127.0.0.1
+roomid = mafia
+message = mafia|/j
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.j (/Users/clazinasteunenberg/Downloads/Test/commands.js:320:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = snaquaza
+ip = 127.0.0.1
+roomid = mafia
+message = mafia|/j
+
+TypeError: Cannot read property 'status' of undefined
+    at Object.exports.commands.j (/Users/clazinasteunenberg/Downloads/Test/commands.js:320:20)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = snaquaza
+ip = 127.0.0.1
+roomid = mafia
+message = mafia|/j

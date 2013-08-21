@@ -8404,3 +8404,104 @@
 [2013-08-20T21:53:35.687Z] (lobby) (Ѕhаdow was forcibly renamed to hdow by Snaquaza.)
 [2013-08-20T22:02:56.483Z] (lobby) Zyphirex just used /remind
 [2013-08-20T22:26:24.261Z] (lobby) All bans and locks have been lifted by Snaquaza.
+[2013-08-21T00:28:20.883Z] (staff) (ScreamingMilotic was forcibly renamed to SuckingMilotic by Snaquaza.)
+[2013-08-21T00:29:05.535Z] (staff) (Zyphirex was forcibly renamed to FuckingZyphirex by Snaquaza.)
+[2013-08-21T00:29:06.842Z] (lobby) SuckingMilotic declared srsly snaq
+[2013-08-21T01:58:11.437Z] (lobby) WienerBoying was banned from the Tervari Region by ScreamingMilotic.
+[2013-08-21T01:58:11.438Z] (lobby) WienerBoying's companions were also banned from the Tervari Region: GaviGator
+[2013-08-21T02:03:19.700Z] (lobby) ChaosGallant6 was banned from the Tervari Region by ScreamingMilotic.
+[2013-08-21T02:03:19.700Z] (lobby) ChaosGallant6's companions were also banned from the Tervari Region: ChaosGallant5, JeffTheKiller6
+[2013-08-21T02:03:41.450Z] (lobby) ChaosGallant6 is allowed to visit the Tervari Region again.
+[2013-08-21T02:09:24.042Z] (lobby) √Zyphirex√ just used /remind
+[2013-08-21T02:28:06.873Z] (lobby) √Zyphirex√ was taken to Tervari Police by ScreamingMilotic. (stop with dem links)
+[2013-08-21T02:29:11.736Z] (lobby) √Zyphirex√ was put in an isolated cel in Luxuria Jail by ScreamingMilotic. (told ya)
+[2013-08-21T02:29:11.737Z] (lobby) √Zyphirex√'s alts were also locked up: Guest 92
+[2013-08-21T02:29:31.016Z] (lobby) √Zyphirex√ was freed by ScreamingMilotic.
+[2013-08-21T02:34:07.530Z] (lobby) √Zyphirex√ was locked up in Luxuria Jail by ScreamingMilotic for 7 minutes. (y u kick me ;-;)
+[2013-08-21T02:34:07.530Z] (lobby) √Zyphirex√'s companions were also locked up in Luxuria Jail: Guest 92
+[2013-08-21T02:34:22.890Z] (lobby) √Zyphirex√ was freed by ScreamingMilotic.
+[2013-08-21T03:24:35.074Z] (lobby) SpartanMaliceAFK was banned from the Tervari Region by ScreamingMilotic.
+[2013-08-21T03:24:35.075Z] (lobby) SpartanMaliceAFK's companions were also banned from the Tervari Region: Guest 80, Guest 89, Guest 272
+[2013-08-21T03:25:09.786Z] (lobby) SpartanMaliceAFK is allowed to visit the Tervari Region again.
+[2013-08-21T09:34:11.036Z] (lobby) Snaquaza is hiding auth symbol as ' '
+[2013-08-21T09:51:15.429Z] (lobby) Snaquaza turned off /gr
+[2013-08-21T09:51:28.388Z] (lobby) Snaquaza turned off /hi
+[2013-08-21T10:41:55.736Z] (staff) (celever was forcibly renamed to Eagle4 by Snaquaza.)
+[2013-08-21T10:44:45.810Z] (staff) Celever was redirected to a private room by Snaquaza.
+[2013-08-21T11:40:29.518Z] (staff) Celever was promoted to Tervari Champion by Snaquaza.
+[2013-08-21T11:43:46.160Z] (lobby) Celever turned on /gr
+[2013-08-21T11:43:46.776Z] (staff) (Celever was demoted to Trainer by Snaquaza.)
+[2013-08-21T11:44:07.579Z] (lobby) Snaquaza turned off /gr
+[2013-08-21T14:25:43.014Z] (lobby) (Fuk Maractus was forced to choose a new name by Naminé)
+[2013-08-21T14:26:45.683Z] (lobby) (Namine stop frt :( was forced to choose a new name by Naminé)
+[2013-08-21T14:31:20.386Z] (lobby) (Naminé was forced to choose a new name by Snaquaza)
+[2013-08-21T14:31:45.276Z] (lobby) (anyt208 was forcibly renamed to anty208 by Snaquaza.)
+[2013-08-21T14:32:14.667Z] (lobby) (AHHHHHH was forced to choose a new name by Snaquaza)
+[2013-08-21T14:33:16.817Z] (lobby) (REALLY SNAQ was forced to choose a new name by Snaquaza)
+[2013-08-21T14:33:55.907Z] (staff) (Just stahp it ;~; was forcibly renamed to AGERAHG by Snaquaza.)
+[2013-08-21T14:34:05.682Z] (staff) (AGERAHG was forcibly renamed to Celever by Snaquaza.)
+[2013-08-21T14:52:20.892Z] (lobby) Naminé turned on /hi
+[2013-08-21T14:52:27.656Z] (lobby) Firehound turned off /hi
+[2013-08-21T14:53:47.813Z] (staff) Celever was redirected to room lobby by Firehound.
+[2013-08-21T14:54:00.172Z] (staff) ScreamingMilotic was redirected to room lobby by Firehound.
+[2013-08-21T15:01:42.396Z] (lobby) anty208 was banned from the Tervari Region by ScreamingMilotic.
+[2013-08-21T15:01:42.397Z] (lobby) anty208's companions were also banned from the Tervari Region: anyy308, anty308 HELP, anty308
+[2013-08-21T15:01:46.173Z] (lobby) anty208 is allowed to visit the Tervari Region again.
+[2013-08-21T15:10:52.436Z] (lobby) locomotives was banned from the Tervari Region by Firehound.
+[2013-08-21T16:51:03.596Z] (spam) Firehound set modchat to ~
+[2013-08-21T16:51:04.276Z] (spam) Firehound set modchat to ~
+[2013-08-21T16:51:05.024Z] (spam) Firehound set modchat to ~
+[2013-08-21T16:51:05.525Z] (spam) Firehound set modchat to ~
+[2013-08-21T16:51:05.628Z] (spam) Firehound set modchat to ~
+[2013-08-21T16:51:06.464Z] (spam) Firehound set modchat to ~
+[2013-08-21T16:51:06.964Z] (spam) Firehound set modchat to ~
+[2013-08-21T16:51:07.464Z] (spam) Firehound set modchat to ~
+[2013-08-21T16:51:09.020Z] (spam) Firehound set modchat to false
+[2013-08-21T16:51:24.761Z] (spam) Firehound set modchat to ~
+[2013-08-21T16:52:26.130Z] (spam) Firehound set modchat to false
+[2013-08-21T16:52:37.789Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:38.839Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:39.670Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:40.172Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:40.673Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:41.173Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:41.674Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:42.174Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:42.675Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:43.176Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:43.676Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:44.177Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:44.678Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:45.178Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:45.679Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:52:45.761Z] (spam) Firehound set modchat to ~
+[2013-08-21T16:52:56.890Z] (spam) Firehound set modchat to false
+[2013-08-21T16:53:00.958Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:01.956Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:02.457Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:02.957Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:03.457Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:03.958Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:04.459Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:04.961Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:05.461Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:05.961Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:06.461Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:06.961Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:07.462Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:07.962Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:08.462Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:08.963Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:09.463Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:09.964Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:10.464Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:10.965Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:11.466Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:11.966Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:12.466Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:12.966Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:13.468Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:13.968Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:14.468Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:14.970Z] (spam) Naminé declared Because moderated chat is set, you must be of rank Tervari Champion or higher to speak in lobby chat.
+[2013-08-21T16:53:19.513Z] (spam) Firehound declared Namine the fat fapper

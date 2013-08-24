@@ -264,6 +264,7 @@ exports.groups = {
 		timer: true,
 		modlog: true,
 		alts: '%u',
+		modchat: true,
 		bypassblocks: 'u%@&~',
 		receiveauthmessages: true,
 		rank: 2
@@ -274,7 +275,6 @@ exports.groups = {
 		inherit: ' ',
 		broadcast: true,
 		warn: true,
-		modchat: true,
 		snaqsays: true,	
 		rank: 1
 	},

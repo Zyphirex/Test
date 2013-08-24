@@ -125,12 +125,12 @@ function mInterval() {
 	if (!mGame) { return; }
 	mNightTime = exports.mNightTime = false;
 	mDayTime = false;
-	mRooms.rooms.mafia.send('You have 30 seconds to discuss.');
+	mRooms.rooms.mafia.send('You have 60 seconds to discuss.');
 	for (var i=0; i<mPlayers.length; i++) {
 		mPlayers[i].voted = false;
 		mPlayers[i].votes = 0;
 	}
-	setTimeout(mDay, 30000);
+	setTimeout(mDay, 60000);
 }
 
 function mGameStart() {
@@ -191,7 +191,7 @@ var commands = exports.commands = {
 			mRolesOrder = mTheme.roles1;
 			mRolesIndex = 1;
 			*/
-			mTimer = setTimeout(function() {room.add('30 seconds remaining to join.'); setTimeout(mGameStart, 30000);}, 30000)
+			mTimer = setTimeout(function() {room.add('60 seconds remaining to join.'); setTimeout(mGameStart, 60000);}, 60000)
 		}
 	},
 	

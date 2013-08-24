@@ -15,16 +15,6 @@ exports.BattleFormats = {
 		searchShow: true,
 		ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
 	},
-	unratedrandombattle: {
-		name: "Unrated Random Battle",
-		section: "Singles",
-		
-		effectType: 'Format',
-		team: 'random',
-		canUseRandomTeam: true,
-		searchShow: true,
-		ruleset: ['Random Battle']
-	}, 
 	ou: {
 		name: "OU",
 		section: "Singles",
@@ -327,7 +317,7 @@ exports.BattleFormats = {
                 searchShow: true,
                 isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Drought ++ Hotshot', 'Soul Dew']        
+                banlist: ['Uber']        
         },
         tervariubers: {
                 name: "Tervari Ubers",
@@ -887,18 +877,18 @@ exports.BattleFormats = {
            //     ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview','Freeze Clause'],
              //   banlist: ['Uber', 'Kings Rock', 'Razor Fang']
       //  },
-       uberhaxmons: {
-                name: "Haxmons Uber",
-                section: "Other Metagames",
+	haxmonsubers: {
+		name: "Uber Haxmons",
+		section: "Singles",
 
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause'],
-                banlist: ['Kings Rock', 'Razor Fang']
-        },
+		effectType: 'Format',
+		rated: true,
+		challengeShow: true,
+		searchShow: true,
+		isTeambuilderFormat: true,
+		ruleset: ['Pokemon', 'Team Preview', 'Standard Ubers'],
+		banlist: ['Kings Rock', 'Razor Claw']
+	},
 	randomhaxmons: {
                name: "Random Haxmons",
                section: "Other Metagames",
@@ -1244,10 +1234,10 @@ exports.BattleFormats = {
                 ruleset: ['Pokemon', 'Standard', 'Team Preview', 'NE'],
                 banlist: ['Soul Dew']
         },
-	swapmons: {
-		name: "Swapmons",
+	typeswap: {
+		name: "Type-Swap",
 		section: "Other Metagames",
-		mod: "swap",
+		mod: "swapmons",
 		effectType: 'Format',
 		challengeDefault: true,
 		rated: true,

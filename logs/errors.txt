@@ -31860,3 +31860,57 @@ TypeError: Cannot read property '0' of undefined
     at ChildProcess.EventEmitter.emit (events.js:98:17)
     at handleMessage (child_process.js:318:10)
     at Pipe.channel.onread (child_process.js:345:11)
+
+TypeError: Cannot read property 'mGroup' of undefined
+    at Object.exports.commands.mkill (/Users/clazinasteunenberg/Downloads/Test/config/mafia.js:233:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = namin
+ip = 85.151.31.30
+roomid = mafia
+message = mafia|/mkill Shadow
+
+TypeError: Cannot read property 'mGroup' of undefined
+    at Object.exports.commands.mkill (/Users/clazinasteunenberg/Downloads/Test/config/mafia.js:233:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = spongebobnopants
+ip = 78.144.185.201
+roomid = mafia
+message = mafia|/mkill Shadow
+
+TypeError: Cannot read property 'mGroup' of undefined
+    at Object.exports.commands.mkill (/Users/clazinasteunenberg/Downloads/Test/config/mafia.js:233:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Test/command-parser.js:194:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Test/rooms.js:1461:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Test/users.js:1122:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/app.js:513:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/transport.js:212:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Test/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = spongebobnopants
+ip = 78.144.185.201
+roomid = mafia
+message = mafia|/mkill Shadow

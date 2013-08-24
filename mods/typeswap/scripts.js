@@ -15,6 +15,14 @@ else if (this.data.Pokedex[i].types[1] === 'Fire') {
                 this.modData('Pokedex', i).types[1] = 'Water';
 
             }
+            else if (this.data.Pokedex[i].types[0] === 'Grass') {
+                this.modData('Pokedex', i).types[0] = 'Fire';
+
+            }
+else if (this.data.Pokedex[i].types[1] === 'Grass') {
+                this.modData('Pokedex', i).types[1] = 'Fire';
+
+            }
 else if (this.data.Pokedex[i].types[0] === 'Normal') {
                 this.modData('Pokedex', i).types[0] = 'Ghost';
 }

@@ -1144,7 +1144,7 @@ viewround: 'vr',
 		if(canpet == false) {
 			return this.sendReply('/pet is currently off.');
 		}
-		if(canpet == true) {
+		if(canpet == true && user.can('broadcast')) {
         		if (!target) {
                 		return this.sendReply('Please specify a user who you\'d like to pet.');
         		}
@@ -1198,7 +1198,7 @@ viewround: 'vr',
                 if(canbs == false) {
                         return this.sendReply('/gr is currently off.');
                 }
-                if(canbs == true) {
+                if(canbs == true && user.can('broadcast')) {
                         if (!target) {
                                 return this.sendReply('Please specify a user who you\'d like to grrrrrrr at.');
                         }
@@ -1252,7 +1252,7 @@ viewround: 'vr',
                 if(canhi == false) {
                         return this.sendReply('/hi is currently off.');
                 }
-                if(canhi == true) {
+                if(canhi == true && user.can('broadcast')) {
                         if (!target) {
                                 return this.sendReply('Please specify a user who you\'d like to say hi to.');
                         }
@@ -1270,7 +1270,7 @@ viewround: 'vr',
                 }
                 },
   	snaqsays: function(target, room, user){
-  	  if(!this.canBroadcast()|| !user.can('broadcast')) return this.sendReply('/snagsays - Access Denied.');
+  	  if(!this.canBroadcast()|| !user.can('broadcast')) return this.sendReply('/snaqsays - Access Denied.');
 	    if(!target) return this.sendReply('Insufficent Parameters.');
 	 Rooms.rooms.lobby.add('|c|Snaq Says|/me '+ target);
  this.logModCommand(user.name + ' used /snaqsays to say ' + target);

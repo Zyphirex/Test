@@ -44,7 +44,7 @@ else if (this.data.Pokedex[i].types[0] === 'Ice') {
 
             }
 
-else if (this.data.Pokedex[i].types[1] === 'Water') {
+if (this.data.Pokedex[i].types[1] === 'Water') {
                 this.modData('Pokedex', i).types[1] = 'Grass';
 
             }

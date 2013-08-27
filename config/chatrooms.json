@@ -5,5 +5,6 @@
 {"title":"Silver","auth":{"umbreonqueen":"#","trainergrace":"+","rocketlucas":"+","chaosgallant6":"+"}},
 {"title":"Mafia"},
 {"title":"Theorymon"},
-{"title":"frt","isPrivate":true}
+{"title":"frt","isPrivate":true},
+{"title":"Celever Chat","isPrivate":true,"auth":{"celever":"#"}}
 ]

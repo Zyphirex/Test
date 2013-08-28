@@ -1,6 +1,23 @@
 exports.BattleMovedex = {
-	"distortion": {
+	"chainbolt": {
 		num: 701,
+		accuracy: 100,
+		basePower: 25,
+		category: "Special",
+		desc: "Deals damage to one adjacent target and hits two to five times. Has a 1/3 chance to hit two or three times, and a 1/6 chance to hit four or five times. If one of the hits breaks the target's Substitute, it will take damage for the remaining hits. If the user has the Ability Skill Link, this move will always hit five times.",
+		shortDesc: "Hits 2-5 times in one turn.",
+		id: "chainbolt",
+		isViable: true,
+		name: "Chain Bolt",
+		pp: 30,
+		priority: 0,
+		multihit: [2,5],
+		secondary: false,
+		target: "normal",
+		type: "Electric"
+	},
+	"distortion": {
+		num: 702,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
@@ -22,7 +39,7 @@ exports.BattleMovedex = {
 		type: "Psychic"
 	},
 	"divingtalon": {
-		num: 702,
+		num: 703,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -39,7 +56,7 @@ exports.BattleMovedex = {
 		type: "Flying"
 	},
 	"firerocket": {
-		num: 703,
+		num: 704,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -56,7 +73,7 @@ exports.BattleMovedex = {
 		type: "Fire"
 	},
 	"focusball": {
-		num: 704,
+		num: 705,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
@@ -77,7 +94,7 @@ exports.BattleMovedex = {
 		type: "Fighting"
 	},
 	"gyre": {
-		num: 710,
+		num: 706,
 		accuracy: 85,
 		basePower: 100,
 		basePowerCallback: function() {
@@ -112,8 +129,28 @@ exports.BattleMovedex = {
 		target: "flying",
 		type: "Flying"
 	},
+	"magnify": {
+		num: 707,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		desc: "Raises the user's Accuracy by 2 stages.",
+		shortDesc: "Boosts the user's Accuracy by 2.",
+		id: "magnify",
+		isViable: true,
+		name: "Magnify",
+		pp: 30,
+		priority: 0,
+		isSnatchable: true,
+		boosts: {
+			accuracy: 2
+		},
+		secondary: false,
+		target: "self",
+		type: "Steel"
+	},
 	"mindforce": {
-		num: 705,
+		num: 708,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
@@ -135,7 +172,7 @@ exports.BattleMovedex = {
 		type: "Psychic"
 	},
 	"rabidfrenzy": {
-		num: 706,
+		num: 709,
 		accuracy: 100,
 		basePower: 120,
 		category: "Physical",
@@ -158,7 +195,7 @@ exports.BattleMovedex = {
 		type: "Dark"
 	},
 	"rootbomb": {
-		num: 707,
+		num: 710,
 		accuracy: 100,
 		basePower: 30,
 		category: "Physical",
@@ -179,7 +216,7 @@ exports.BattleMovedex = {
 		type: "Fire"
 	},
 	"shadowsword": {
-		num: 708,
+		num: 711,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -200,7 +237,7 @@ exports.BattleMovedex = {
 		type: "Ghost"
 	},
 	"shortcircuit": {
-		num: 709,
+		num: 712,
 		accuracy: 100,
 		basePower: 40,
 		category: "Special",
@@ -217,7 +254,7 @@ exports.BattleMovedex = {
 		type: "Electric"
 	},
         "vendetta": {
-                num: 710,
+                num: 713,
                 accuracy: 85,
                 basePower: 120,
                 category: "Special",
@@ -242,7 +279,7 @@ exports.BattleMovedex = {
                 type: "Ghost"
         },
 	"voidhorn": {
-		num: 711,
+		num: 714,
 		accuracy: 85,
 		basePower: 120,
 		category: "Physical",

@@ -171,8 +171,48 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Psychic"
 	},
-	"rabidfrenzy": {
+	"mysticroom": {
 		num: 709,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		desc: "For 5 turns, all active Pokemon have their Attack and Special Attack stats swapped. Stat stage changes are unaffected. If this move is used during the effect, the effect ends. Priority -7.",
+		shortDesc: "For 5 turns, all Attack and Sp. Atk stats switch.",
+		id: "mysticroom",
+		name: "Mystic Room",
+		pp: 10,
+		priority: -7,
+		onHitField: function(target, source, effect) {
+			if (this.pseudoWeather['mysticroom']) {
+				this.removePseudoWeather('mysticroom', source, effect, '[of] '+source);
+			} else {
+				this.addPseudoWeather('mysticroom', source, effect, '[of] '+source);
+			}
+		},
+		effect: {
+			duration: 5,
+			onStart: function(side, source) {
+				this.add('-fieldstart', 'move: MysticRoom', '[of] '+source);
+			},
+			onModifyAtkPriority: 100,
+			onModifyAtk: function(atk, pokemon) {
+			return pokemon.stats.spa;
+			},
+			onModifySpAPriority: 100,
+			onModifySpA: function(spa, pokemon) {
+				return pokemon.stats.atk;
+			},
+			onResidualOrder: 24,
+			onEnd: function() {
+				this.add('-fieldend', 'move: Mystic Room');
+			}
+		},
+		secondary: false,
+		target: "all",
+		type: "Psychic"
+	},
+	"rabidfrenzy": {
+		num: 710,
 		accuracy: 100,
 		basePower: 120,
 		category: "Physical",
@@ -195,7 +235,7 @@ exports.BattleMovedex = {
 		type: "Dark"
 	},
 	"rootbomb": {
-		num: 710,
+		num: 711,
 		accuracy: 100,
 		basePower: 30,
 		category: "Physical",
@@ -216,7 +256,7 @@ exports.BattleMovedex = {
 		type: "Fire"
 	},
 	"shadowsword": {
-		num: 711,
+		num: 712,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -237,7 +277,7 @@ exports.BattleMovedex = {
 		type: "Ghost"
 	},
 	"shortcircuit": {
-		num: 712,
+		num: 713,
 		accuracy: 100,
 		basePower: 40,
 		category: "Special",
@@ -254,7 +294,7 @@ exports.BattleMovedex = {
 		type: "Electric"
 	},
 	"starstorm": {
-		num: 713,
+		num: 714,
 		accuracy: 85,
 		basePower: 120,
 		category: "Special",
@@ -275,7 +315,7 @@ exports.BattleMovedex = {
 		type: "Psychic"
 	},
         "vendetta": {
-                num: 714,
+                num: 715,
                 accuracy: 85,
                 basePower: 120,
                 category: "Special",
@@ -300,7 +340,7 @@ exports.BattleMovedex = {
                 type: "Ghost"
         },
 	"voidhorn": {
-		num: 715,
+		num: 716,
 		accuracy: 85,
 		basePower: 120,
 		category: "Physical",

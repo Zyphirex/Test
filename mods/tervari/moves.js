@@ -17,7 +17,7 @@ exports.BattleMovedex = {
 		type: "Electric"
 	},
 	"deserttomb": {
-		num: 463,
+		num: 702,
 		accuracy: 95,
 		basePower: 85,
 		category: "Special",
@@ -34,7 +34,7 @@ exports.BattleMovedex = {
 		type: "Rock"
 	},
 	"distortion": {
-		num: 702,
+		num: 703,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
@@ -56,7 +56,7 @@ exports.BattleMovedex = {
 		type: "Psychic"
 	},
 	"divingtalon": {
-		num: 703,
+		num: 704,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -73,7 +73,7 @@ exports.BattleMovedex = {
 		type: "Flying"
 	},
 	"firerocket": {
-		num: 704,
+		num: 705,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -90,7 +90,7 @@ exports.BattleMovedex = {
 		type: "Fire"
 	},
 	"focusball": {
-		num: 705,
+		num: 706,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
@@ -111,7 +111,7 @@ exports.BattleMovedex = {
 		type: "Fighting"
 	},
 	"gyre": {
-		num: 706,
+		num: 707,
 		accuracy: 85,
 		basePower: 100,
 		basePowerCallback: function() {
@@ -147,7 +147,7 @@ exports.BattleMovedex = {
 		type: "Flying"
 	},
 	"magnify": {
-		num: 707,
+		num: 708,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -167,7 +167,7 @@ exports.BattleMovedex = {
 		type: "Steel"
 	},
 	"mindforce": {
-		num: 708,
+		num: 709,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
@@ -189,7 +189,7 @@ exports.BattleMovedex = {
 		type: "Psychic"
 	},
 	"mysticroom": {
-		num: 709,
+		num: 710,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -229,7 +229,7 @@ exports.BattleMovedex = {
 		type: "Psychic"
 	},
 	"rabidfrenzy": {
-		num: 710,
+		num: 711,
 		accuracy: 100,
 		basePower: 120,
 		category: "Physical",
@@ -252,7 +252,7 @@ exports.BattleMovedex = {
 		type: "Dark"
 	},
 	"rootbomb": {
-		num: 711,
+		num: 712,
 		accuracy: 100,
 		basePower: 30,
 		category: "Physical",
@@ -273,7 +273,7 @@ exports.BattleMovedex = {
 		type: "Fire"
 	},
 	"shadowsword": {
-		num: 712,
+		num: 713,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -294,7 +294,7 @@ exports.BattleMovedex = {
 		type: "Ghost"
 	},
 	"shortcircuit": {
-		num: 713,
+		num: 714,
 		accuracy: 100,
 		basePower: 40,
 		category: "Special",
@@ -311,7 +311,7 @@ exports.BattleMovedex = {
 		type: "Electric"
 	},
 	"starstorm": {
-		num: 714,
+		num: 715,
 		accuracy: 85,
 		basePower: 120,
 		category: "Special",
@@ -332,7 +332,7 @@ exports.BattleMovedex = {
 		type: "Psychic"
 	},
         "vendetta": {
-                num: 715,
+                num: 716,
                 accuracy: 85,
                 basePower: 120,
                 category: "Special",
@@ -357,7 +357,7 @@ exports.BattleMovedex = {
                 type: "Ghost"
         },
 	"voidhorn": {
-		num: 716,
+		num: 717,
 		accuracy: 85,
 		basePower: 120,
 		category: "Physical",

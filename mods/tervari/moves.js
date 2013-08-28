@@ -253,8 +253,29 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Electric"
 	},
+	"starstorm": {
+		num: 713,
+		accuracy: 85,
+		basePower: 120,
+		category: "Special",
+		desc: "Deals damage to one adjacent target with a 20% chance to lower its Special Defense by 1 stage.",
+		shortDesc: "20% chance to lower the target's Sp. Def by 1.",
+		id: "starstorm",
+		isViable: true,
+		name: "Star Storm",
+		pp: 5,
+		priority: 0,
+		secondary: {
+			chance: 20,
+			boosts: {
+				spd: -1
+			}
+		},
+		target: "normal",
+		type: "Psychic"
+	},
         "vendetta": {
-                num: 713,
+                num: 714,
                 accuracy: 85,
                 basePower: 120,
                 category: "Special",
@@ -279,7 +300,7 @@ exports.BattleMovedex = {
                 type: "Ghost"
         },
 	"voidhorn": {
-		num: 714,
+		num: 715,
 		accuracy: 85,
 		basePower: 120,
 		category: "Physical",

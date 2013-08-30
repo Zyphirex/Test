@@ -165,6 +165,8 @@ var mafia = exports.mafia = {
 		}
 		mafia.interval();
 	}
+	
+};
 
 	/*********************************************************
 	 * Mafia commands

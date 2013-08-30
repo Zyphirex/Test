@@ -190,7 +190,7 @@ var commands = exports.commands = {
 			mafia.rolesOrder = mafia.theme.roles1;
 			mafia.rolesIndex = 1;
 			*/
-			mafia.timer = setTimeout(function() {room.add('30 seconds remaining to join.'); setTimeout(mGameStart, 30000);}, 30000)
+			mafia.timer = setTimeout(function() {room.add('30 seconds remaining to join.'); setTimeout(mafia.gameStart, 30000);}, 30000)
 		}
 	},
 	

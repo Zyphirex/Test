@@ -33,6 +33,26 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Rock"
 	},
+	"hydroshock": {
+		num: 350,
+		accuracy: 90,
+		basePower: 25,
+		category: "Physical",
+		desc: "Blah Blah Blah",
+		shortDesc: "Blah Blah Blah",
+		id: "hydroshock",
+		isViable: true,
+		name: "Hydro Shocke",
+		pp: 10,
+		priority: 0,
+		onMultiHit: function(move) {
+		      type: "Electric"		      
+		},		
+		multihit: [2,2],
+		secondary: false,
+		target: "normal",
+		type: "Water"
+	},	
 	"distortion": {
 		num: 703,
 		accuracy: 100,

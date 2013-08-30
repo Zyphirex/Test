@@ -45,7 +45,7 @@ var mafia = exports.mafia = {
 		}
 	},
 	
-	remove : function(user, leave) {
+	removePlayer : function(user, leave) {
 		if (leave) {
 			mafia.rooms.rooms.mafia.send(user + " has left the game.");
 		} else {
@@ -76,7 +76,7 @@ var mafia = exports.mafia = {
 		setTimeout(function(){
 			if (!mafia.game) { return; }
 			if(mafia.killTarget !== ""){
-				mafia.remove(mafia.killTarget);
+				mafia.removePlayer(mafia.killTarget);
 				mafia.killTarget = "";
 			} else {
 				mafia.rooms.rooms.mafia.send('No one was killed.');
@@ -104,7 +104,7 @@ var mafia = exports.mafia = {
 		if (tie) {
 			mafia.rooms.rooms.mafia.send('No majority was reached.');
 		} else {
-			mafia.remove(chosen, false);
+			mafia.removePlayer(chosen, false);
 		}
 		mafia.night();
 	},

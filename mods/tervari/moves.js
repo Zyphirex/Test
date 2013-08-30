@@ -47,8 +47,8 @@ exports.BattleMovedex = {
 		priority: -1,
 		beforeTurnCallback: function(pokemon, target) {
 			decision = this.willMove(target);
-			if (decision.move.priority !== 0) {
-				this.willMove(pokemon).move.priority = decision.move.priority + 1;
+			if (decision.move.priority === 1) {
+				this.willMove(pokemon).move.priority = 1;
 			}
 		},
 		secondary: false,

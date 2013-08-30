@@ -83,7 +83,7 @@ var mafia = exports.mafia = {
 			}
 			mafia.interval();
 		}, 30000);
-	}
+	},
 
 	count : function() {
 		if (mafia.counted || !mafia.game) { return; }
@@ -107,7 +107,7 @@ var mafia = exports.mafia = {
 			mafia.remove(chosen, false);
 		}
 		mafia.night();
-	}
+	},
 
 	day : function() {
 		if (!mafia.game) { return; }
@@ -116,7 +116,7 @@ var mafia = exports.mafia = {
 		mafia.counted = false;
 		mafia.numVotes = 0;
 		mafia.timer = setTimeout(mCount, 30000);
-	}
+	},
 	 
 	interval : function() {
 		if (!mGame) { return; }
@@ -128,7 +128,7 @@ var mafia = exports.mafia = {
 			mafia.players[i].votes = 0;
 		}
 		setTimeout(mafia.day, 30000);
-	}
+	},
 
 	gameStart : function() {
 		if (!mafia.gameStarting ) { return; }

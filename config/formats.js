@@ -406,7 +406,7 @@ exports.Formats = [
 	{
 		name: "Doubles Random Battle (dev)",
 		section: 'Doubles',
-,
+		
 		gameType: 'doubles',
 		team: 'random',
 		canUseRandomTeam: true,

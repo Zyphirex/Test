@@ -45,9 +45,9 @@ exports.BattleMovedex = {
 		name: "Distortion",
 		pp: 10,
 		priority: -1,
-		beforeTurnCallback: function(pokemon, target) {
+		onTryHit: function(target) {
 			decision = this.willMove(target);
-			if (decision.move.priority === 1) {
+			if (!decision || decision.choice !== 'move' || (decision.move.priority === '1')) {
 				this.willMove(pokemon).move.priority = 1;
 			}
 		},

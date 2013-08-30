@@ -1441,7 +1441,7 @@ var ChatRoom = (function() {
 	ChatRoom.prototype.onLeave = function(user) {
 		if (!user) return; // ...
 		if (user.inMafia) {
-			mafia.mRemove(user, true);
+			mafia.mafia.removePlayer(user, true);
 		}
 		delete this.users[user.userid];
 		if (config.reportjoins) {
@@ -1460,7 +1460,7 @@ var ChatRoom = (function() {
 		
 		message = CommandParser.parse(message, this, user, connection);
 
-		if ((this.id === 'mafia' && mafia.mGame && !user.inMafia) || (mafia.mGame && mafia.mNightTime)) { return; }
+		if ((this.id === 'mafia' && mafia.mafia.game && !user.inMafia) || (mafia.mafia.game && mafia.mafia.nightTime)) { return; }
 
 		if (message) {
 			this.add('|c|'+user.getIdentity(this.id)+'|'+message, true);

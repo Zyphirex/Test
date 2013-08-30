@@ -1,10 +1,8 @@
 [
 {"title":"Lobby","autojoin":true},
-{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true,"auth":{}},
-{"title":"spam"},
-{"title":"Silver","auth":{"umbreonqueen":"#","trainergrace":"+","rocketlucas":"+","chaosgallant6":"+"}},
-{"title":"Mafia"},
-{"title":"Theorymon"},
+{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
+{"title":"mafia"},
 {"title":"frt","isPrivate":true},
-{"title":"Celever Chat","isPrivate":true,"auth":{"celever":"#"}}
+{"title":"GangBang","auth":{"namin3snaq":"#"},"isPrivate":true},
+{"title":"Spam","isPrivate":true}
 ]

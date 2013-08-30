@@ -1,4 +1,6 @@
-exports.BattleFormats = {
+exports.Formats = [
+	
+	//These are the real formats, for the rulesets for these formats look in the data folder ~~ Oiawesome
        // Singles
         ////////////////////////////////////////////////////////////////////
 
@@ -1025,5 +1027,4 @@ exports.BattleFormats = {
 
 		ruleset: ['Pokemon']
 	}
-
-           
+];	

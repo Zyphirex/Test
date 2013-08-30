@@ -2,42 +2,26 @@ exports.BattleFormats = {
        // Singles
         ////////////////////////////////////////////////////////////////////
 
-        randombattle: {
+       {
 		name: "Random Battle",
 		section: "Singles",
 
-		effectType: 'Format',
 		team: 'random',
 		canUseRandomTeam: true,
-		searchDefault: true,
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
 		ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
 	},
-	ou: {
+	{
 		name: "OU",
 		section: "Singles",
 
-		effectType: 'Format',
-		challengeDefault: true,
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
-	outheorymon: {
+	{
 		name: "OU Theorymon",
 		section: "Singles",
+		
 		mod: 'theorymon',
-		effectType: 'Format',
-		challengeDefault: true,
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
@@ -81,133 +65,86 @@ exports.BattleFormats = {
 		// ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		// banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Stealth Rock']
 	// },
-	ubers: {
+	{
 		name: "Ubers",
 		section: "Singles",
 
-		effectType: 'Format',
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Team Preview', 'Standard Ubers'],
 		banlist: []
 	},
-	uu: {
+	{
 		name: "UU",
 		section: "Singles",
 
-		effectType: 'Format',
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
 		ruleset: ['OU'],
 		banlist: ['OU', 'BL', 'Drought', 'Sand Stream']
 	},
-	ru: {
+	{
 		name: "RU",
 		section: "Singles",
 
-		effectType: 'Format',
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
 		ruleset: ['UU'],
 		banlist: ['UU', 'BL2', 'Shell Smash + Baton Pass']
 	},
-	nu: {
+	{
 		name: "NU",
 		section: "Singles",
 
-		effectType: 'Format',
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
 		ruleset: ['RU'],
 		banlist: ['RU','BL3']
 	},
-	pu: {
+	{
 		name: "PU",
 		section: "Singles",
 
-		effectType: 'Format',
-		challengeShow: true,
-		isTeambuilderFormat: true,
 		ruleset: ['NU'],
 		banlist: ["Charizard", "Wartortle", "Kadabra", "Golem", "Haunter", "Exeggutor", "Weezing", "Kangaskhan", "Pinsir", "Lapras", "Ampharos", "Misdreavus", "Piloswine", "Miltank", "Ludicolo", "Swellow", "Gardevoir", "Ninjask", "Torkoal", "Cacturne", "Altaria", "Armaldo", "Gorebyss", "Regirock", "Regice", "Bastiodon", "Floatzel", "Drifblim", "Skuntank", "Lickilicky", "Probopass", "Rotom-Fan", "Samurott", "Musharna", "Gurdurr", "Sawk", "Carracosta", "Garbodor", "Sawsbuck", "Alomomola", "Golurk", "Braviary", "Articuno", "Electabuzz", "Electrode", "Marowak", "Liepard", "Tangela", "Eelektross", "Ditto", "Seismitoad", "Zangoose", "Roselia", "Zebstrika", "Serperior", "Metang", "Tauros", "Torterra", "Cradily", "Primeape", "Munchlax", "Scolipede", "Jynx"]
 	},
-	nfe: {
+	{
 		name: "NFE",
 		section: "Singles",
 
-		effectType: 'Format',
-		challengeShow: true,
-		isTeambuilderFormat: true,
 		ruleset: ['NU', 'Not Fully Evolved'],
 		banlist: []
 	}, 
-	lc: {
+	{
 		name: "LC",
 		section: "Singles",
 
-		effectType: 'Format',
 		maxLevel: 5,
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
 		banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
 	},
-	cap: {
+	{
 		name: "CAP",
 		section: "Singles",
 
-		effectType: 'Format',
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
 		ruleset: ['CAP Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
-	customgame: {
+	{
 		name: "Custom Game",
 		section: "Singles",
 		
-		effectType: 'Format',
-		challengeShow: true,
-		canUseRandomTeam: true,
-		debug: true,
 		maxLevel: 1000,
 		defaultLevel: 100,
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Team Preview'],
 	},
-	customgamenoteampreview: {
+	{
 		name: "Custom Game (no Team Preview)",
 		section: "Singles",
 		
-		effectType: 'Format',
-		challengeShow: true,
-		canUseRandomTeam: true,
 		debug: true,
 		maxLevel: 1000,
 		defaultLevel: 100,
 		// no restrictions, for serious
 		ruleset: [],
 	}, 
-	gbusingles: {
+	{
 		name: "GBU Singles",
 		section: "Singles",
 		
-		effectType: 'Format',
-		challengeShow: true,
-		rated: true,
-		searchShow: true,
 		validateSet: function(set) {
 			if (!set.level || set.level >= 50) set.forcedLevel = 50;
 			return [];
@@ -232,14 +169,10 @@ exports.BattleFormats = {
 		'Keldeo', 'Keldeo-Resolute', 'Meloetta', 'Genesect'
 		]
 	},
-	globalshowdown: {
+	{
 		name: "Global Showdown",
 		section: "Singles",
 		
-		effectType: 'Format',
-		challengeShow: true,
-		rated: true,
-		searchShow: true,
 		validateSet: function(set) {
 			if (!set.level || set.level >= 50) set.forcedLevel = 50;
 			return [];
@@ -258,44 +191,31 @@ exports.BattleFormats = {
 
 ////////////////Tervari Tiers
 ///////////////////////////////////////////////////////////////////////////////////////////
-        tervarirandombattle: {
+        {
                 name: "Tervari Random Battle",
                 section: "Tervari Random Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
-                team: 'random',
                 canUseRandomTeam: true,
-                searchDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
+                team: 'random',
                 ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
         },
-        tervarichallengecup: {
+        {
                 name: "Tervari Challenge Cup",
                 section: "Tervari Random Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
                 team: 'randomCC',
                 canUseRandomTeam: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
                 ruleset: ['PotD', 'Pokemon', 'HP Percentage Mod']
         },
-        tervarichallengecup1vs1: {
+        {
                 name: "Tervari Challenge Cup 1-vs-1",
                 section: "Tervari Random Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
                 team: 'randomCC',
                 canUseRandomTeam: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
                 ruleset: ['PotD', 'Pokemon', 'Team Preview 1v1', 'HP Percentage Mod'],
                 onBegin: function() {
                         this.debug('Cutting down to 1');
@@ -305,137 +225,88 @@ exports.BattleFormats = {
                         this.p2.pokemonLeft = this.p2.pokemon.length;
                 }
         },
-        tervariou: {
+        {
                 name: "Tervari OU",
                 section: "Tervari Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
-                challengeDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber']        
         },
-        tervariubers: {
+        {
                 name: "Tervari Ubers",
                 section: "Tervari Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Standard Ubers'],
                 banlist: []
         },
-        tervarimu: {
+        {
                 name: "Tervari MU",
                 section: "Tervari Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['OU'],
                 banlist: ['OU', 'BL', 'Drought', 'Sand Stream']
         },
-        tervariuu: {
+        {
                 name: "Tervari UU",
                 section: "Tervari Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['OU'],
                 banlist: ['MU', 'BL2', 'Drought', 'Sand Stream']
         },        
-        tervariru: {
+        {
                 name: "Tervari RU",
                 section: "Tervari Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['UU'],
                 banlist: ['UU', 'BL3', 'Shell Smash + Baton Pass']
         },
-        tervarinu: {
+        {
                 name: "Tervari NU",
                 section: "Tervari Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['RU'],
                 banlist: ['RU','BL4']
         },
-        tervaripu: {
+        {
                 name: "Tervari PU",
                 section: "Tervari Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['NU'],
                 banlist: ['NU','BL5']
         },
-        tervarilc: {
+        {
                 name: "Tervari LC",
                 section: "Tervari Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
                 maxLevel: 5,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
                 banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
         },
-        tervaricustomgame: {
+        {
 		name: "Tervari Custom Game",
 		section: "Tervari Tiers",
 		
 		mod: 'tervari',
-		effectType: 'Format',
-		challengeShow: true,
 		canUseRandomTeam: true,
-		searchShow: true,
-		debug: true,
 		maxLevel: 1099511627775,
 		defaultLevel: 100,
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Team Preview']
 	}, 
-        tervaridoubles: {
+        {
                 name: "Tervari Doubles",
                 section: "Tervari Double Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
                 gameType: 'doubles',
-                challengeShow: true,
-                searchShow: true,
-                rated: true,
                 ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
                 banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
                         'Mewtwo',
@@ -453,31 +324,23 @@ exports.BattleFormats = {
                         'Kyurem-White'
                 ]
         },
-        tervariuberdoubles: {
+        {
                 name: "Tervari Uber Doubles",
                 section: "Tervari Double Tiers",
 
                 mod: 'tervari',
-                effectType: 'Format',
                 gameType: 'doubles',
-                challengeShow: true,
-                searchShow: true,
-                rated: true,
                 ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
                 banlist: ['Unreleased', 'Illegal', 'Sky Drop']
         },
            // Doubles
         ///////////////////////////////////////////////////////////////////
 
-        doublesvgc2013: {
+        {
 		name: "Doubles VGC 2013",
 		section: 'Doubles',
 
-		effectType: 'Format',
 		gameType: 'doubles',
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
 		onBegin: function() {
 			this.debug('cutting down to 4');
 			this.p1.pokemon = this.p1.pokemon.slice(0,4);
@@ -516,15 +379,11 @@ exports.BattleFormats = {
 			'Genesect'
 		]
 	},
-	smogondoubles: {
+	{
 		name: "Smogon Doubles",
 		section: 'Doubles',
 
-		effectType: 'Format',
 		gameType: 'doubles',
-		challengeShow: true,
-		searchShow: true,
-		rated: true,
 		ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
 		banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
 			'Mewtwo',
@@ -542,39 +401,30 @@ exports.BattleFormats = {
 			'Kyurem-White'
 		]
 	},
-	doublesrandombattledev: {
+	{
 		name: "Doubles Random Battle (dev)",
 		section: 'Doubles',
-
-		effectType: 'Format',
+,
 		gameType: 'doubles',
 		team: 'random',
 		canUseRandomTeam: true,
-		rated: true,
-		challengeShow: true,
-		debug: true,
 		ruleset: ['PotD', 'Pokemon', 'HP Percentage Mod']
 	},
-	doubleschallengecup: {
+	{
 		name: "Doubles Challenge Cup",
 		section: 'Doubles',
 
-		effectType: 'Format',
 		gameType: 'doubles',
 		team: 'randomCC',
-		canUseRandomTeam: true,
-		rated: true,
 		challengeShow: true,
 		debug: true,
 		ruleset: ['Pokemon', 'HP Percentage Mod']
 	},
-	doublescustomgame: {
+	{
 		name: "Doubles Custom Game",
 		section: 'Doubles',
 		
-		effectType: 'Format',
 		gameType: 'doubles',
-		challengeShow: true,
 		canUseRandomTeam: true,
 		debug: true,
 		maxLevel: 1000,
@@ -798,28 +648,20 @@ exports.BattleFormats = {
                 }
         },
 */
-        challengecup: {
+        {
                 name: "Challenge Cup",
                 section: "Other Metagames",
 
-                effectType: 'Format',
                 team: 'randomCC',
                 canUseRandomTeam: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
                 ruleset: ['PotD', 'Pokemon', 'HP Percentage Mod']
         },
-        challengecup1vs1: {
+        {
                 name: "Challenge Cup 1-vs-1",
                 section: "Other Metagames",
 
-                effectType: 'Format',
                 team: 'randomCC',
                 canUseRandomTeam: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
                 ruleset: ['PotD', 'Pokemon', 'Team Preview 1v1', 'HP Percentage Mod'],
                 onBegin: function() {
                         this.debug('Cutting down to 1');
@@ -829,39 +671,24 @@ exports.BattleFormats = {
                         this.p2.pokemonLeft = this.p2.pokemon.length;
                 }
         },
-        hackmons: {
+        {
                 name: "Hackmons",
                 section: "Other Metagames",
 
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon'],
                 banlist: []
         },
-        balancedhackmons: {
+        {
                 name: "Balanced Hackmons",
                 section: "Other Metagames",
 
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'OHKO Clause'],
                 banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
         },
-        haxmons: {
+        {
                 name: "Haxmons",
                 section: "Other Metagames",
 
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause', 'standard'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Kings Rock', 'Razor Fang']
         },
@@ -877,236 +704,126 @@ exports.BattleFormats = {
            //     ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview','Freeze Clause'],
              //   banlist: ['Uber', 'Kings Rock', 'Razor Fang']
       //  },
-	haxmonsubers: {
+	{
 		name: "Uber Haxmons",
 		section: "Singles",
 
-		effectType: 'Format',
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Team Preview', 'Standard Ubers'],
 		banlist: ['Kings Rock', 'Razor Claw']
 	},
-	randomhaxmons: {
+	{
                name: "Random Haxmons",
                section: "Other Metagames",
 
-               effectType: 'Format',
                 team: 'random',
                 canUseRandomTeam: true,
-                searchDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
                 ruleset: ['Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
 	},
-        nohaxmons: {
+        {
                 name: "No Haxmons",
                 section: "Other Metagames",
 
-               mod: 'nohax',
-               effectType: 'Format',
-                challengeShow: true,
-                isTeambuilderFormat: true,
-                searchShow: true,
-                rated: true,
+                mod: 'nohax',
                 ruleset: ['No Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Drizzle ++ Swift Swim', 'Soul Dew', 'Ubers']
         },
-	randomnohaxmons: {
+	{
                name: "Random No Haxmons",
                section: "Other Metagames",
 
-               mod: 'nohax',
-               effectType: 'Format',
+                mod: 'nohax',
                 team: 'random',
                 canUseRandomTeam: true,
-                searchDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
                 ruleset: ['No Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
 	},
-        gennextou: {
+        {
                 name: "Gen-NEXT OU",
                 section: "Other Metagames",
 
                 mod: 'gennext',
-                effectType: 'Format',
-                challengeShow: true,
                 ruleset: ['Pokemon', 'Standard NEXT', 'Team Preview'],
                 banlist: ['Uber']
         },
-        oumonotype: {
+        {
                 name: "OU Monotype",
                 section: "Other Metagames",
 
-                effectType: 'Format',
-                challengeShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Standard', 'Same Type Clause', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
-        glitchmons: {
+        {
                 name: "Glitchmons",
                 section: "Other Metagames",
 
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Team Preview', 'HP Percentage Mod'],
                 banlist: ['Illegal', 'Unreleased'],
                 mimicGlitch: true
         },
-        lcubers: {
+        {
                 name: "LC Ubers",
                 section: "Other Metagames",
 
-                effectType: 'Format',
                 maxLevel: 5,
-                challengeShow: true,
                 ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
                 banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Soul Dew']
         },
-        lcuu: {
+        {
                 name: "LC UU",
                 section: "Other Metagames",
 
-                effectType: 'Format',
                 maxLevel: 5,
-                challengeShow: true,
                 ruleset: ['LC'],
                 banlist: ['Abra', 'Aipom', 'Archen', 'Axew', 'Bronzor', 'Chinchou', 'Clamperl', 'Cottonee', 'Cranidos', 'Croagunk', 'Diglett', 'Drifloon', 'Drilbur', 'Dwebble', 'Ferroseed', 'Foongus', 'Frillish', 'Gastly', 'Hippopotas', 'Houndour', 'Koffing', 'Larvesta', 'Lileep', 'Machop', 'Magnemite', 'Mienfoo', 'Misdreavus', 'Munchlax', 'Murkrow', 'Pawniard', 'Ponyta', 'Porygon', 'Riolu', 'Sandshrew', 'Scraggy', 'Shellder', 'Shroomish', 'Slowpoke', 'Snover', 'Staryu', 'Tentacool', 'Timburr', 'Tirtouga']
         },
-        dreamworld: {
+        {
                 name: "Dream World",
                 section: "Other Metagames",
-
-                effectType: 'Format',
-                challengeShow: true,
-                isTeambuilderFormat: true,
+ 
                 ruleset: ['Pokemon', 'Standard DW', 'Team Preview'],
                 banlist: []
         },
-        tiershift: {
+        {
                 name: "Tier Shift",
                 section: "Other Metagames",
 
                 mod: 'tiershift',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
-        reversetshift: {
+        {
                 name: "Reverse Tier Shift",
                 section: "Other Metagames",
 
                 mod: 'reversetshift',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
-        supershift: {
+        {
                 name: "Super Shift",
                 section: "Other Metagames",
 
                 mod: 'snaqshift',
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         },
-	capv2: {
+	{
         	name: "CAP V. 2",
         	section: "Other Metagames",
         	
        		mod: 'capv2',
-        	effectType: 'Format',
-        	challengeDefault: true,
-        	rated: true,
-        	challengeShow: true,
-        	searchShow: true,
-        	isTeambuilderFormat: true,
         	ruleset: ['CAP Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         	banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},	
-        stabmons: {
+        {
                 name: "Stabmons",
                 section: "Other Metagames",
 
-                effectType: 'Format',
-                rated: true,
-        	     challengeShow: true,
-                searchShow: true,
-                debug: true,
                 ruleset: ['Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause'],
                 banlist: ['Unreleased', 'Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
-                validateSet: function (set, format) {
-                        var problems = [];
-                        // Check that moves aren't repeated
-                        var moves = [];
-                        if (set.moves) {
-                                var hasMove = {};
-                                for (var i=0; i<set.moves.length; i++) {
-                                        var move = this.getMove(set.moves[i]);
-                                        var moveid = move.id;
-                                        if (hasMove[moveid]) continue;
-                                        hasMove[moveid] = true;
-                                        moves.push(set.moves[i]);
-                                }
-                        }
-                        set.moves = moves;
-
-                        // Check learnset for illegalities BUT same type moves
-                        var lsetData = {set:set, format:format};
-                        var template = this.getTemplate(string(set.species));
-                        for (var i=0; i<set.moves.length; i++) {
-                                if (!set.moves[i]) continue;
-                                var move = this.getMove(string(set.moves[i]));
-                                // Check if the Pokémon has the move type
-                                var check = true;
-                                for (var t in template.types) {
-                                        if (template.types[t] === move.type) check = false;
-                                }
-                        }
-
-                        // Check EVs
-                        var totalEV = 0;
-                        for (var k in set.evs) {
-                                if (typeof set.evs[k] !== 'number') {
-                                        set.evs[k] = 0;
-                                }
-                                totalEV += set.evs[k];
-                        }
-                        if (totalEV > 510) {
-                                problems.push(name+" has more than 510 total EVs.");
-                        }
-
-                        return problems;
-                }
         },
-        bluntmons: {
+        {
                 name: "Bluntmons",
                 section: "Other Metagames",
 
-                effectType: 'Format',
-                rated: true,
-        	     challengeShow: true,
-                searchShow: true,
-                debug: true,
                 ruleset: ['Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause'],
                 banlist: ['Unreleased', 'Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
                 validateSet: function (set, format) {
@@ -1182,29 +899,19 @@ exports.BattleFormats = {
  //               ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview','DiveBattle clause'],
  //               banlist: ['Uber', 'Drizzle', 'Soul Dew']
  //       },	
-       specialstat: {
+       {
                 name: "Special Stat",
                 section: "Other Metagames",
+                
 		mod: 'special',
-                effectType: 'Format',
-                challengeDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
-      splitmons: {
+        {
                 name: "Splitmons",
                 section: "Other Metagames",
-		mod: 'split',
-                effectType: 'Format',
-                challengeDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
+                
+                mod: 'split',
                 ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
         },
@@ -1222,28 +929,18 @@ exports.BattleFormats = {
                 //banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Drought']
  //       },
 
-    ne: {
+       {
                 name: "NE",
                 section: "Other Metagames",
 
-                effectType: 'Format',
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
                 ruleset: ['Pokemon', 'Standard', 'Team Preview', 'NE'],
                 banlist: ['Soul Dew']
         },
-	typeswap: {
+	{
 		name: "Type-Swap",
 		section: "Other Metagames",
 		mod: "swapmons",
-		effectType: 'Format',
-		challengeDefault: true,
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
+		
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
@@ -1264,118 +961,69 @@ exports.BattleFormats = {
         // Past Generations
         ///////////////////////////////////////////////////////////////////
 
-        gen4oubeta: {
-                name: "[Gen 4] OU (beta)",
-                section: "Past Generations",
+	{
+		name: "[Gen 4] Uber",
+		mod: 'gen4',
+		section: "Past Generations",
+		effectType: 'Format',
 
-                mod: 'gen4',
-                effectType: 'Format',
-                challengeDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Standard'],
-                banlist: ['Uber']
-        },
-        gen4uubeta: {
-                name: "[Gen 4] UU (beta)",
-                section: "Past Generations",
+		ruleset: ['Pokemon', 'Standard'],
+		banlist: []
+	},
+	{
+		name: "[Gen 4] OU",
+		mod: 'gen4',
+		section: "Past Generations",
+		effectType: 'Format',
 
-                mod: 'gen4',
-                effectType: 'Format',
-                challengeDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Standard'],
-                banlist: ['Uber', 'OU', 'BL']
-        },
-        gen4hackmons: {
-                name: "[Gen 4] Hackmons",
-                section: "Past Generations",
+		ruleset: ['Pokemon', 'Standard'],
+		banlist: ['Uber']
+	},
+	{
+		name: "[Gen 3] OU",
+		mod: 'gen3',
+		section: "Past Generations",
+		effectType: 'Format',
 
-                mod: 'gen4',
-                effectType: 'Format',
-                challengeShow: true,
-                ruleset: ['Pokemon', 'HP Percentage Mod'],
-                banlist: []
-        },
-        gen4customgame: {
-                name: "[Gen 4] Custom Game",
-                section: "Past Generations",
+		ruleset: ['Pokemon', 'Standard'],
+		banlist: ['Uber']
+	},
+	{
+		mod: 'gen1',
+		effectType: 'Format',
+		name: "[Gen 1] OU",
+		section: "Past Generations",
 
-                mod: 'gen4',
-                effectType: 'Format',
-                challengeShow: true,
-                canUseRandomTeam: true,
-                debug: true,
-                ruleset: []
-        },
-        gen3hackmons: {
-                name: "[Gen 3] Hackmons",
-                section: "Past Generations",
+		ruleset: ['Pokemon', 'Standard'],
+		banlist: ['Uber', 'Wrap', 'Fire Spin', 'Clamp', 'Bind']
+	},
+	{
+		mod: 'gen1',
+		effectType: 'Format',
+		name: "[Gen 1] UU",
+		section: "Past Generations",
 
-                mod: 'gen3',
-                effectType: 'Format',
-                challengeShow: true,
-                ruleset: ['Pokemon', 'HP Percentage Mod'],
-                banlist: []
-        },
-        gen3customgame: {
-                name: "[Gen 3] Custom Game",
-                section: "Past Generations",
+		ruleset: ['Pokemon', 'Sleep Clause', 'Species Clause', 'OHKO Clause', 'Evasion Clause', 'Freeze Clause'],
+		banlist: ['Uber', 'OU', 'Illegal']
+	},
+	{
+		mod: 'gen1',
+		effectType: 'Format',
+		name: "[Gen 1] LC",
+		section: "Past Generations",
+		maxLevel: 5,
 
-                mod: 'gen3',
-                effectType: 'Format',
-                challengeShow: true,
-                ruleset: []
-        },
-        gen1oubeta: {
-                name: "[Gen 1] OU (beta)",
-                section: "Past Generations",
+		ruleset: ['Pokemon', 'Little Cup', 'Sleep Clause', 'Species Clause', 'OHKO Clause', 'Evasion Clause', 'Freeze Clause'],
+		banlist: ['Uber', 'OU', 'UU', 'Illegal', 'Sonicboom', 'Dragon Rage']
+	},
+	{
+		mod: 'gen1',
+		effectType: 'Format',
+		name: "[Gen 1] Challenge Cup",
+		section: "Past Generations",
+		team: 'randomCC',
 
-                mod: 'gen1',
-                effectType: 'Format',
-                challengeDefault: true,
-                rated: true,
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Standard'],
-                banlist: ['Uber', 'Wrap', 'Fire Spin', 'Clamp', 'Bind']
-        },
-        gen1customgame: {
-                name: "[Gen 1] Custom Game",
-                section: "Past Generations",
+		ruleset: ['Pokemon']
+	}
 
-                mod: 'gen1',
-                effectType: 'Format',
-                challengeShow: true,
-                debug: true,
-                ruleset: ['Pokemon']
-        },
-
-
-        standardnext: {
-                effectType: 'Banlist',
-                ruleset: ['Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'HP Percentage Mod'],
-                banlist: ['Unreleased', 'Illegal', 'Double Team'],
-                validateSet: function(set) {
-                        // limit one of each move in Standard
-                        var moves = [];
-                        if (set.moves) {
-                                var hasMove = {};
-                                for (var i=0; i<set.moves.length; i++) {
-                                        var move = this.getMove(set.moves[i]);
-                                        var moveid = move.id;
-                                        if (hasMove[moveid]) continue;
-                                        hasMove[moveid] = true;
-                                        moves.push(set.moves[i]);
-                                }
-                        }
-                        set.moves = moves;
-                }
-        },
            

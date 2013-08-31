@@ -148,7 +148,7 @@ var mafia = exports.mafia = {
 		mafia.numMob = 0;
 		mafia.numVillager = 0;
 		mafia.rooms.rooms.mafia.add('A new mafia game has begun. Players: ' + mafia.players);
-		for (var i=0; i<mafua.players.length; i++) {
+		for (var i=0; i<mafia.players.length; i++) {
 			mafia.players[i].inMafia = true;
 			mafia.players[i].mGroup = 'villager';
 		}

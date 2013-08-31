@@ -148,14 +148,14 @@ var mafia = exports.mafia = {
 		mafia.numMob = 0;
 		mafia.numVillager = 0;
 		mafia.rooms.rooms.mafia.add('A new mafia game has begun. Players: ' + mafia.players);
-		for (var i=0; i<mPlayers.length; i++) {
+		for (var i=0; i<mafua.players.length; i++) {
 			mafia.players[i].inMafia = true;
 			mafia.players[i].mGroup = 'villager';
 		}
 		for (var j=0; j<(mafia.players.length*.25); j++) {
 			var player = Math.floor(Math.random()*mafia.players.length);
 			mafia.players[player].mGroup = 'mafia';
-			mafia.players[mPlayer].sendTo(mafia.rooms.rooms.mafia, "You are a mafia member. Attempt to kill the villagers.");
+			mafia.players[player].sendTo(mafia.rooms.rooms.mafia, "You are a mafia member. Attempt to kill the villagers.");
 			mafia.numMob++;
 		}
 		for (var k=0; k<mafia.players.length; k++) {

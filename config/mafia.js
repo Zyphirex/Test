@@ -286,7 +286,7 @@ var commands = exports.commands = {
 	
 	mstop: function(target, room, user, connection) {
 		if (!mafia.game || room !== mafia.rooms.rooms.mafia || !user.can('broadcast')) { return; }
-		mEndGame();
+		mafia.endGame();
 	},
 	
 	mcancel: function(target, room, user, connection) {

@@ -17,6 +17,7 @@ var mafia = exports.mafia = {
 	timer : setTimeout(function(){},0),
 	maxPlayers : 0,
 	rolesList : [],
+	rolesDisplay : [],
 	// Modify this pathway to change the mafia room.
 	room : require('../rooms.js').rooms.mafia,
 	
@@ -39,6 +40,15 @@ var mafia = exports.mafia = {
 		}
 		
 		return array;
+	},
+	
+	// Retrieves a role from the theme object given the name.
+	getRole : function(roleName) {
+		var i = 0;
+		while (mafia.theme.roles[i].role !== roleName) {
+			i++;
+		}
+		return mafia.theme.roles[i];
 	},
 	
 	gameSignUp : function(user, theme) {
@@ -95,15 +105,31 @@ var mafia = exports.mafia = {
 		for (var j=0;j<mafia.players.length;j++) {
 			var targetUser = Users.get(mafia.players[j]);
 			if (targetUser) {
-				targetUser.mafia.role = mafia.theme.roles[mafia.rolesList[j]];
-				if (startup in targetUser.mafia.role) {
-					if(revealAs in targetUser.mafia.role.startup) {
-						// continue here
+				// Find the user's role.
+				targetUser.mafia.role = mafia.getRole(mafia.rolesList[j]);
+				var rolePM = targetUser.mafia.role.translation;
+				mafia.rolesDisplay[j] = rolePM
+				// Check to see if the user has start-up conditions
+				if ('startup' in targetUser.mafia.role.actions) {
+					// Miller with fake PM
+					if('revealAs' in targetUser.mafia.role.actions.startup) {
+						rolePM = mafia.getRole(targetUser.mafia.role.actions.startup.revealAs).translation;
+					}
+					// Miller with fake list name
+					if('onlist' in targetUser.mafia.role.actions) {
+						mafia.rolesDisplay[j] = mafia.getRole(targetUser.mafia.role.actions.startup.onlist).translation;
 					}
 				}
-				targetUser.sendTo(mafia.room,'')
+				// Now we can send the role PM.
+				targetUser.sendTo(mafia.room,'You are a ' + rolePM +'.');
+				targetUser.sendTo(mafia.room,targetUser.role.help);
+				// Start here to add Miller team reveal.
 			}
 		}
+		// Now to show the player and role lists.
+		mafia.room.add('Current Roles: ' + mafia.rolesDisplay.sort());
+		mafia.room.add('Current Team: ' + mafia.players.sort());
+		mafia.room.add('***************************************************************************************');
 	}
 };
 	
